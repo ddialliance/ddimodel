@@ -7,9 +7,9 @@ This repository contains the DDI Model managed using the [Convention-based Ontol
 
 The DDI model uses COGS to allow DDI development by domain experts and groups who value **ease of collaboration** and **low technical barriers** for participation.
 
-## Output Formats
+## DDI Model Output Formats
 
-Publishable formats include:
+Published formats are:
 
 * XML Schema
 * OWL 2 (RDF Schema)

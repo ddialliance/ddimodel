@@ -1,8 +1,16 @@
 # Copy the artifact zip to the sphinx _static directory
 copy ddi.zip ddi\sphinx\build\dirhtml\_static\
 
+
+# For now, we will publish this on github pages.
+# We should move to a regular http host, as the content of checkin-add-commit will get very large
+#   We will simply scp the new directory and the updated builds.json
+
+
 # Push the dirhtml subdirectory to Gitlab Pages
 PUSHD ddi\sphinx\build
+
+Write-Output "Cloning the DDI docs"
 
 git config --global credential.helper store
 Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
@@ -10,6 +18,9 @@ git config --global user.name "ddibot"
 git config --global user.email "ddibot@ddialliance.org"
 
 git clone https://github.com/ddialliance/ddimodel-web.git
+
+Write-Output "Copying new html docs"
+
 PUSHD ddimodel-web
 Copy-Item ..\dirhtml\* $env:APPVEYOR_REPO_COMMIT -Force -Recurse
 
@@ -40,12 +51,14 @@ $newBuild =@"
     }
 "@
 
+Write-Output $newBuild
+
 $buildsjson.builds += (ConvertFrom-Json -InputObject $newBuild)
 
 $buildsjson | ConvertTo-Json  | set-content 'builds.json'
 
 
-git add master
+git add .
 git commit -m 'docs'
 git push -u origin master
 
