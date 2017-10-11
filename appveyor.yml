@@ -15,5 +15,3 @@ on_success:
 - ps: cd \projects\ddimodel
 - ps: pwd
 - ps: ./build/deploy-gitlab-pages.ps1
-on_finish:
-  - ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
