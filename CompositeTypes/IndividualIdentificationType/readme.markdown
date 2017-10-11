@@ -1,0 +1,1 @@
+Identifying information about the individual including name, DDI Maintenance Agency IDs, Researcher IDs, an image and an effective period for the information.

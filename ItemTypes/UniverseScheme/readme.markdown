@@ -1,0 +1,1 @@
+Contains a set of Universe descriptions that may be organized into sub-universe structures. A Universe may also be known as a population. A Universe describes the "object" of a Data Element Concept or Data Element as defined by ISO/IEC 11179.

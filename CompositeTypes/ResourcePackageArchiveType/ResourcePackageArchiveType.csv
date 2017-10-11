@@ -1,0 +1,2 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+ArchiveReference,Archive,0,n,Allows for in-line entry of an Archive related to the creation and maintenance of the ResourcePackage.,,,,,,,,,ddi:archive:3_2,e,

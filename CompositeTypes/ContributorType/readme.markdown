@@ -1,0 +1,1 @@
+Holds the name of the contributor, their role, and optional reference to the contributor as described within a DDI Organization scheme. Repeat this element for multiple creators.

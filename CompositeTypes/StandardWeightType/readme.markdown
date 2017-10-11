@@ -1,0 +1,1 @@
+Provides an identified value for a standard weight expressed as an xs:float. This object may be referenced by a variable or statistic and used as a weight for analysis.

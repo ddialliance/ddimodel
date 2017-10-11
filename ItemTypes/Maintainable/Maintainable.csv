@@ -1,0 +1,2 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+IsMaintainable,boolean,0,1,This is a fixed flag informing the system or user that in additional to being versionable the element is maintainable in its own right (outside of a parent object).,,,,,,,,,,a,

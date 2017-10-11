@@ -1,0 +1,1 @@
+Describes the region of an image, recording, or text where an action where a specified action is performed and the type of action taken (i.e., Mark an "X" where the actor should be standing on the picture of the stage.).

@@ -1,0 +1,1 @@
+When the code is a concatenation this structure allows you to limit the portion of the concatenated code that this object captures. Provides an description of the segment, declares the array base used, the start position of the segment and its length.

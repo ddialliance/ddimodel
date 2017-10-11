@@ -1,0 +1,1 @@
+Abstract type for the head of a substitution group for a variable representation or a question response domain. If specific values are used to denote missing values, these can be indicated as a space-delimited list in the missingValue attribute. If the missing value is indicated by a blank, this should be indicated by setting the value of blankIsMissingValue to true.

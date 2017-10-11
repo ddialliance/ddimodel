@@ -1,0 +1,1 @@
+Defines the included values of a dimension by means of individual value references or by defining a range of values to include. Allows the included values to be identified by reference to the Code, the Category used by the Code, or the Value of the Code (which by definition should be unique). The dimension is identified by its rank value.

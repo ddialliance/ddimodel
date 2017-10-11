@@ -1,0 +1,1 @@
+Defines the representation for a numeric response. May be a range or specific value, or a list of ranges.

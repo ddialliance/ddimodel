@@ -1,0 +1,1 @@
+An attribute may be any object which should be attached to all or part of the NCube. It may be defined as a Variable or contain textual content (such as a footnote).

@@ -1,0 +1,1 @@
+Provides bibliographic citation information for a DDI instance, a group of studies, a study unit, or a physical instance. Note that a native DDI citation is required - the citation information may be repeated using DCElements if desired, but a citation must not consist only of DCElements.

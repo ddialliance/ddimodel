@@ -1,0 +1,1 @@
+Specification of an external interviewer instruction not structured in DDI. Uses the structure of OtherMaterial to provide a citation, description, and locator for the object.

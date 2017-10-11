@@ -1,0 +1,1 @@
+Specifies the Geographic Location Codes included in the representation by providing a reference to the authorized source of the code, the GeographicLocation used, and any excluded values.

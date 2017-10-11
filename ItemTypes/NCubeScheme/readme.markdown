@@ -1,0 +1,1 @@
+A set of NCubes maintained by an agency and used to structure data items into relational structures. In addition to the standard name, label, and description of the scheme, contains descriptions of individual NCubes and NCubeGroups as well as allowing the inclusion of another NCubeScheme by reference.

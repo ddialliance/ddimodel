@@ -1,0 +1,2 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+GridAttachment,GridAttachmentType,0,n,Identifies the cell or cells in a grid to which the label is attached by a reference to a specific cell coordinate in a grid or by identifying a range of values along a dimension.,,,,,,,,,ddi:datacollection:3_2,e,

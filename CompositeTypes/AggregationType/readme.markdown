@@ -1,0 +1,1 @@
+Describes the aggregation method and the variables used in the aggregation process. Identifies the method using an external controlled vocabulary and identifies the variables used either in-line or by reference to an existing description.

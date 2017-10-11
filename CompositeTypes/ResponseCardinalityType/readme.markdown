@@ -1,0 +1,1 @@
+Indicates the minimum and maximum number of occurrences of a response within the given parameters.

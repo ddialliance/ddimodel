@@ -1,0 +1,1 @@
+References an image using the standard Image description. In addition to the standard attributes provides an effective date (period), the type of image, and a privacy ranking.

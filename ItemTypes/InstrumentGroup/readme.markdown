@@ -1,0 +1,1 @@
+Describes a group of instruments for administrative or conceptual purposes, which may be hierarchical. In addition to the standard name, label, and description, contains references to the contained Instruments and InstrumentGroups.

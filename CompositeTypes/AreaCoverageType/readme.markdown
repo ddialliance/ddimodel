@@ -1,0 +1,1 @@
+Use to specify the area of land, water, total or other area coverage in terms of square miles/kilometers or other measure.

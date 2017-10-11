@@ -1,0 +1,1 @@
+Identifies the independent (denominator) and dependent (numerator) dimensions for calculating aggregate measures such as percent. When two or more independent or dependent dimensions are listed here, the value is defined as the intersection of the listed dimensions.

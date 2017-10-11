@@ -1,0 +1,1 @@
+Specification of the character offset for the beginning and end of the segment.

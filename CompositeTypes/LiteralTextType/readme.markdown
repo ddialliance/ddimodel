@@ -1,0 +1,1 @@
+Literal (static) text to be used in the instrument using the StructuredString structure plus an attribute allowing for the specification of white space to be preserved.

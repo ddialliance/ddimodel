@@ -1,0 +1,1 @@
+Describes a collection of items held or distributed by the archive in connection with a study, group of studies, or resource packages. What constitutes an collection is determined by the archive. These may be data file(s) in a variety of formats, statistical setups, codebooks, questionnaires, etc. A collection may also be a group of studies, groups, and/or resource packages.

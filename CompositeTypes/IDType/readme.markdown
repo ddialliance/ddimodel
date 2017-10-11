@@ -1,0 +1,1 @@
+ID type. A fixed attribute is added to the string to ensure that only one ID can be provided.

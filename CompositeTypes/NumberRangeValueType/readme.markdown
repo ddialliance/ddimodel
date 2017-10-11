@@ -1,0 +1,1 @@
+Describes a bounding value for a number range expressed as an xs:demical.

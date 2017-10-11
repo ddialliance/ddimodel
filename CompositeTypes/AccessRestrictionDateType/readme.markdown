@@ -1,0 +1,1 @@
+The date or date range of the access restriction for all or portions of the data. Includes a reason for the access restriction as well as the user group to which the restriction applies.

@@ -1,0 +1,1 @@
+A description of the budget for any of the main publication types that can contain a reference to an external budget document.

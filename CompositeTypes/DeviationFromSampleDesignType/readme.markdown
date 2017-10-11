@@ -1,0 +1,1 @@
+Describes any deviations from the planned sample design. These may be for reasons of practicality, implementation issues, or other reasons. In addition to a narrative description allows for use of a brief term or controlled vocabulary term to classify the type of deviation.

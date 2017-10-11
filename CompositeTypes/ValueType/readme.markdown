@@ -1,0 +1,1 @@
+The Value expressed as an xs:string with the ability to preserve whitespace if critical to the understanding of the content.

@@ -1,0 +1,1 @@
+Provides a reference to the LocationValue or Values that is related to the current LocationValue partially or fully. TypeOfObject should be set to LocationValue.

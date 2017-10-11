@@ -1,0 +1,13 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+ManagedNumericRepresentationName,NameType,0,n,"A name for the ManagedNumericRepresentation. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:reusable:3_2,e,
+Label,LabelType,0,n,"A display label for the representation. May be expressed in multiple languages. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_2,e,
+Description,StructuredStringType,0,1,A description of the content and purpose of the representation. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
+RecommendedDataType,CodeValueType,0,1,"This field provides the recommended treatment of the data within an application. The value should come from a controlled vocabulary - recommended values include the set found in W3C XML Schema Part 2, but excluding string sub-types, QNAME, and NOTATION.",,,,,,,,,ddi:reusable:3_2,e,
+GenericOutputFormat,CodeValueType,0,1,This field provides a recommended generic treatment of the data for display by an application. The value should come from a controlled vocabulary.,,,,,,,,,ddi:reusable:3_2,e,
+NumberRange,NumberRangeType,0,n,Defines the valid number range or number values for the representation.,,,,,,,,,ddi:reusable:3_2,e,
+NumericTypeCode,CodeValueType,0,1,"Identification of the numeric type such as integer, decimal, etc. supports the use of an external controlled vocabulary.",,,,,,,,,ddi:reusable:3_2,e,
+Format,string,0,1,A format for number expressed as a string.,,,,,,,,,,a,
+Scale,int,0,1,"The scale of the number expressed as an integer (for example a number expressed in 100's, 5 = 500 would have a scale of 100).",,,,,,,,,,a,
+DecimalPositions,int,0,1,The number of decimal positions expressed as an integer (precision of the number).,,,,,,,,,,a,
+Interval,int,0,1,The interval between valid responses expressed as an integer.,,,,,,,,,,a,
+ClassificationLevel,string,0,1,"Indicates the type of relationship, nominal, ordinal, interval, ratio, or continuous. Use where appropriate for the representation type.",,,Nominal Ordinal Interval Ratio Continuous,,,,,,,a,

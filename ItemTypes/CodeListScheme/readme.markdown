@@ -1,0 +1,1 @@
+A scheme containing sets of CodeLists that are used by reference to define code representations used by value representations and response domains. In addition to the standard name, label, description, the CodeListScheme may contain another CodeListScheme by reference, CodeLists either in-line or by reference, and CodeListGroups either in-line or by reference.

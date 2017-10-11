@@ -1,0 +1,1 @@
+This type structures an abstract element which is used only as the head of a substitution group. It contains a reference to the Physical Structure that is available for use in all of the substitute RecordLayout structures.

@@ -1,0 +1,2 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+IsSystemMissingValue,boolean,0,1,"The assumption is that this is a System Missing Value declaration, specific to the storage format of the file (default value of ""true""). If not, change the value to ""false"".",,,,,,,,,,a,

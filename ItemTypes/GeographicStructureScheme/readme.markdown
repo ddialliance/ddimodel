@@ -1,0 +1,1 @@
+Contains information on the hierarchy of the geographic structure. In addition to the standard name, label, and description identifies one or more AuthorizedSources for the level codes/descriptions provided and a set of GeographicLevels in-line or by reference.

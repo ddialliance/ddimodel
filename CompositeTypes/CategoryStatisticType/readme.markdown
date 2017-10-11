@@ -1,0 +1,1 @@
+The value of a statistic associated with the category value.

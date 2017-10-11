@@ -1,0 +1,1 @@
+Holds the name of the publisher with their role and/or a reference to the publisher as described within a DDI Organization scheme. Repeat this element for multiple publishers.

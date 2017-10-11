@@ -1,0 +1,1 @@
+A response domain capturing a scale response which describes a 1..n dimensional scale of various display types for a question item. Includes standard response domain elements; OutParameter, designation of response cardinality, and a declaration of an offset date for the data content. May be replaced by a ScaleRepresentationRefererence.

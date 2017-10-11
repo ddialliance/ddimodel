@@ -1,0 +1,4 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+VariableReference,Variable,0,1,References the Variable holding the dimension value. Use this instead of the value attribute when the value must be obtained from the data file at the location of the variable indicated in the reference.,,,,,,,,,ddi:reusable:3_2,e,
+Value_string,string,0,1,The value of this dimension for this particular data item.,,,,,,,,,ddi:reusable:3_2,e,
+Rank,int,1,1,Enter the rank (placement) order in which the value from this dimension appears in the coordinate address of any cell in the NCube matrix.,,,,,,,,,,a,

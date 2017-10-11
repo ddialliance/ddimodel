@@ -1,0 +1,1 @@
+Describes the weighting used in the process. In addition to a description of the weighting process it may be designated as a specific type of weighting. If the data uses a standard weight (each record has an equal weight) it may be expressed here with StandardWeight.

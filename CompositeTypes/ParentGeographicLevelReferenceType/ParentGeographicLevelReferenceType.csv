@@ -1,0 +1,2 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+IsExhaustiveCoverage,boolean,1,1,Indicates whether the geographic level completely fills its parent level. Counties are exhaustive within States. Places are NOT exhaustive within States.,,,,,,,,,,a,

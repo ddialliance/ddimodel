@@ -1,0 +1,1 @@
+Description of the physical location of the value of the object in the data file. Includes information about the data item location and its data type/format if other than the default.

@@ -1,0 +1,1 @@
+Element with no content. It is an abstract type, used to extend into subclasses.

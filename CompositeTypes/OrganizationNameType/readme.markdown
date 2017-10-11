@@ -1,0 +1,1 @@
+Names by which the organization is known. Use the attribute isFormal="true" to designate the legal or formal name of the Organization. The preferred name should be noted with the isPreferred attribute. Names may be typed with TypeOfOrganizationName to indicate their appropriate usage.

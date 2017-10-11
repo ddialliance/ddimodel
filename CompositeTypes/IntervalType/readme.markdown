@@ -1,0 +1,1 @@
+Describes the structure, starting point and increment step of an interval.

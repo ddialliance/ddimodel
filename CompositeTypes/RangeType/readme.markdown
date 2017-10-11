@@ -1,0 +1,1 @@
+Indicates the range of items expressed as a string, such as an alphabetic range.

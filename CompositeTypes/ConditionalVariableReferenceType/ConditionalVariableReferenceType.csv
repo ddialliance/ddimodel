@@ -1,0 +1,2 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+RelatedValue,RelatedValueType,0,1,"Use to specify the value of variable for which this is a case specification (i.e., GeoLevel in the example for Case Specification).",,,,,,,,,ddi:logicalproduct:3_2,e,

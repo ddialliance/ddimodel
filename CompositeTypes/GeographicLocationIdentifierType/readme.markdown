@@ -1,0 +1,1 @@
+Describes the GeographicLocation as represented by a specific GeographicCode provided by an Authorized Source.

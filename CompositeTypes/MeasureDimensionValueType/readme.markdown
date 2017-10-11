@@ -1,0 +1,1 @@
+Specifies the orderValue of the Measure in the MeasureDimension described in the NCubeInstance along with its arrayOrder if multiple measures are provided as an array in a single storage location.

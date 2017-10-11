@@ -1,0 +1,1 @@
+Reference to an existing GeographicStructure using the Reference structure plus the ability to exclude any number of contained GeographicLevels as specified by reference. TypeOfObject should be set to GeographicStructure.

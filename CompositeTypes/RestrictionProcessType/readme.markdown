@@ -1,0 +1,1 @@
+Allows for a specific machine actionable description of the restriction process using a ProcessingInstructionReference, if one currently exists, or through a CommandCode. In the case of a physical instance, the RestrictionProcess would be the same as a case, record or variable selection process.

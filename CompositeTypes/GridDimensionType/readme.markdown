@@ -1,0 +1,1 @@
+Describes each dimension of the grid including dimension rank (for the purpose of identifying a cell address), a text for the dimension, and optional labels and codes used as column and row stubs. May also describe a roster (a set of unlabeled rows or columns depending upon display situation).

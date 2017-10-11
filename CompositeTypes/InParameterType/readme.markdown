@@ -1,0 +1,1 @@
+A parameter that may accept content from outside its parent element. In addition to standard parameter content may provide the instructions for limiting the allowable array index.

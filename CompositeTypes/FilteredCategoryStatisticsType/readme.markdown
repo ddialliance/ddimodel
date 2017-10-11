@@ -1,0 +1,1 @@
+Category statistics filtered by the value of a second variable. Essentially a cross tabulation of one variable by another. For example variable may be crossed with country as is done in the Eurobarometer when reporting category statistics. For example, the Eurobarometer may filter its category statistics by country as represented in a variable "CountryCode".

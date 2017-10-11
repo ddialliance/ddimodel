@@ -1,0 +1,1 @@
+Structures the representation for any type of time format (including dates, etc.). Regardless of the format of the data the content may be treated as a date and or time and converted to ISO standard structure if sufficient information is supplied.

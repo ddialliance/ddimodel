@@ -1,0 +1,3 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Description,StructuredStringType,0,1,A description of the purpose in classifying the object and how it conforms to the classification. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
+ClassType,CodeValueType,0,1,"A term used to classify the study class. As these are archive specific, DDI strongly recommends the use of a controlled vocabulary.",,,,,,,,,ddi:archive:3_2,e,

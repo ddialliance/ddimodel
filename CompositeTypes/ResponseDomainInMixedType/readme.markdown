@@ -1,0 +1,1 @@
+A structure that provides both the response domain and information on how it should be attached, or related, to other specified response domains in the question. If no AttachmentLocation information is provided it is assumed that multiple response domains or response text occurs in sequence.

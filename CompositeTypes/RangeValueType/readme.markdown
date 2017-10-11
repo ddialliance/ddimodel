@@ -1,0 +1,1 @@
+Describes a bounding value of a string.

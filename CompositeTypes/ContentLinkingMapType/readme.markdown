@@ -1,0 +1,1 @@
+Contains a stack of links from the LocalAddedContent to the Depository content and provides instructions regarding the relationship between the local added content and the deposited content.

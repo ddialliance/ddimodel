@@ -1,0 +1,1 @@
+Provides a link from a local object to a deposited object via reference and designates if the added material should Override, act as AddedContent, or DeleteContent in the original deposited material. A description of the link or reason for new material may be provided.

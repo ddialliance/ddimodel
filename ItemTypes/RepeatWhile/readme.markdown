@@ -1,0 +1,1 @@
+A member of the ControlConstruct substitution group. Specifies a ControlConstruct to be repeated while a specified condition is met. Before each iteration the condition is tested. When the condition is not met, control passes back to the containing control construct.

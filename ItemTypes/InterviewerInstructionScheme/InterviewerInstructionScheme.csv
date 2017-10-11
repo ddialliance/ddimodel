@@ -1,0 +1,7 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+InterviewerInstructionSchemeName,NameType,0,n,"A name for the InterviewerInstructionScheme. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:datacollection:3_2,e,
+Label,LabelType,0,n,"A display label for the InterviewerInstructionScheme. May be expressed in multiple languages. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_2,e,
+Description,StructuredStringType,0,1,A description of the content and purpose of the InterviewerInstructionScheme. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
+InterviewerInstructionSchemeReference,InterviewerInstructionScheme,0,n,Allows for the inclusion of an existing InterviewerInstructionScheme by reference.,,,,,,,,,ddi:reusable:3_2,e,
+InstructionReference,Instruction,0,n,Content of an individual instruction.,,,,,,,,,ddi:datacollection:3_2,e,
+InstructionGroupReference,InstructionGroup,0,n,In-line description of a group of Instructions.,,,,,,,,,ddi:datacollection:3_2,e,

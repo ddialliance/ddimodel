@@ -1,0 +1,1 @@
+For each dimension in the grid define the applicable values as "all values", a "specific value" or a range. If a rangeMinimum or rangeMaximum is provided without the other, the assumption is unbounded for the object not included.

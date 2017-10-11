@@ -1,0 +1,1 @@
+Identifies and provides a link to an external copy of the command, for example, a SAS Command Code script. Designates the programming language of the command file, designates input and output parameters, binding information between input and output parameters, a description of the location of the file , and a URN or URL for the command file.

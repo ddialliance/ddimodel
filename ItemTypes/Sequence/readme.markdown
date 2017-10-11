@@ -1,0 +1,1 @@
+A member of the ControlConstruct substitution group. Provides a sequence order for operations expressed as control constructs. The sequence can be typed to support local processing or classification flags and alternate sequencing instructions (such as randomize for each respondent).

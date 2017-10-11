@@ -1,0 +1,1 @@
+Describes the data versioning scheme(s) used by an organization. If more than one, Name should differentiate between a standard versioning structure used by the organization and special structures used by specific projects or studies. Information on what drives and major and minor change and how they are structured.

@@ -1,0 +1,4 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+VariableSchemeReference,VariableScheme,0,n,Reference to a VariableScheme whose members are included in the logical record. Note that individual items may be excluded from the scheme if not used by the logical record.,,,,,,,,,ddi:reusable:3_2,e,
+VariableUsedReference,Variable,0,n,Reference to a variable to include in the logical record. This may be used to supplement the contents of an included VariableScheme or to list all the variables individually.,,,,,,,,,ddi:logicalproduct:3_2,e,
+AllVariablesInLogicalProduct,boolean,0,1,"Set to ""true"" when the logical record contains all the variables identified within the logical product module.",,,,,,,,,,a,

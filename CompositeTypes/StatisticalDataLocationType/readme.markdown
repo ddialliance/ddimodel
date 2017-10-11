@@ -1,0 +1,1 @@
+References a PhysicalInstance module that describes a data file containing the summary and/or category statistics OR contains the statistics in-line.  For example, when the same data are stored as an ASCII file and as an ORACLE file, the summary and category statistics would only be listed in one of the physical instance files, and referenced in the other(s).

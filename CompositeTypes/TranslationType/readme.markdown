@@ -1,0 +1,1 @@
+Provides the language of translation as well as a description of translation for the contents of the DDI Instance.

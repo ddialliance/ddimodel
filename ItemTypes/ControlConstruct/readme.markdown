@@ -1,0 +1,1 @@
+Provides the basic, extensible structure for control elements used in describing flow logic within the instrument. The only data point which is inherited by the extended constructs based on this type is the identification of the control construct.

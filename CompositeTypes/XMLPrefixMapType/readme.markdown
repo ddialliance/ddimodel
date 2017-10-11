@@ -1,0 +1,1 @@
+Maps a specified prefix to a namespace. For each XML namespace used in the profile's XPath expressions, the XML namespaces must have their prefix specified using this element.

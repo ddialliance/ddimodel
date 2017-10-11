@@ -1,0 +1,1 @@
+Reference to the description of a MeasureDefinition in the NCube with a designation for its place in an array of measures if applicable. TypeOfObject should be set to MeasureDefinition.

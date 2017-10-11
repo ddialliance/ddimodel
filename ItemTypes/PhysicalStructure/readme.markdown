@@ -1,0 +1,1 @@
+Description of a PhysicalStructure providing the primary link to the LogicalRecord and general structural information. Each description can apply to one or more data files containing the same logical records in the same overall structure.

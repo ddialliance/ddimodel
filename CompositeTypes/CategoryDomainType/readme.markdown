@@ -1,0 +1,1 @@
+A response domain capturing a category (without an attached code) response for a question item. Includes standard response domain elements; OutParameter, designation of response cardinality, and a declaration of an offset date for the data content, as well as a CategoryRepresentationBase.

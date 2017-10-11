@@ -1,0 +1,1 @@
+Provides structural information for parsing the identification code structure of the Authorized Source into its separate parts.

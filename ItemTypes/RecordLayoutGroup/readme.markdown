@@ -1,0 +1,1 @@
+Contains a group of RecordLayout descriptions for administrative or conceptual purposes, which may be hierarchical. In addition to the standard name, label, and description, allows for a classification of the type of group, a reference to a Universe and Concept and inclusion of RecordLayouts and RecordLayoutGroups by reference, plus a flag indicating if the group is ordered.

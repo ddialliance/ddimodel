@@ -1,0 +1,1 @@
+Storage format for random order item variables. Each ItemValue references it's defining variable, it's record identifier, and the it's value.

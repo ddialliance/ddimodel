@@ -1,0 +1,1 @@
+Contains a group of Category descriptions, which may be ordered or hierarchical. In addition to the name, label, and description of the group, the structure allows for defining the group as a valid category value using a DefiningCategoryReference, and a listing of Categories and CategoryGroups in any order.

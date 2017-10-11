@@ -1,0 +1,1 @@
+Contains a set of QuestionItems, QuestionGrids, QuestionBlocks, and QuestionGroups. In addition to the standard name, label, and description of the Question Scheme, may contain another QuestionScheme by reference, a listing of Questions by type (in-line or by reference), and a listing of QuestionGroups (in-line or by reference).

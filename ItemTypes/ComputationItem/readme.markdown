@@ -1,0 +1,1 @@
+A form of control construct providing a code and assigning a variable to hold value of the code as used for computation in control construct flow. Member of the ControlConstruct substitution group.

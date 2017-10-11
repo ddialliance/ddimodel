@@ -1,0 +1,1 @@
+Container for a URN following the pattern designed by DDIURNType. Provides a fixed type attribute signifying that it is a URN.

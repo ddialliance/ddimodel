@@ -1,0 +1,1 @@
+Describes the type and length of the video segment.

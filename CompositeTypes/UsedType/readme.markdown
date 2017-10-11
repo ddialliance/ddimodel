@@ -1,0 +1,1 @@
+Specifies a DDI object and all its sub-objects supported by the DDIProfile. May specify an alternate local name and description of an object, instructions for its use, and set limits on its allowed usage.

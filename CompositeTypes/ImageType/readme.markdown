@@ -1,0 +1,1 @@
+A reference to an image, with a description of its properties and type.

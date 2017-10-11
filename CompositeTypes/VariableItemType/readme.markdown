@@ -1,0 +1,1 @@
+The set of values associated with a single variable (one for each record in storage order of records).

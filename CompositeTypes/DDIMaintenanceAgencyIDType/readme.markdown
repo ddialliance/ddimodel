@@ -1,0 +1,1 @@
+Provides the official DDI ID of a maintenance agency as a value taken from the registry cited in @registryID.

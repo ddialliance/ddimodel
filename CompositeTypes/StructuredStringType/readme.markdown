@@ -1,0 +1,1 @@
+Packaging structure for multiple language versions of the same string content. for objects that allow for internal formatting using XHTML tags. Where an element of this type is repeatable, the expectation is that each repetition contains different content, each of which can be expressed in multiple languages.

@@ -1,0 +1,1 @@
+The date that the data reference such as at the point of collection, a previous year or date, etc. This is expressed as a date (singular or range) and may have specific subjects associated with it. For example if only income and labor force status relate to the previous year and all other data related to the point of collection.

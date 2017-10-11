@@ -1,0 +1,1 @@
+A comprehensive list of the ConceptualVariables measured by the data that are being documented and/or maintained by an agency. In addition to the standard name, label, and description, allows for the inclusion of an existing ConceptualVariableScheme by reference, the inclusion of descriptions for ConceptualVariables and ConceptualVariableGroups in-line or by reference.

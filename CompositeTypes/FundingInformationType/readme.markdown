@@ -1,0 +1,1 @@
+Provides information about the individual, agency and/or grant(s) which funded the described entity. Lists a reference to the agency or individual as described in a DDI Organization Scheme, the role of the funder, the grant number(s) and a description of the funding activity.

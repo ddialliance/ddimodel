@@ -1,0 +1,1 @@
+Describes a single data item within the record, linking its description in a variable to its physical location in the stored record.

@@ -1,0 +1,1 @@
+The gross or macro level structures of the record structure including the link to the LogicalRecord and information on the number and ordering of each Physical Segment of the LogicalRecord as stored in the data file. Provides an attribute stating the number of physical segments with a default value of "1".

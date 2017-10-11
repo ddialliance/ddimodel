@@ -1,0 +1,6 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+ConceptualVariableName,NameType,0,n,"A name for the ConceptualVariable. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:conceptualcomponent:3_2,e,
+Label,LabelType,0,n,"A display label for the ConceptualVariable. May be expressed in multiple languages. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_2,e,
+Description,StructuredStringType,0,1,A description of the content and purpose of the ConceptualVariable. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
+ConceptReference,Concept,0,1,Reference to a Concept that is being linked to a Universe identified by the UniverseReference. TypeOfObject should be set to Concept.,,,,,,,,,ddi:reusable:3_2,e,
+UniverseReference,Universe,0,1,Reference to a universe being associated with this concept. TypeOfObject should be set to Universe.,,,,,,,,,ddi:reusable:3_2,e,

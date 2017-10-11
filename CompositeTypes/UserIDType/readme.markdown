@@ -1,0 +1,1 @@
+A user provided identifier that is locally unique within its specific type. The required type attribute points to the local user identification system that defines the values. The optional userIDVersion allows specification of a version number for the identifier. If multiple UserIDs are used they must be differentiated by the type attribute.

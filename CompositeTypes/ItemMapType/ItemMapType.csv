@@ -1,0 +1,6 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+SourceItem,IDType,0,1,The ID of the source object in the source scheme already identified. Note that the version of the object is whichever version of it that exists in the version of the parent scheme as identified.,,,,,,,,,ddi:comparative:3_2,e,
+TargetItem,IDType,0,1,The ID of the target object in the target scheme already identified. Note that the version of the object is whichever version of it that exists in the version of the parent scheme as identified.,,,,,,,,,ddi:comparative:3_2,e,
+Correspondence,CorrespondenceType,0,1,Describe the level of similarity and difference between the Source and the Target objects.,,,,,,,,,ddi:comparative:3_2,e,
+RelatedMapReference,ReferenceType,0,n,Identifies related maps for example an ItemMap of two questions may point to the CodeMap defining the comparison of the two response domains.,,,,,,,,,ddi:comparative:3_2,e,
+Alias,string,0,1,"Allows for an alias to be assigned to the correspondence between two items, so that it can be referred to with a single name, that would include both related items.",,,,,,,,,,a,

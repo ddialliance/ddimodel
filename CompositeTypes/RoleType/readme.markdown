@@ -1,0 +1,1 @@
+Describes the role of Target Individual or Organization in relation to the Source Object. Provides a description and classification of the role, the period for which the role was valid, and any additional information relevent to the role.

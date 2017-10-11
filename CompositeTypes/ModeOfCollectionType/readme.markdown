@@ -1,0 +1,1 @@
+Describes the mode of collection, i.e., paper questionnaire, observation, web delivered questionnaire, computer assisted interview, automated data harvesting, etc. In addition to the narrative description allows for the use of a brief term or item from a controlled vocabulary to classify the mode used. If multiple modes are used repeat the element.

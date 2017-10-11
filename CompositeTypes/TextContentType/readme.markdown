@@ -1,0 +1,1 @@
+Abstract type existing as the head of a substitution group. May be replaced by any valid member of the substitution group TextContent. Provides the common element Description to all members using TextContent as an extension base.

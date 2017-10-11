@@ -1,0 +1,1 @@
+Identifies the independent and dependent variables used in the aggregation process. Note that in the case of calculating a percentage, mean, etc. of a dependent value against the total population of the cell, there is no independent variable.

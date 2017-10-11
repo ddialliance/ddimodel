@@ -1,0 +1,1 @@
+Allows for the attachment of a category label at any anchor point in a scale.

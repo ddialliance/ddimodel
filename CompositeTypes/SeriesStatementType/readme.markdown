@@ -1,0 +1,1 @@
+Series statement contains information about the series to which a study unit or group of study units belongs. You may point to the URL of a series repository and then use the SeriesName field to indicate the series itself as identified in that repository. Fields also exist for describing the series and providing abbreviations.

@@ -1,0 +1,1 @@
+Describes the temporal, spatial and topical coverage. At the instance level these descriptions should be inclusive of the coverage of all modules in the instance. The element is available within individual modules and can be used to refine the coverage to that of the individual module.

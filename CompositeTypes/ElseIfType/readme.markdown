@@ -1,0 +1,1 @@
+Use for multiple branching from a single point in the flow logic represented by the flow logic If, Then, ElseIf, Then, etc. This is a packaging element for an IfCondition and ThenConstructReference and not a control construct.

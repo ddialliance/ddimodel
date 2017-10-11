@@ -1,0 +1,1 @@
+Structures a numeric range. Low and High values are designated. The structure identifies Low values that should be treated as bottom coded (Stated value and bellow, High values that should be treated as top coded (stated value and higher), and provides a regular expression to further define the valid content of the range.

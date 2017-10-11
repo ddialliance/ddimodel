@@ -1,0 +1,9 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+SourceQuestion,QuestionItem,0,n,Reference to a question used in the instruction.,,,,,,,,,ddi:datacollection:3_2,e,
+SourceVariable,Variable,0,n,Reference to a variable used in the coding process,,,,,,,,,ddi:datacollection:3_2,e,
+ExternalInformation,OtherMaterialType,0,n,"Reference to an external source of information used in the coding process, for example a value from a chart, etc.",,,,,,,,,ddi:datacollection:3_2,e,
+Description,StructuredStringType,0,1,A description of the generation instruction. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
+CommandCode,CommandCodeType,0,n,Structured information used by a system to process the instruction.,,,,,,,,,ddi:reusable:3_2,e,
+ControlConstructReference,ControlConstruct,0,n,A control construct which is used to describe or process the instruction.,,,,,,,,,ddi:datacollection:3_2,e,
+Aggregation,AggregationType,0,1,"Describes the aggregation process, identifying both the independent and dependent variables within the process.",,,,,,,,,ddi:datacollection:3_2,e,
+IsDerived,boolean,0,1,"Default setting is ""true"", the instruction describes a derivation. If the instruction is a simple recode, set to ""false"".",,,,,,,,,,a,

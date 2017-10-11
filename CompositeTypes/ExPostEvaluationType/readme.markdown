@@ -1,0 +1,1 @@
+Evaluation for the purpose of reviewing the study, data collection, data processing, or management processes. Results may feed into a revision process for future data collection or management. Identifies the type of evaluation undertaken, who did the evaluation, the evaluation process, outcomes and completion date.

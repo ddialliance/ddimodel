@@ -1,0 +1,6 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Language,CodeValueType,0,n,Uses the more generic Language element found in a Citation. Allows for use of an external controlled vocabulary.,,,,,,,,,ddi:reusable:3_2,e,
+I18n-text,string,0,1,Value of the language identifier used.,,,,,,,,,ddi:instance:3_2,e,
+I18n-catalog,string,0,1,Identifies the l18n catalog used.,,,,,,,,,ddi:instance:3_2,e,
+Description,StructuredStringType,0,1,Description of the translation process of the data and metadata,,,,,,,,,ddi:reusable:3_2,e,
+Lang,language,0,1,Language of the tag content.,,,,,,,,,http://www.w3.org/XML/1998/namespace,a,

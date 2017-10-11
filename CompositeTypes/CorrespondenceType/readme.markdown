@@ -1,0 +1,1 @@
+Describes the commonalities and differences between two items using a textual description of both commonalities and differences plus an optional coding of the type of commonality, a commonality expresses as a 0 to 1 weighting factor (expressing degree of comparability) and a user defined correspondence property which is specific to an organization or community of use.

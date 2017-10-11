@@ -1,0 +1,1 @@
+Allows a listing of events in the life cycle of a data set or collection. Identification, date, agency, and descriptive information are provided for each event. Note that the agency that documents a lifecycle event is not necessarily the same agency as the one that performed the operation being documented as a lifecycle event.

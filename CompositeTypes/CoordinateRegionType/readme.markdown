@@ -1,0 +1,1 @@
+Defines the area of attachment for an NCube attribute. It may be defined as the NCube as a whole or as certain dimensions or values of dimensions.

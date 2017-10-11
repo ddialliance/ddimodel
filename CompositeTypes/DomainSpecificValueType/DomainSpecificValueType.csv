@@ -1,0 +1,3 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Value,ValueType,0,n,The value of the target response domain to which the object should be attached.,,,,,,,,,ddi:reusable:3_2,e,
+AttachmentDomain,int,0,1,"This is the value of the attribute ""attachmentBase"" on the ResponseDomainInMixed to which the specified response domain will be attached. This is used to clarify attachment locations when more than two response domains are provided in a StructuredMixedResponseDomain.",,,,,,,,,,a,

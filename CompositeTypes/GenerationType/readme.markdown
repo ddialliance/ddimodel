@@ -1,0 +1,1 @@
+Description of the process used to generate the category content. Includes a reference to component parts, a description of the generation process, a structured command, and other materials that are needed in the generation process. The item may be designated as a derivation process (default value) and be qualified in some way by a qualification attribute.

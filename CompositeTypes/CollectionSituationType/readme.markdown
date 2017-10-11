@@ -1,0 +1,1 @@
+Describes the situation in which the data collection event takes place.

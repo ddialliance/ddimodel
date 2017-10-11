@@ -1,0 +1,1 @@
+A textual statement used in the Instrument. A substitution for ControlConstruct. In addition to the objects found in ControlConstruct StatementItem adds the text for display at the specified point within the instrument.

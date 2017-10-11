@@ -1,0 +1,1 @@
+Contains a set of variables, one from the source record and one from the target record used as all or part of a link between the source and target records.

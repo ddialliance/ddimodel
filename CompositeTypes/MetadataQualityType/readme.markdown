@@ -1,0 +1,1 @@
+An assessment of the quality of the metadata within the Maintainable object, e.g. the quality of the transcription, completeness, editing status, etc. It indicates the type of metadata quality being assesed, the purpose of providing the measure, and either a value for the quality from a controlled vocabulary and/or a description of the value.

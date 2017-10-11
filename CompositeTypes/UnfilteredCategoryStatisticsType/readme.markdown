@@ -1,0 +1,1 @@
+The unfiltered values of any number of statistics by category value representing the full response distribution of the variable.

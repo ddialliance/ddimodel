@@ -1,0 +1,1 @@
+A means of capturing the structure of Scale for use as a question response domain or variable value representation. In addition to the basic objects of the representation, the structure defines the dimensions of the scale, an intersect for a multi-dimensional scale, and display layout.

@@ -1,0 +1,1 @@
+Reference to the Unique key variable for segment identification and the value it contains for the specific segment. TypeOfObject should be set to Variable.

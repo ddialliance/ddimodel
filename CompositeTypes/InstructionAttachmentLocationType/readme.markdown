@@ -1,0 +1,1 @@
+Allows attachment of an instruction to a specific item in a question structure. For example, to a Label, QuestionText, ResponseDomain, Response domain value, or grid cell.

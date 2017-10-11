@@ -1,0 +1,1 @@
+Structure supporting the use of dynamic text, where portions of the textual contend change depending on external information (pre-loaded data, response to an earlier query, environmental situations, etc.).

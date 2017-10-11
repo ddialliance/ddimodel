@@ -1,0 +1,1 @@
+Additional Information provided using a StructuredString plus a privacy code to support multiple language versions of the same content as well as optional formatting of the content.

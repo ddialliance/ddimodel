@@ -1,0 +1,1 @@
+A member of the control construct substitution group. Describing an action which loops until a limiting condition is met. The ControlConstruct contained in the Loop operates on the LoopVariable until the LoopWhile condition is met, and then control is handed back to the containing control construct.

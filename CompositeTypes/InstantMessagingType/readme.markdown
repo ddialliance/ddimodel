@@ -1,0 +1,1 @@
+Indicates type of Instant messaging account identification

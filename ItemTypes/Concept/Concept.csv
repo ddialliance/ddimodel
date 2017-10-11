@@ -1,0 +1,7 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+ConceptName,NameType,0,n,"A name for the Concept. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:conceptualcomponent:3_2,e,
+Label,LabelType,0,n,"A display label for the Concept. May be expressed in multiple languages. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_2,e,
+Description,StructuredStringType,0,1,A description of the content and purpose of the Concept. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
+SimilarConcept,SimilarConceptType,0,n,A reference to a concept expressing a similar idea plus a description of the differences. Used to assist in disambiguation of concepts.,,,,,,,,,ddi:conceptualcomponent:3_2,e,
+SubclassOfReference,Concept,0,n,Reference to a Concept that is used for qualifying this data element concept. The referenced Concept should have its isCharacteristic attribute set to true.,,,,,,,,,ddi:conceptualcomponent:3_2,e,
+IsCharacteristic,boolean,0,1,"If set to ""true"" this concept is used to describe a characteristic of another concept.",,,,,,,,,,a,

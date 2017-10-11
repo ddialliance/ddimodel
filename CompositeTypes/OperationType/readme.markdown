@@ -1,0 +1,1 @@
+A generic operation description used as a type by specified operations. Describes the operation and identifies the organization or individual responsible for performing it.

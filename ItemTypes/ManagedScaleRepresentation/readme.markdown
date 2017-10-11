@@ -1,0 +1,1 @@
+A means of capturing a managed representation of a Scale for use by a Response Domain Reference or Value Representation Reference. In addition to the name, label, and description of the representation, the structure defines the dimensions of the scale, an intersect for a multi-dimensional scale, and display layout.

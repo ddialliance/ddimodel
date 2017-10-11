@@ -1,0 +1,1 @@
+Describes the source of the data. This may be a population group, an environmental object, a registry, published or unpublished data source, etc. Describes and provides a classification of the source, a citation of the origin if applicable, and a listing of any characteristics of the data source that may affect understanding of the data.

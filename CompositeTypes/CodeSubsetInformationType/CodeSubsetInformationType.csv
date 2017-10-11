@@ -1,0 +1,4 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+IncludedLevel,int,0,n,Identifies the specific level to include using the levelNumber. Repeat if more than one level is included.,,,,,,,,,ddi:reusable:3_2,e,
+IncludedCode,IncludedCodeType,0,1,Specifies the codes to include in the representation.,,,,,,,,,ddi:reusable:3_2,e,
+DataExistence,DataExistenceType,0,1,"Use when only the lowest, most discrete codes in the CodeList will be expressed as valid values. Identifies those levels of a CodeList with a regular hierarchy or those indicates discrete codes within an irregular hierarchy. All other codes will be used as labels within the hierarchy to clearly express content, but will not be valid as a response or representation value.",,,,,,,,,ddi:reusable:3_2,e,

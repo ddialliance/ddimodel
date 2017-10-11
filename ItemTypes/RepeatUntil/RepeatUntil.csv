@@ -1,0 +1,3 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+UntilCondition,CommandCodeType,0,1,"Information on the command used to determine whether the ""Until"" condition is met.",,,,,,,,,ddi:datacollection:3_2,e,
+UntilConstructReference,Sequence,0,1,A reference to the ControlConstruct to implement until the UntilCondition is met. This could be a single ControlConstruct or a set of ControlConstructs within a Sequence.,,,,,,,,,ddi:datacollection:3_2,e,

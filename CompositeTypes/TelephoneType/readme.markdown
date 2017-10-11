@@ -1,0 +1,1 @@
+Details of a telephone number including the number, type of number, a privacy setting and an indication of whether this is the preferred contact number.

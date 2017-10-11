@@ -1,0 +1,1 @@
+Email address type (Currently restricted to Internet format user@server.ext.).

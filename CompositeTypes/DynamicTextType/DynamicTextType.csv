@@ -1,0 +1,4 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+TextContent,TextContentType,0,n,This is the head of a substitution group and is never used directly as an element name. Instead it is replaced with either LiteralText or ConditionalText.,,,,,,,,,ddi:datacollection:3_2,e,
+IsStructureRequired,boolean,0,1,"If textual structure (e.g. size, color, font, etc.) is required to understand the meaning of the content change value to ""true"".",,,,,,,,,,a,
+AudienceLanguage,language,0,1,"Specifies the language of the intended audience. This is particularly important for clarifying the primary language of a mixed language textual string, for example when language testing and using a foreign word withing the question text.",,,,,,,,,,a,

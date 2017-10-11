@@ -1,0 +1,1 @@
+Relationship specification between this item and the item to which it is related. Provides a reference to any identifiable object and a description of the relationship.

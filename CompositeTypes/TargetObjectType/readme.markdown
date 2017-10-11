@@ -1,0 +1,1 @@
+Identifies the Target organization or individual in the relationship. References either an Organiztion or an Individual and specifies the role of the Target in relationship to the Source. Multiple roles for specified periods may be identified.

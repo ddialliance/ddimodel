@@ -1,0 +1,1 @@
+A dimension is provided a rank and a reference to a variable that describes it. Cell locations are "addressed" by the value of their intersect on each dimension provided in rank order.

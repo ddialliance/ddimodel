@@ -1,0 +1,1 @@
+An unspecified identification of a Country. When using ISO 3166 code (2-letter, 3-letter, or numeric) use the specific CountryCode substitution element. Allows for an optional specification of language and effective date.

@@ -1,0 +1,1 @@
+Includes information about the file structure, as well as other characteristics that are specific to the physical instance. Information includes place of production, processing checks to validate the content, processing status, the software used to create the data file, and check sums for the number of cases and overall record count.

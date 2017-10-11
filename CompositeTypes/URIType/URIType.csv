@@ -1,0 +1,2 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+IsPublic,boolean,0,1,"Set to ""true"" (default value) if this file is publicly available. This does not imply that there are not restrictions to access. Set to ""false"" if this is not publicly available, such as a backup copy, an internal processing data file, etc.",,,,,,,,,,a,

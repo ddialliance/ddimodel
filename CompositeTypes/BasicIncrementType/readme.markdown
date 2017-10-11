@@ -1,0 +1,1 @@
+Describes the start, end, and increment value for an incremental string (numeric, character, or length).

@@ -1,0 +1,6 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+TypeOfLabel,CodeValueType,0,1,A brief description of the label type. Supports the use of a controlled vocabulary.,,,,,,,,,ddi:reusable:3_2,e,
+LocationVariant,string,0,1,Indicate if the content is intended to be used in a specific location. For example if the Label is specific to use within a sub-region of a country that uses the same language but may have unique terminology. For example some regions of the United States use the term “water fountain” and others use “bubbler”.,,,,,,,,,,a,
+ValidForStartDate,cogsDate,0,1,Allows for the specification of a starting date for the period that this label is valid. The date must be formatted according to ISO 8601.,,,,,,,,,,a,
+ValidForEndDate,cogsDate,0,1,Allows for the specification of a ending date for the period that this label is valid. The date must be formatted according to ISO 8601.,,,,,,,,,,a,
+MaxLength,int,0,1,A positive integer indicating the maximum number of characters in the label.,,,,,,,,,,a,

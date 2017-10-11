@@ -1,0 +1,1 @@
+Allows for the use of all or part of a GeographicLocation description to be used as a response domain or value representation by a question or variable. In addition to the basic objects of a representation it describes the Geographic Location values available for use by the question or variable.

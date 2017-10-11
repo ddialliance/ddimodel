@@ -1,0 +1,1 @@
+Describes a set of instruments maintained by an agency. In addition to the standard name, label, and description, allows for the inclusion of an existing InstrumentScheme by reference and contains Instruments and InstrumentGroups inline an by reference.

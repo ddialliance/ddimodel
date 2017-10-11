@@ -1,0 +1,1 @@
+Specification of the line and offset for the beginning and end of the segment.

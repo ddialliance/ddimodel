@@ -1,0 +1,1 @@
+Structures a textual representation. MinLength and maxlength attributes are inclusive integers describing the number of permitted characters. The regExp attribute holds a regular expression describing the valid contents of the string.

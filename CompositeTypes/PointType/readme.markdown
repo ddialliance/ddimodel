@@ -1,0 +1,1 @@
+A geographic point consisting of an X and Y coordinate. Each coordinate value is expressed separately providing its value and format.

@@ -1,0 +1,4 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+EvaluatorReference_Organization,Organization,0,1,Reference to an Organization or Individual involved in performing the evaluation.,,,,,,,,,ddi:reusable:3_2,e,
+EvaluatorReference_Individual,Individual,0,1,Reference to an Organization or Individual involved in performing the evaluation.,,,,,,,,,ddi:reusable:3_2,e,
+EvaluatorRole,CodeValueType,0,n,Describes the role of the evaluator with optional use of a controlled vocabulary.,,,,,,,,,ddi:reusable:3_2,e,

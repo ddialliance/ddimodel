@@ -1,0 +1,1 @@
+Identifies the authorizing agency for the study and allows for the full text of the authorization (law, regulation, or other form of authorization). May be used to list authorizations from oversight committees and other regulatory agencies.

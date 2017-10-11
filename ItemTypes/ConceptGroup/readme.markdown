@@ -1,0 +1,1 @@
+Allows for grouping of concepts; groups may have a hierarchical structure. This structure should not be used to model semantic concept hierarchies - for this purpose, use the SubclassOfReference element within Concept.

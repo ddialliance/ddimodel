@@ -1,0 +1,1 @@
+Category statistics for the variable when the filter variable contains the specified value.

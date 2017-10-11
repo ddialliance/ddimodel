@@ -1,0 +1,3 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Characteristic,CodeValueType,0,1,"A characteristic which defines the area. These are often useful in terms of selection. For example a U.S. Block may be classified as Urban, Rural, or Mixed. The characteristic supports the use of a controlled vocabulary.",,,,,,,,,ddi:reusable:3_2,e,
+GeographicTime,DateType,0,1,The time period for which the characteristic is valid.,,,,,,,,,ddi:reusable:3_2,e,

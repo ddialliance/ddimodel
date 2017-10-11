@@ -1,0 +1,1 @@
+OtherMaterialType describes the structure of the OtherMaterial element, used to reference external resources. It includes citations to materials related to the content of the DDI Instance. This includes citations to such material, an external reference to a URL (or other URI), and a statement about the relationship between the cited OtherMaterial the contents of the DDI instance.

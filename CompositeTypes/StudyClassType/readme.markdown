@@ -1,0 +1,1 @@
+An archive specific classification. This may be a topical classification, a classification of intended processing levels, or information on the processing status. Consists of a description of the study class and a term used to specify the class type.

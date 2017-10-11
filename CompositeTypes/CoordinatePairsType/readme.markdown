@@ -1,0 +1,1 @@
+Field to capture coordinate pairs as individual pairs or as an array of pairs.

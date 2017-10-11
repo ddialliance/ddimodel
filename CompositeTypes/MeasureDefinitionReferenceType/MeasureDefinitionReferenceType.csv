@@ -1,0 +1,2 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+ArrayOrder,int,0,1,"Oder within the array. Note that this attribute assumes an array base of 0. The array order assumes that the measures will always be displayed in the same order and that sparse content (a missing value in the array) will be clear between two delimiters in this array. (For example 1,1,1 or 1,,1)",,,,,,,,,,a,

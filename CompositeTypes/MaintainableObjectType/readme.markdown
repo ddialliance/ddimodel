@@ -1,0 +1,1 @@
+Provides information on the Maintainable Parent of the object. If the scope of the Identifiable or Versionable Object is the Maintinable, this information must be provided in order to provide all the information contained in the Canonical DDI URN. This is done to support interoperability.

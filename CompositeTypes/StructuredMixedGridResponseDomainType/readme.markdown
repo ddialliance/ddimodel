@@ -1,0 +1,1 @@
+Contains a mixture of response domains for the grid cells. Each response domain can be attached to a specific region of the grid, for example a single column or row. It is assumed that each cell will contain either a resonse domain or be declared as containing No Data By Definition. Any cell may also contain an internal label.

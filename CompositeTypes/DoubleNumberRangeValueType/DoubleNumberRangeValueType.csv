@@ -1,0 +1,2 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+IsInclusive,boolean,0,1,Indicates that the value is included in the range. Set to false if the range includes numbers up to but no including the designated value.,,,,,,,,,,a,

@@ -1,0 +1,4 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+MaxLength,int,0,1,The maximum number of characters allowed.,,,,,,,,,,a,
+MinLength,int,0,1,The minimum number of characters allowed.,,,,,,,,,,a,
+RegExp,string,0,1,A regular expression limiting the allowed characters or character order of the content.,,,,,,,,,,a,

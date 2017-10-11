@@ -1,0 +1,1 @@
+The characteristic value expressed as a string with an indicator of the specific relationship of the variable value to the characteristic value. The default is "Equal". The value may be defined as containing no content (blank) by setting the attribute valueIsBlank to "true".

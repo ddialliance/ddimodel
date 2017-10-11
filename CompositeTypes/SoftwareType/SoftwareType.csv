@@ -1,0 +1,8 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+SoftwareName,NameType,0,n,"The name of the software package, including its producer.",,,,,,,,,ddi:reusable:3_2,e,
+SoftwarePackage,CodeValueType,0,1,"A coded value from a controlled vocabulary, describing the software package.",,,,,,,,,ddi:reusable:3_2,e,
+SoftwareVersion,string,0,1,The version of the software package. Defaults to '1.0'.,,,,,,,,,ddi:reusable:3_2,e,
+Description,StructuredStringType,0,1,A description of the content and purpose of the software. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
+Date,DateType,0,1,"Supported date of the software package with, at minimum, a release date if known.",,,,,,,,,ddi:reusable:3_2,e,
+Function,CodeValueType,0,n,Identifies the functions handled by this software. Repeat for multiple functions. It may be advisable to note only those functions used in the specific usage of the software.,,,,,,,,,ddi:reusable:3_2,e,
+Lang,language,0,1,Language (human language) of the software package.,,,,,,,,,http://www.w3.org/XML/1998/namespace,a,

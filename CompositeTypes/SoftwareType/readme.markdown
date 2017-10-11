@@ -1,0 +1,1 @@
+Describes a specific software package, which may be commercially available or custom-made.

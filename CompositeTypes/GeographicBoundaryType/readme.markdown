@@ -1,0 +1,1 @@
+A choice of a BoundingBox and/or a set of BoundingPolygons and ExcludingPolygons that describe an area for a specific time period.

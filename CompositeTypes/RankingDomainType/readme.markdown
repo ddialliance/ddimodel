@@ -1,0 +1,1 @@
+A response domain capturing a ranking response which supports a "ranking" of categories. Generally used within a QuestionGrid. Includes standard response domain elements; OutParameter, designation of response cardinality, and a declaration of an offset date for the data content, as well as content for a Nominal Representation.

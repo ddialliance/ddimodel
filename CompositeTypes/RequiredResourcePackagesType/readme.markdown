@@ -1,0 +1,1 @@
+Specifies by reference the ResourcePackages required to resolve the module.

@@ -1,0 +1,4 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+NonISODate,string,0,1,This is the date expressed in a non-ISO compliant structure. Primarily used to retain legacy content or to express non-Gregorian calender dates.,,,,,,,,,ddi:reusable:3_2,e,
+HistoricalDateFormat,CodeValueType,0,1,Indicate the structure of the date provided in NonISODate. For example if the NonISODate contained 4/1/2000 the Historical Date Format would be mm/dd/yyyy. The use of a controlled vocabulary is strongly recommended to support interoperability.,,,,,,,,,ddi:reusable:3_2,e,
+Calendar,CodeValueType,0,1,"Specifies the type of calendar used (e.g., Gregorian, Julian, Jewish).",,,,,,,,,ddi:reusable:3_2,e,

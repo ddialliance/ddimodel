@@ -1,0 +1,1 @@
+A specific rate of response and/or a description of the rate of response for a specific processing event that includes data appraisal.

@@ -1,0 +1,1 @@
+Contains a Reference to a GeographicLevel if available and a name for the level. Only one reference can be provided but multiple name provided.

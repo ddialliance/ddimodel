@@ -1,0 +1,1 @@
+Describes a summary statistic for a variable.

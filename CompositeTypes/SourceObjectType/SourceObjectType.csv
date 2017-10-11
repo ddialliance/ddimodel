@@ -1,0 +1,4 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+OrganizationReference,Organization,0,1,A reference to an Organization described in DDI.,,,,,,,,,ddi:archive:3_2,e,
+IndividualReference,Individual,0,1,A reference to an Individual described in DDI.,,,,,,,,,ddi:archive:3_2,e,
+RelationshipCode,string,0,1,"A specification of the relationship of the Source to the Target in terms of Parent (superior), Child (subordinate), or Sibling (on par).",,,Parent Child Sibling,,,,,,ddi:archive:3_2,e,

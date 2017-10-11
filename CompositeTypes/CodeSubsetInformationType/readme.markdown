@@ -1,0 +1,1 @@
+Allows further specification of the codes to use from the CodeList by defining the level or only the most discrete codes of a hierarchical CodeList, the range of codes to use, or an itemized sub-set.

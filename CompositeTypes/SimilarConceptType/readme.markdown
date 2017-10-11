@@ -1,0 +1,1 @@
+A reference to a concept with similar meaning and a description of their differences. Formal comparison is done using a ConceptMap. The similar concept structure allows specification of similar concepts to address cases where confusion may affect the appropriate use of the concept.

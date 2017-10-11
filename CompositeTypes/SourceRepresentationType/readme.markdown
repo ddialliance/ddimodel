@@ -1,0 +1,1 @@
+Provides a reference to the managed content of a representation which may be a ManagedRepresentation or a specific CodeList, GeographicRepresentation, or GeographicLocation. Allows for the optional reference to a Concept when context is important. For example, a ManagedNumericRepresentation within the context of Age.

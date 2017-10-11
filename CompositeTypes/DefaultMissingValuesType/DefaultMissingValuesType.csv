@@ -1,0 +1,3 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+MissingValuesReference,ManagedMissingValuesRepresentation,0,1,Reference to the appropriate ManagedMissingValuesRepresentation describing the default values.,,,,,,,,,ddi:logicalproduct:3_2,e,
+DefaultUsedNoDocumentation,boolean,0,1,Use when it is known that a default missing values definition was use but there is NO documentation describing its content.,,,,,,,,,ddi:logicalproduct:3_2,e,

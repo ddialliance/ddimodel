@@ -1,0 +1,1 @@
+Each value in the data set linked to it's variable and record identification.

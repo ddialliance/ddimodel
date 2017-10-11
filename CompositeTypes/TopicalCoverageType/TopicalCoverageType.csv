@@ -1,0 +1,3 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Subject,InternationalCodeValueType,0,n,A subject or list of subjects that indicate the topical coverage of the data described in a particular module/section. Uses and InternationalCodeValue and may indicate the language of the code used.,,,,,,,,,ddi:reusable:3_2,e,
+Keyword,InternationalCodeValueType,0,n,A keyword that indicates the topical coverage of the data described in a particular module/section. Uses and InternationalCodeValue and may indicate the language of the code used.,,,,,,,,,ddi:reusable:3_2,e,

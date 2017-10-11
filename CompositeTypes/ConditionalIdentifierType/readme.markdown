@@ -1,0 +1,1 @@
+Describes the information needed to identify a specific record or case within a record type. Repeating the field allows multiple means of identifying a case referencing multiple variables.

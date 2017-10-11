@@ -1,0 +1,1 @@
+A basic structure for describing the methodology used for collecting data. In addition to a descriptive narrative, the methodology may be classified by a short term or external controlled vocabulary.

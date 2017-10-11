@@ -1,0 +1,1 @@
+Allows attachment of a response domain to a specific item in a code or category scheme. For example, attach a TextDomain to the value "Other".

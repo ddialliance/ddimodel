@@ -1,0 +1,1 @@
+This is archive information specific to the creation, maintenance, and archiving of the ResourcePackage provided either in-line or by reference. This packaging element differentiates this "Archive" from one being published as a product within a ResourcePackage.

@@ -1,0 +1,1 @@
+A reference to the variable containing the record type locator and the value being used. TypeOfObject should be set to Variable.

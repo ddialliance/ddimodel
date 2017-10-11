@@ -1,0 +1,1 @@
+The static portion of the text expressed as a StructuredString with the ability to preserve whitespace if critical to the understanding of the content.

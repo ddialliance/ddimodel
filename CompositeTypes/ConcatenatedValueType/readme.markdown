@@ -1,0 +1,1 @@
+Lists the variables whose values when concatenated result in the value for this variable.

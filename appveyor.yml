@@ -1,0 +1,17 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+environment:
+  access_token:
+    secure: ksGzmam38WzJkzyF/ROJdcnBgD5RLpf2eA+SKKeq9Ow+ZaL+KHk/f8N21Cnu4Eh+
+install:
+- ps: build/appveyor-install-dependencies.ps1
+build_script:
+- cmd: build/build-windows.bat
+- cmd: pwd
+artifacts:
+- path: ddi
+on_success:
+- ps: pwd
+- ps: cd \projects\ddimodel
+- ps: pwd
+- ps: ./build/deploy-gitlab-pages.ps1

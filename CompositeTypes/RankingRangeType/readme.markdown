@@ -1,0 +1,1 @@
+Describes the range of values used in the ranking system using Range and sets the number of times a single value can be repeated.

@@ -1,0 +1,1 @@
+Reference to the variable containing the unique identifier. This may be a concatenated variable which indicates the combination of variable required to create a unique identification. If more than one variable reference is included the combination of the variable field contents must be unique and all variables are required for case identification.

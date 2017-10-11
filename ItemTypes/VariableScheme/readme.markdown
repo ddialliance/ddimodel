@@ -1,0 +1,1 @@
+Contains a set of Variables and VariableGroups. In addition to the standard name, label, and description of the Variable Scheme, may contain another VariableScheme by reference, a listing of Variables (in-line or by reference), and a listing of VariableGroups (in-line or by reference).

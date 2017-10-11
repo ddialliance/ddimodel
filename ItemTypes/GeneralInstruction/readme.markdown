@@ -1,0 +1,1 @@
+Processing instructions that pertain to data collection or data processing overall such as handling of non-response to questions, imputation practices, suppression rules, etc. General instructions should be listed separately to allow for referencing of specific processes.

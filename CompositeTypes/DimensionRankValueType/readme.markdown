@@ -1,0 +1,1 @@
+A dimension describes the rank or order of the dimension within the NCube structure and provides the specific coordinate value of the dimension for the data item. In the case where the value is found within the data file, it provides a reference to the variable containing the value.

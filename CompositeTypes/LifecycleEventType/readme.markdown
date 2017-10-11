@@ -1,0 +1,1 @@
+Documents an event in the life cycle of a study or group of studies. A life cycle event can be any event which is judged to be significant enough to document by the agency maintaining the documentation for a particular set of data. The element EventType indicates the type of event, using a typology meaningful to the documenter.

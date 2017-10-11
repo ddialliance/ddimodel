@@ -1,0 +1,1 @@
+Contains a group of NCubes, which may be ordered or hierarchical. In addition to the name, label, and description of the group, the structure allows for defining the type of group using an optional controlled vocabulary, a reference to a defining universe or concept for the group, and a listing of NCubes and NCubeGroups in any order.

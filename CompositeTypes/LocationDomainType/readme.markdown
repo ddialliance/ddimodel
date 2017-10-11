@@ -1,0 +1,1 @@
+A response domain capturing a location response (mark on an image, recording, or object) for a question. Includes standard response domain elements; OutParameter, designation of response cardinality, and a declaration of an offset date for the data content.

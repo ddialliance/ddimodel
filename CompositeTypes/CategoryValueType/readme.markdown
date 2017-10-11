@@ -1,0 +1,1 @@
+A category value for which one or more statistics are recorded. Each VariableCategory has one category value and any number of associated statistics.

@@ -1,0 +1,7 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+QualityStatementSchemeName,NameType,0,n,"A name for the scheme. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:reusable:3_2,e,
+Label,LabelType,0,n,"A display label for the scheme. May be expressed in multiple languages. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_2,e,
+Description,StructuredStringType,0,1,A description of the content and purpose of the scheme. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
+QualityStatementSchemeReference,QualityStatementScheme,0,n,Inclusion of an existing QualityStatementScheme by reference.,,,,,,,,,ddi:reusable:3_2,e,
+QualityStatementReference,QualityStatement,0,n,In-line description of a QualityStatement. These are used by reference at various points in the lifecycle.,,,,,,,,,ddi:reusable:3_2,e,
+QualityStatementGroupReference,QualityStatementGroup,0,n,In-line description of a group of QualityStatements.,,,,,,,,,ddi:reusable:3_2,e,

@@ -1,0 +1,1 @@
+A comprehensive list of the concepts measured by the data that are being documented that is maintained by an agency. In addition to the standard name, label, and description, allows for the inclusion of an existing ConceptScheme by reference, assignment of a controlled vocabulary for the scheme, inclusion of descriptions for Concepts and ConceptGroups in-line or by reference.

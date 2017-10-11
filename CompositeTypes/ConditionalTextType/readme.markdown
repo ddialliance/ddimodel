@@ -1,0 +1,1 @@
+Text which has a changeable value depending on a stated condition, response to earlier questions, or as input from a set of metrics (pre-supplied data).

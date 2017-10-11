@@ -1,0 +1,1 @@
+Identifies the cell or cells in a grid to which the item is attached by a reference to a specific cell coordinate in a grid or by identifying a range of values along a dimension.

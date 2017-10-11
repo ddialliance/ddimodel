@@ -1,0 +1,1 @@
+Provides the following information on the command: The content of the command, the programming language used, the pieces of information (InParameters) used by the command, the pieces of information created by the command (OutParameters) and the source of the information used by the InParameters (Binding).

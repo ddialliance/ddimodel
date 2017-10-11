@@ -1,0 +1,4 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+OrganizationReference,Organization,0,1,A reference to an Organization described in DDI.,,,,,,,,,ddi:archive:3_2,e,
+IndividualReference,Individual,0,1,A reference to an Individual described in DDI.,,,,,,,,,ddi:archive:3_2,e,
+Role,RoleType,0,n,Describes the role of Target Individual or Organization in relation to the Source Object.,,,,,,,,,ddi:archive:3_2,e,

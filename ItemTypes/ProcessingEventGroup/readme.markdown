@@ -1,0 +1,1 @@
+Describes a group of processing events for administrative or conceptual purposes, which may be hierarchical. In addition to the standard name, label, and description contains references to included Processing Events, and other ProcessingEventGroups.

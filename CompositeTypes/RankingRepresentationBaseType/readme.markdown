@@ -1,0 +1,1 @@
+A means of capturing the representation of Ranking to be used as a response domain used by a question. In addition to the basic objects of the representation, the structure defines the range used for ranking including the number of times an individual value may be repeated.

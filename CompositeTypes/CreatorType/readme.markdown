@@ -1,0 +1,1 @@
+Holds the name of the creator and/or a reference to the creator as described within a DDI Organization scheme. Repeat this element for multiple creators.

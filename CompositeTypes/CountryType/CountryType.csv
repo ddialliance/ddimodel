@@ -1,0 +1,2 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Lang,language,0,1,"Indicates the language of content. Note that xml:lang allows for a simple 2 or 3 character language code or a language code extended by a country code , for example en-au for English as used in Australia.",,,,,,,,,http://www.w3.org/XML/1998/namespace,a,

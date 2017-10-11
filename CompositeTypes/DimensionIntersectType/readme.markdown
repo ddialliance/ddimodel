@@ -1,0 +1,1 @@
+Identifies the point at which the scales of a multidimensional scale intersect. May include all or a subset of dimensions intersecting at a given point. Repeat for multiple intersect points.

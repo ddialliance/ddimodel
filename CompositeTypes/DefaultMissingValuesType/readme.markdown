@@ -1,0 +1,1 @@
+Identifies the default missing value parameter for the this logical record by referencing a ManagedMissingValuesRepresentation or by stating that there is a default missing values parameter used but it is undocumented. Note that a conflicting DefaultMissingValues definition in a PhysicalInstance will override that found in the LogicalRecord.

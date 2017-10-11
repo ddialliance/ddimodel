@@ -1,0 +1,1 @@
+Contains information proprietary to the software package which produced the data file. This is expressed as a set of key(name)-value pairs.

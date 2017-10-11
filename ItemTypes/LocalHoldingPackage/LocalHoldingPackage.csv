@@ -1,0 +1,5 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+DepositoryStudyUnitReference,StudyUnit,0,1,A reference to the StudyUnit as deposited.,,,,,,,,,ddi:group:3_2,e,
+DepositoryGroupReference,Group,0,1,A reference to the Group as deposited.,,,,,,,,,ddi:group:3_2,e,
+DepositoryResourcePackageReference,ResourcePackage,0,1,,,,,,,,,,ddi:group:3_2,e,
+LocalAddedContent,LocalAddedContentType,0,1,A reference to the ResourcePackage as deposited.,,,,,,,,,ddi:group:3_2,e,

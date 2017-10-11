@@ -1,0 +1,1 @@
+Specifies the Geographic Structure Codes included in the representation by providing a reference to the authorized source of the code, the GeographicStructure used, and any excluded levels.

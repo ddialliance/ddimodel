@@ -1,0 +1,1 @@
+Use to attach one or more characteristics to the parent object. The defining characteristic supports the use of a controlled vocabulary and may provide a time period for which the classification is valid.

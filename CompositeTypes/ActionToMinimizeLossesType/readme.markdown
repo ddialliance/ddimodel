@@ -1,0 +1,1 @@
+Describes action taken to minimize loss of data from the collection event. This may include a brief term, such as from a controlled vocabulary, and a full description of the actions taken. If multiple actions were taken repeat this element.

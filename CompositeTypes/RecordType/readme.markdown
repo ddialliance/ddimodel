@@ -1,0 +1,1 @@
+For each record, contains the values for the items in order by the specified variable sequence.

@@ -1,0 +1,1 @@
+Provides information about the vocabulary used to create a concept scheme.

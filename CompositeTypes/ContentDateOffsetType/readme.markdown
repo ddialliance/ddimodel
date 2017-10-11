@@ -1,0 +1,1 @@
+Identifies the difference between the date applied to the data as a whole and this specific item such as previous year's income or residence 5 years ago. A value of true for the attribute isNegativeOffset indicates that the offset is the specified number of declared units prior to the date of the data as a whole and false indicates information regarding a future state.

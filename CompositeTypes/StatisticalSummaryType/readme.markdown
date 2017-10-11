@@ -1,0 +1,1 @@
+Provides a statistical summary of the data in the related file as a set of variable level and category level statistics. May refer to a set of statistics provided in another physical instance (for example if the same data is held in multiple storage formats) or if the summary statistics are held as a separate data set.

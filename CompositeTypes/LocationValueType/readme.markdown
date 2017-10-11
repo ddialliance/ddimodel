@@ -1,0 +1,1 @@
+A location of the specified geographic level providing information on its name, identification codes, temporal and spatial coverage as expressed by bounding and excluding polygon descriptions or references.

@@ -1,0 +1,7 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+GeographicStructureSchemeName,NameType,0,n,"A name for the GeographicStructure. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:conceptualcomponent:3_2,e,
+Label,LabelType,0,n,"A display label for the GeographicStructure. May be expressed in multiple languages. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_2,e,
+Description,StructuredStringType,0,1,A description of the GeographicStructure. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
+GeographicStructureSchemeReference,GeographicStructureScheme,0,n,The inclusion of an existing GeographicStructureScheme in the parent scheme by reference.,,,,,,,,,ddi:reusable:3_2,e,
+GeographicStructureReference,GeographicStructure,0,n,"Used to describe any level of geography, including overall coverage and each of the lower levels.",,,,,,,,,ddi:reusable:3_2,e,
+GeographicStructureGroupReference,GeographicStructureGroup,0,n,In-line description of a group of GeographicStructure.,,,,,,,,,ddi:conceptualcomponent:3_2,e,

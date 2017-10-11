@@ -1,0 +1,3 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+TypeOfSamplingProcedure,CodeValueType,0,1,Allows brief identification of sampling procedure used with the option of using a controlled vocabulary.,,,,,,,,,ddi:datacollection:3_2,e,
+Description,StructuredStringType,0,1,"Full description of the sampling procedure. This may include information on the sample frame, sampling methodology, and procedures for identifying and selecting sub-populations. Supports structured content and multiple language content.",,,,,,,,,ddi:reusable:3_2,e,

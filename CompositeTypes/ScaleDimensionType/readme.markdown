@@ -1,0 +1,1 @@
+Defines a dimension of a scale providing it with a label, a numeric or character based range, the attachment of a category label at one or more of the scale values, the frequency of increment markers, and the frequency of value labels on marked or unmarked increments.

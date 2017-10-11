@@ -1,0 +1,10 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+LocationName,LocationNameType,0,n,". May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:archive:3_2,e,
+Address,AddressType,0,n,Location address identifying each part of the address as separate elements.,,,,,,,,,ddi:archive:3_2,e,
+Telephone,TelephoneType,0,n,Telephone number for the location,,,,,,,,,ddi:archive:3_2,e,
+URL,URLType,0,n,URL for the location's website.,,,,,,,,,ddi:archive:3_2,e,
+Email,EmailType,0,n,Generic email address for the location,,,,,,,,,ddi:archive:3_2,e,
+InstantMessaging,InstantMessagingType,0,n,Instant Messaging identification for the location,,,,,,,,,ddi:archive:3_2,e,
+RegionalCoverage,CodeValueType,0,1,"The geographic region for which this location operates. For example, the Kansas City office of the United States Bureau of the Census has responsibility for a region covering a number of states.",,,,,,,,,ddi:archive:3_2,e,
+TypeOfLocation,CodeValueType,0,1,"Type of location e.g. home, primary office, alternate office etc.",,,,,,,,,ddi:archive:3_2,e,
+Privacy,string,0,1,A basic set of privacy codes for the parent element. These may be stricter than the general access restrictions for the overall metadata. If available codes are insufficient this may also contain any string.,,,public restricted private,,,,,,,a,

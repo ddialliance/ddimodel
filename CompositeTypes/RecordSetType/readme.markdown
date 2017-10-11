@@ -1,0 +1,1 @@
+Storage format arranged record by record. A RecordSet requires a list of variables to appear in a specified order. Provides a consistent order for the variables and a set of values for each record displayed in variable order.

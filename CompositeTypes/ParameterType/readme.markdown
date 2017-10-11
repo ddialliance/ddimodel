@@ -1,0 +1,1 @@
+A parameter is a structure that specifically identifies a source of input or output information so that it can be use pragmatically.

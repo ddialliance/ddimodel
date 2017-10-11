@@ -1,0 +1,1 @@
+Set of north, south, east, west coordinates defining a rectangle that encompasses the full extent of geographic coverage.

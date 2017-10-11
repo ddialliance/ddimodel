@@ -1,0 +1,6 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+QualityStatementName,NameType,0,n,Name of the QualityStatement using the DDI Name structure.,,,,,,,,,ddi:reusable:3_2,e,
+Label,LabelType,0,n,"A display label for the QualityStatement. May be expressed in multiple languages. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_2,e,
+Description,StructuredStringType,0,1,A description of the QualityStatement. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
+Standard,StandardType,0,1,Identifies the external standard used and describes the level of compliance with the standard in terms specific aspects of the standard's content.,,,,,,,,,ddi:reusable:3_2,e,
+OtherQualityStatement,StructuredStringType,0,1,Describes the steps taken to ensure quality that are not related to a specific standard. Language variants should be captured within a single OtherQualityStatement. Repeat the OtherQualityStatement for differing content if needed.,,,,,,,,,ddi:reusable:3_2,e,

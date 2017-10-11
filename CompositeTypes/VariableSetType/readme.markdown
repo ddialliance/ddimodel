@@ -1,0 +1,1 @@
+Storage format arranged variable by variable. Item values are listed in record order with the assumption that each record will occupy the position in each array.

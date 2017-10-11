@@ -1,0 +1,1 @@
+A basic data representation for computing systems and applications expressed as a tuple (attribute key, value). Attribute keys may or may not be unique.

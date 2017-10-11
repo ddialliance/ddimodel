@@ -1,0 +1,1 @@
+Use when only the lowest, most discrete codes in the CodeList will be expressed as valid values. Identifies those levels of a CodeList with a regular hierarchy or those indicates discrete codes within an irregular hierarchy. All other codes will be used as labels within the hierarchy to clearly express content, but will not be valid as a response or representation value.

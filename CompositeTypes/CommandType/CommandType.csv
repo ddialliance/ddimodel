@@ -1,0 +1,6 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+ProgramLanguage,CodeValueType,0,1,Designates the programming language used for the command. Supports the use of a controlled vocabulary.,,,,,,,,,ddi:reusable:3_2,e,
+InParameter,InParameterType,0,n,Describes the information used by the command as it is identified within the command structure.,,,,,,,,,ddi:reusable:3_2,e,
+OutParameter,ParameterType,0,n,Describes the information that results from the command that may be used as input by another object.,,,,,,,,,ddi:reusable:3_2,e,
+Binding,BindingType,0,n,Defines the link between the output of an external object to an InParameter described above.,,,,,,,,,ddi:reusable:3_2,e,
+CommandContent,string,0,1,Content of the command itself expressed in the language designated in Programming Language.,,,,,,,,,ddi:reusable:3_2,e,

@@ -1,0 +1,1 @@
+Captures an individuals assigned researcher ID within a specified system. Includes the type or researcher ID provided, the ID, a URI of the location or link, and a description of the researcher ID provided. E.g., Rajiv Agrwal, type=researcherID, ID=A-8725-2008), URI=www.researcherid.com/rid/A-8725-2008 which brings you to the researchers page.

@@ -1,0 +1,1 @@
+Describes the temporal coverage of the data described in a particular DDI module. A date may have a subject attached to it if the referent date has limited application.

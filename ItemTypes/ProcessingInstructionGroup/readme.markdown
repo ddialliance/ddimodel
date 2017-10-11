@@ -1,0 +1,1 @@
+Describes a group of processing instructions for administrative or conceptual purposes, which may be hierarchical. In addition to the standard name, label, and description contains references to included Generation or General Instructions, and other ProcessingInstructionGroups.

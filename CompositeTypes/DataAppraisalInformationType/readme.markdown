@@ -1,0 +1,1 @@
+Describes the result of data appraisal activities as a response rate and sampling error. May also list additional appraisal processes taken as a result of the initial appraisal process.

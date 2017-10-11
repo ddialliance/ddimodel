@@ -1,0 +1,1 @@
+Use to specify the languages known by the individual in terms of their ability to  speak, read, and write the language. May be repeated to cover multiple languages. This information is useful for foreign contacts in determining the language of communication to use with this individual.

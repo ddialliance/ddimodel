@@ -1,0 +1,1 @@
+Provides a reference to a codified representation. Supports the ability to limit code coverage as appropriate for the coding structure referenced.

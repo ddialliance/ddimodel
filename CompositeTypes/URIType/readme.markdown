@@ -1,0 +1,1 @@
+A URN or URL for a file with a flag to indicate if it is a public copy.

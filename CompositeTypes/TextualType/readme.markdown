@@ -1,0 +1,1 @@
+Defines the segment of textual content used by the parent object. Can identify a set of lines and or characters used to define the segment.

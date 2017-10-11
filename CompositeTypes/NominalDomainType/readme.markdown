@@ -1,0 +1,1 @@
+A response domain capturing a nominal (check off) response for a question grid response. Includes standard response domain elements; OutParameter, designation of response cardinality, and a declaration of an offset date for the data content.

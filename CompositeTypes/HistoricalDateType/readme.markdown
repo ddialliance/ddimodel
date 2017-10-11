@@ -1,0 +1,1 @@
+Used to preserve an historical date, formatted in a non-ISO fashion.

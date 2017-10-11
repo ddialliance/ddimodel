@@ -1,0 +1,1 @@
+A scheme containing a set of RecordLayouts describing the location of individual data items within the physical record and how to address them (locate and retrieve). RecordLayouts provide a link to the PhysicalStructure description and to individual variables or NCubes describing the data items.

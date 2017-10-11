@@ -1,0 +1,1 @@
+A set of Processing Instructions (General and Generation Instructions) maintained by an agency. In addition to the standard name, label, and description allows for the inclusion of an existing ProcessingInstructionScheme by reference, and GeneralInstruction, GenerationInstruction, and ProcessingInstructionGroup descriptions either in-line or by reference.

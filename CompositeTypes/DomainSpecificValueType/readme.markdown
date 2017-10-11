@@ -1,0 +1,1 @@
+Identifies the value of the ResponseDomain to which the new ResponseDomain is attached by specifying its attachmentBase number of the target ResponseDomain in the attribute attachmentDomain. Specifies one or more values within the ResponseDomain to which the object is attached (i.e. single item or set).

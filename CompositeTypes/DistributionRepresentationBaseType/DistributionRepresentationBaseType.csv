@@ -1,0 +1,3 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+DistributionValue,decimal,0,1,Identifies the total value to be distributed among the designated objects.,,,,,,,,,ddi:reusable:3_2,e,
+DecimalPositions,int,0,1,Identifies the number of decimal points allowed for the expression of a response.,,,,,,,,,,a,

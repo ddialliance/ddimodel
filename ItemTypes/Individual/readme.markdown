@@ -1,0 +1,1 @@
+Details of an individual including name, contact information, a definition, keywords to support searching, their regional affiliation, language ability and any additional information. The individual and specific pieces of information regarding the individual may be tagged for information privacy.
