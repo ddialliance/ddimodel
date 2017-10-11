@@ -22,7 +22,7 @@ git clone https://github.com/ddialliance/ddimodel-web.git
 Write-Output "Copying new html docs"
 
 PUSHD ddimodel-web
-Copy-Item ..\dirhtml\* $env:APPVEYOR_REPO_COMMIT -Force -Recurse
+Copy-Item ..\dirhtml\ $env:APPVEYOR_REPO_COMMIT -Force -Recurse
 
 
 if (!(Test-Path 'builds.json')) 

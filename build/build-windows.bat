@@ -14,16 +14,16 @@ echo XSD
 %cogs% publish-xsd . ddi\xsd --overwrite --namespace "http://www.ddialliance.org/ddi" --namespacePrefix ddi
 
 echo UML
-%cogs% publish-uml . ddi\uml --location graphviz\release\bin --overwrite
+%cogs% publish-uml . ddi\uml --location graphviz\release\bin\dot.exe --overwrite
 
 echo OWL
 %cogs% publish-owl . ddi\owl --overwrite
 
-REM %cogs% publish-dot . --location ddi\dot graphviz\release\bin --overwrite --single
-REM %cogs% publish-dot . --location ddi\dot graphviz\release\bin --overwrite --all --inheritance
+REM %cogs% publish-dot . --location ddi\dot graphviz\release\bin\dot.exe --overwrite --single
+REM %cogs% publish-dot . --location ddi\dot graphviz\release\bin\dot.exe --overwrite --all --inheritance
 
 echo Sphinx
-%cogs% publish-sphinx . ddi\sphinx --location graphviz\release\bin --overwrite
+%cogs% publish-sphinx . ddi\sphinx --location graphviz\release\bin\dot.exe --overwrite
 
 echo C#
 %cogs% publish-cs . ddi\csharp --overwrite
