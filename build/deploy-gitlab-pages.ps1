@@ -15,7 +15,7 @@ Write-Output "Cloning the DDI docs"
 git config --global credential.helper store
 Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
 git config --global user.name "ddibot"
-git config --global user.email "ddibot@ddialliance.org"
+git config --global user.email "ddibot@colectica.com"
 
 git clone https://github.com/ddialliance/ddimodel-web.git
 
