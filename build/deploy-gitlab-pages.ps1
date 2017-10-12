@@ -32,10 +32,16 @@ if (!(Test-Path 'builds.json'))
 
 $buildsjson = Get-Content 'builds.json' -raw | ConvertFrom-Json
 
+$web_client = new-object system.net.webclient
+$commit_info = Invoke-RestMethod -Uri "https://api.github.com/repos/$env:APPVEYOR_REPO_NAME/commits/$env:APPVEYOR_REPO_COMMIT"
+
+$committer =  $commit_info.committer | ConvertTo-Json
+
 $newBuild =@"
     {
     "APPVEYOR_BUILD_ID":"$env:APPVEYOR_BUILD_ID",
     "APPVEYOR_REPO_BRANCH":"$env:APPVEYOR_REPO_BRANCH",
+    "APPVEYOR_REPO_NAME":"$env:APPVEYOR_REPO_NAME",
     "APPVEYOR_REPO_TAG_NAME":"$env:APPVEYOR_REPO_TAG_NAME",
     "APPVEYOR_REPO_COMMIT":"$env:APPVEYOR_REPO_COMMIT",
     "APPVEYOR_REPO_COMMIT_AUTHOR":"$env:APPVEYOR_REPO_COMMIT_AUTHOR",
@@ -47,7 +53,8 @@ $newBuild =@"
     "APPVEYOR_PULL_REQUEST_TITLE":"$env:APPVEYOR_PULL_REQUEST_TITLE",
     "APPVEYOR_PULL_REQUEST_HEAD_REPO_NAME":"$env:APPVEYOR_PULL_REQUEST_HEAD_REPO_NAME",
     "APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH":"$env:APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH",
-    "APPVEYOR_PULL_REQUEST_HEAD_COMMIT":"$env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT"
+    "APPVEYOR_PULL_REQUEST_HEAD_COMMIT":"$env:APPVEYOR_PULL_REQUEST_HEAD_COMMIT",
+    "github_commit_info" : $committer
     }
 "@
 
