@@ -25,17 +25,10 @@ PUSHD ddimodel-web
 Copy-Item ..\dirhtml\ $env:APPVEYOR_REPO_COMMIT -Force -Recurse
 
 
-if (!(Test-Path 'builds.json')) 
-{
-    Add-Content "builds.json" "{builds : []}`n"
-}
-
-$buildsjson = Get-Content 'builds.json' -raw | ConvertFrom-Json
-
 $web_client = new-object system.net.webclient
 $commit_info = Invoke-RestMethod -Uri "https://api.github.com/repos/$env:APPVEYOR_REPO_NAME/commits/$env:APPVEYOR_REPO_COMMIT"
 
-$committer =  $commit_info.committer | ConvertTo-Json
+$committer =  $commit_info.committer | ConvertTo-Json -Depth 10
 
 $newBuild =@"
     {
@@ -60,10 +53,20 @@ $newBuild =@"
 
 Write-Output $newBuild
 
-$buildsjson.builds += (ConvertFrom-Json -InputObject $newBuild)
+if (!(Test-Path 'builds.json')) 
+{
+    $buildsjson = @{ builds = @($newBuild | ConvertFrom-Json)}
+} 
+else 
+{ 
+    $buildsjson = Get-Content 'builds.json' -raw | ConvertFrom-Json
 
-$buildsjson | ConvertTo-Json  | set-content 'builds.json'
+    $buildsjson.builds += (ConvertFrom-Json -InputObject $newBuild)
+    $builds = $buildsjson.builds
+    $buildsjson.builds = $builds | Sort-Object APPVEYOR_BUILD_ID -Descending
+}
 
+$buildsjson | ConvertTo-Json -Depth 10 | set-content 'builds.json'
 
 git add .
 git commit -m 'docs'
