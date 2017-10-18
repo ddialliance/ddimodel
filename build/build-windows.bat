@@ -3,6 +3,7 @@ mkdir ddi\
 
 echo Validate
 %cogs% validate .
+if %errorlevel% neq 0 exit /b %errorlevel%
 
 echo JSON
 %cogs% publish-json . ddi\json --overwrite
