@@ -1,5 +1,7 @@
 Study
 Data Capture
-Data
+Data Description
 Foundational
-All Content Items
+Agent
+Classification
+Non-Packaging Items
