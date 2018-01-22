@@ -1,0 +1,13 @@
+ConceptualVariable
+DataRelationship
+ManagedDateTimeRepresentation
+ManagedMissingValuesRepresentation
+ManagedNumericRepresentation
+ManagedScaleRepresentation
+ManagedTextRepresentation
+NCube
+PhysicalInstance
+RepresentedVariable
+Variable
+VariableStatistics
+Weighting
