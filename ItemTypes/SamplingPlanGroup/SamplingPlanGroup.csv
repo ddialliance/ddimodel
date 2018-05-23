@@ -1,0 +1,10 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+TypeOfSamplingPlanGroup,CodeValueType,0,1,"A generic element for specifying a reason for a sampling plan group. Note that this element can contain either a term from a controlled vocabulary list or a textual description. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:datacollection:3_3,e,
+SamplingPlanGroupName,NameType,0,n,A name for a sampling plan group which may be repeated to express differing names for different systems.,,,,,,,,,ddi:datacollection:3_3,e,
+Label,LabelType,0,n,"A display label for the sampling plan group. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,Additional textual description of the sampling plan group. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
+UniverseReference,Universe,0,n,"Reference to the universe statement describing the persons or other elements that the sampling plans refer to, and to which any analytic results refer.",,,,,,,,,ddi:reusable:3_3,e,
+ConceptReference,Concept,0,1,Reference to the concept measured by the sampling plans in this group.,,,,,,,,,ddi:reusable:3_3,e,
+SamplingPlanReference,SamplingPlan,0,1,Reference to constituent SamplingPlan.,,,,,,,,,ddi:datacollection:3_3,e,
+SamplingPlanGroupReference,SamplingPlanGroup,0,1,Reference to constituent sampling plan group. This allows for nesting of sampling plan groups.,,,,,,,,,ddi:datacollection:3_3,e,
+IsOrdered,boolean,0,1,Indicates that the content of the group is ordered as it appears within the XML structure.,,,,,,,,,,a,

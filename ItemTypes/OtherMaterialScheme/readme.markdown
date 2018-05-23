@@ -1,0 +1,1 @@
+This scheme contains a set of other materials referenced by the metadata. In addition to the name, label, and description of the scheme, the structure supports the inclusion of another OtherMaterialScheme by reference and a set of OtherMaterial descriptions either in-line or by reference.

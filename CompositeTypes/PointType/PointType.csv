@@ -1,3 +1,3 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-XCoordinate,SpatialCoordinateType,0,1,An X coordinate (latitudinal equivalent) value and format expressed using the Spatial Coordinate structure.,,,,,,,,,ddi:reusable:3_2,e,
-YCoordinate,SpatialCoordinateType,0,1,A Y coordinate (longitudinal equivalent) value and format expressed using the Spatial Coordinate structure.,,,,,,,,,ddi:reusable:3_2,e,
+XCoordinate,SpatialCoordinateType,0,1,An X coordinate (latitudinal equivalent) value and format expressed using the Spatial Coordinate structure.,,,,,,,,,ddi:reusable:3_3,e,
+YCoordinate,SpatialCoordinateType,0,1,A Y coordinate (longitudinal equivalent) value and format expressed using the Spatial Coordinate structure.,,,,,,,,,ddi:reusable:3_3,e,

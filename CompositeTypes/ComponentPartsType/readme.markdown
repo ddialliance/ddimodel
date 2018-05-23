@@ -1,1 +1,0 @@
-A stack of LocationValueReferences to each of the locations of the specified PrimaryComponentLevel type that make up the Component Area. Includes a GeographicTime to allow for repetition for change over time.

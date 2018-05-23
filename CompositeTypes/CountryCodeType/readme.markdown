@@ -1,1 +1,1 @@
-Serves as head of a substitution group for specifying ISO 3166 Country Codes or use of unspecified text.
+Use of a Controlled Vocabulary is strongly recommended. Use of ISO 3166 Country Codes (2 character, 3 character, or Numeric) is preferred with or without attribution to a specific controlled vocabulary. If using some other coding system it is important to cite the source as the assumption will generally be that ISO 3166 codes have been used. Allows for an optional effective date for the country code. This can effect the actual geographic coverage or related name.

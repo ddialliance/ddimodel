@@ -1,0 +1,1 @@
+Describes available aids for translation typed by a controlled vocabulary and supporting a description and resource identification where appropriate. This may include items such as the availability of an interpreter, key word material, etc.

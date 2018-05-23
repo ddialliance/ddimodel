@@ -1,5 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-AgencyOrganizationReference,Organization,0,n,"Reference to an organization or individual, defined in the organization scheme, that served as a funding source.",,,,,,,,,ddi:reusable:3_2,e,
-FunderRole,CodeValueType,0,1,Role of the funding organization or individual. Supports the use of a controlled vocabulary.,,,,,,,,,ddi:reusable:3_2,e,
-GrantNumber,string,0,n,The identification code of the grant or other monetary award which provided funding for the described object.,,,,,,,,,ddi:reusable:3_2,e,
-Description,StructuredStringType,0,1,Additional information regarding the role and actions of the this funding source.,,,,,,,,,ddi:reusable:3_2,e,
+AgencyOrganizationReference,Organization,0,n,"Reference to an organization or individual, defined in the organization scheme, that served as a funding source.",,,,,,,,,ddi:reusable:3_3,e,
+FunderRole,CodeValueType,0,1,Role of the funding organization or individual. Supports the use of a controlled vocabulary.,,,,,,,,,ddi:reusable:3_3,e,
+GrantNumber,string,0,n,The identification code of the grant or other monetary award which provided funding for the described object.,,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,Additional information regarding the role and actions of the this funding source. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,

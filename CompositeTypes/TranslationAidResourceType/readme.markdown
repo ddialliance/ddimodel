@@ -1,0 +1,1 @@
+Provides a reference to the translation aid resource using the structure of OtherMaterial.

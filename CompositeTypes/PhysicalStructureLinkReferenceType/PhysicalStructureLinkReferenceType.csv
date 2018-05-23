@@ -1,2 +1,2 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-PhysicalRecordSegmentUsed,IDType,0,1,References the ID of PhysicalRecordSegment that describes the coverage of the record contents. The ID of the PhysicalRecordSegment must be contained within the referenced PhysicalStructure.,,,,,,,,,ddi:physicaldataproduct:3_2,e,
+PhysicalRecordSegmentUsed,IDType,0,1,References the ID of PhysicalRecordSegment that describes the coverage of the record contents. The ID of the PhysicalRecordSegment must be contained within the referenced PhysicalStructure.,,,,,,,,,ddi:physicaldataproduct:3_3,e,

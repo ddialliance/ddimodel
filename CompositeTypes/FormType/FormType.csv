@@ -1,5 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-FormNumber,string,0,1,The number or other means of identifying the form.,,,,,,,,,ddi:archive:3_2,e,
-URI,anyURI,0,1,The URN or URL of the form.,,,,,,,,,ddi:reusable:3_2,e,
-Statement,InternationalStringType,0,1,"A statement regarding the use, coverage, and purpose of the form.",,,,,,,,,ddi:archive:3_2,e,
+FormNumber,string,0,1,The number or other means of identifying the form.,,,,,,,,,ddi:archive:3_3,e,
+URI,anyURI,0,1,The URN or URL of the form.,,,,,,,,,ddi:reusable:3_3,e,
+Statement,InternationalStringType,0,1,"A statement regarding the use, coverage, and purpose of the form.",,,,,,,,,ddi:archive:3_3,e,
 IsRequired,boolean,0,1,"Set to ""true"" if the form is required. Set to ""false"" if the form is optional.",,,,,,,,,,a,

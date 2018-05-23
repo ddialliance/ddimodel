@@ -1,5 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-ContentLinkingMap,ContentLinkingMapType,0,1,Contains a stack of links from the LocalAddedContent to the Depository content and provides instructions regarding the relationship between the local added content and the deposited content.,,,,,,,,,ddi:group:3_2,e,
-LocalStudyUnitContentReference,StudyUnit,0,n,Local Content using the StudyUnit structure.,,,,,,,,,ddi:group:3_2,e,
-LocalGroupContentReference,Group,0,n,Local Content using the Group structure.,,,,,,,,,ddi:group:3_2,e,
-LocalResourcePackageContentReference,ResourcePackage,0,n,Local Content using the ResourcePackage structure.,,,,,,,,,ddi:group:3_2,e,
+ContentLinkingMap,ContentLinkingMapType,0,1,Contains a stack of links from the LocalAddedContent to the Depository content and provides instructions regarding the relationship between the local added content and the deposited content.,,,,,,,,,ddi:group:3_3,e,
+LocalStudyUnitContentReference,StudyUnit,0,n,Local Content using the StudyUnit structure.,,,,,,,,,ddi:group:3_3,e,
+LocalGroupContentReference,Group,0,n,Local Content using the Group structure.,,,,,,,,,ddi:group:3_3,e,
+LocalResourcePackageContentReference,ResourcePackage,0,n,Local Content using the ResourcePackage structure.,,,,,,,,,ddi:group:3_3,e,

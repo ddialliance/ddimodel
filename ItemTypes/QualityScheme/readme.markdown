@@ -1,0 +1,1 @@
+This scheme contains a set of quality statements and quality standards referenced by the metadata at different points in the lifecycle. In addition to the name, label, and description of the scheme, the structure supports the inclusion of another QualityStatementScheme by reference and a set of QualityStatement descriptions either in-line or by reference.

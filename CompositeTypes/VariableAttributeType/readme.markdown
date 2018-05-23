@@ -1,0 +1,1 @@
+An attribute may be any other Variable which should be attached to or coupled with a Variable such as a weight, filter, or other related variable. The VariableAttribute may be typed using a Controlled Vocabulary structure.

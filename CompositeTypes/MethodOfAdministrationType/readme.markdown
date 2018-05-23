@@ -1,0 +1,1 @@
+Describes the method of pretest administration using a controlled vocabulary and description.

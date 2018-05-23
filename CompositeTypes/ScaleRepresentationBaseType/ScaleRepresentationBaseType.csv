@@ -1,4 +1,4 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-ScaleDimension,ScaleDimensionType,0,n,A description of a dimension of the scale. Note that most scales will have only one dimension.,,,,,,,,,ddi:reusable:3_2,e,
-DimensionIntersect,DimensionIntersectType,0,n,Identifies the point at which the scales of a multidimensional scale intersect.,,,,,,,,,ddi:reusable:3_2,e,
-DisplayLayout,CodeValueType,0,1,"Defines they layout such as containing a drawn scale line, a list of values only, an outline (the boundaries of the area defined by 2 or more intersecting scales such as a diamond of opposites), or some other layout design. Allows for the use of a controlled vocabulary.",,,,,,,,,ddi:reusable:3_2,e,
+ScaleDimension,ScaleDimensionType,0,n,A description of a dimension of the scale. Note that most scales will have only one dimension.,,,,,,,,,ddi:reusable:3_3,e,
+DimensionIntersect,DimensionIntersectType,0,n,Identifies the point at which the scales of a multidimensional scale intersect.,,,,,,,,,ddi:reusable:3_3,e,
+DisplayLayout,CodeValueType,0,1,"Defines they layout such as containing a drawn scale line, a list of values only, an outline (the boundaries of the area defined by 2 or more intersecting scales such as a diamond of opposites), or some other layout design. Allows for the use of a controlled vocabulary.",,,,,,,,,ddi:reusable:3_3,e,

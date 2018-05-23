@@ -1,4 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Location,InternationalStringType,0,1,Documents the location of the data file as a description. Supports the multi-language content.,,,,,,,,,ddi:reusable:3_2,e,
-DataFileURI,URIType,0,1,A URN or URL for the data file with a flag to indicate if it is a public copy.,,,,,,,,,ddi:physicalinstance:3_2,e,
+Location,InternationalStringType,0,1,Documents the location of the data file as a description. Supports the multi-language content.,,,,,,,,,ddi:reusable:3_3,e,
+DataFileURI,URIType,0,1,A URN or URL for the data file with a flag to indicate if it is a public copy.,,,,,,,,,ddi:physicalinstance:3_3,e,
+SizeInBytes,nonNegativeInteger,0,1,Specifies the size of the file in bytes.,,,,,,,,,ddi:reusable:3_3,e,
 IsMaster,boolean,0,1,"Set to ""true"" when this file is the master file (in the case that there are multiple, i.e. backup, copies).",,,,,,,,,,a,

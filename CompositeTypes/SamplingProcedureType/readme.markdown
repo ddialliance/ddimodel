@@ -1,1 +1,1 @@
-Describes the type of sample, sample design and provides details on drawing the sample. In addition to the descriptive narrative supports the use of a brief term or controlled vocabulary to classify the type of sampling procedure described.
+Describes a sampling procedure. If multiple sampling procedures were used repeat this element for each.

@@ -1,0 +1,1 @@
+Specify requirements for type of staffing needed to complete activity including the class of staff participating in the activity, requirements for those participants, and the recruitment process.

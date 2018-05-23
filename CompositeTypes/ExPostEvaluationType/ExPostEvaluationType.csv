@@ -1,6 +1,6 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-TypeOfEvaluation,CodeValueType,0,n,Brief identification of the type of evaluation. Supports the use of an external controlled vocabulary.,,,,,,,,,ddi:reusable:3_2,e,
-Evaluator,EvaluatorType,0,n,Identifies the evaluator and specifies the role of the evaluator using an external controlled vocabulary.,,,,,,,,,ddi:reusable:3_2,e,
-EvaluationProcess,StructuredStringType,0,n,Describes the evaluation process. Supports multi-lingual content. Allows the optional use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
-Outcomes,StructuredStringType,0,n,Describes the outcomes of the evaluation process. Supports multi-lingual content. Allows the optional use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
+TypeOfEvaluation,CodeValueType,0,n,Brief identification of the type of evaluation. Supports the use of an external controlled vocabulary.,,,,,,,,,ddi:reusable:3_3,e,
+Evaluator,EvaluatorType,0,n,Identifies the evaluator and specifies the role of the evaluator using an external controlled vocabulary.,,,,,,,,,ddi:reusable:3_3,e,
+EvaluationProcess,StructuredStringType,0,n,Describes the process of the Evaluation. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
+Outcomes,StructuredStringType,0,n,Describes the outcomes of the evaluation process. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
 CompletionDate,cogsDate,0,1,Identifies the date the evaluation was completed.,,,,,,,,,,a,

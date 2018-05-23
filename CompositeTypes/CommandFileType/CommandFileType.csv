@@ -1,7 +1,7 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-ProgramLanguage,CodeValueType,0,1,Designates the programming language used for the command. Supports the use of a controlled vocabulary.,,,,,,,,,ddi:reusable:3_2,e,
-InParameter,InParameterType,0,n,Describes the information used by the command as it is identified within the command structure. Use of the Alias may be needed to tie the designated input parameter content to its use in the external command file.,,,,,,,,,ddi:reusable:3_2,e,
-OutParameter,ParameterType,0,n,Describes the information that results from the command that may be used as input by another object. Use of the Alias may be needed to tie the designated output parameter content to its use in the external command file.,,,,,,,,,ddi:reusable:3_2,e,
-Binding,BindingType,0,n,Defines the link between the output of an external object to an InParameter described above.,,,,,,,,,ddi:reusable:3_2,e,
-Location,InternationalStringType,0,1,A description of the location of the file. This may not be machine actionable. It supports a description expressed in multiple languages.,,,,,,,,,ddi:reusable:3_2,e,
-URI,anyURI,0,1,The URL or URN of the command file.,,,,,,,,,ddi:reusable:3_2,e,
+ProgramLanguage,CodeValueType,0,1,Designates the programming language used for the command. Supports the use of a controlled vocabulary.,,,,,,,,,ddi:reusable:3_3,e,
+InParameter,InParameterType,0,n,Describes the information used by the command as it is identified within the command structure. Use of the Alias may be needed to tie the designated input parameter content to its use in the external command file.,,,,,,,,,ddi:reusable:3_3,e,
+OutParameter,ParameterType,0,n,Describes the information that results from the command that may be used as input by another object. Use of the Alias may be needed to tie the designated output parameter content to its use in the external command file.,,,,,,,,,ddi:reusable:3_3,e,
+Binding,BindingType,0,n,Defines the link between the output of an external object to an InParameter described above.,,,,,,,,,ddi:reusable:3_3,e,
+Location,InternationalStringType,0,1,A description of the location of the file. This may not be machine actionable. It supports a description expressed in multiple languages.,,,,,,,,,ddi:reusable:3_3,e,
+URI,anyURI,0,1,The URL or URN of the command file.,,,,,,,,,ddi:reusable:3_3,e,

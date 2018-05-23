@@ -1,0 +1,1 @@
+Description and link to the StimulusMaterial using the DDI Other Material structure.

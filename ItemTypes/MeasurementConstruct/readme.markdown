@@ -1,0 +1,1 @@
+A construct which ties measurement content to the programmatic logic of the control constructs. Contains a reference to a MeasurementItem, identifies the response unit, analysis unit, and universe. May provide an estimate of the number of minutes needed to respond.

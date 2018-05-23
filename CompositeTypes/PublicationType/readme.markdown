@@ -1,0 +1,1 @@
+Description and link to the Publication using the DDI Other Material structure.

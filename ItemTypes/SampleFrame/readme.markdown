@@ -1,0 +1,1 @@
+An inline description of a sample frame (the source material from which a sample is drawn), i.e. phone book, data base, etc. A sample frame is intended to be versioned over time and can be reused by multiple studies.

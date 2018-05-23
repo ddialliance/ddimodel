@@ -1,0 +1,1 @@
+A Classification Series is an ensemble of one or several consecutive Statistical Classifications under a particular heading (for example ISIC or ISCO).

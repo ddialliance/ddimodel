@@ -1,3 +1,4 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-CommandCode,CommandCodeType,0,1,The Code which contains the value of the variable in programming terms.,,,,,,,,,ddi:reusable:3_2,e,
-AssignedVariableReference,ParameterType,0,1,A reference to a variable to which the associated value in the Code element is assigned.,,,,,,,,,ddi:datacollection:3_2,e,
+TypeOfComputationItem,CodeValueType,0,1,A brief textual identification of the ComputationItem. Supports the use of an external controlled vocabulary.,,,,,,,,,ddi:datacollection:3_3,e,
+CommandCode,CommandCodeType,0,1,The Code which contains the value of the variable in programming terms.,,,,,,,,,ddi:reusable:3_3,e,
+AssignedVariableReference,ParameterType,0,1,A reference to a variable to which the associated value in the Code element is assigned.,,,,,,,,,ddi:datacollection:3_3,e,

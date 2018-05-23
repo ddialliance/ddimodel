@@ -1,1 +1,1 @@
-Provide a label to be included inside of a grid cell and defines the cell or cells that contain it.
+Provide a label to be included inside of a grid cell and defines the cell or cells that contain it. Supports multiple language versions of the same content as well as optional formatting of the content.

@@ -1,0 +1,1 @@
+Consists of an integer value and specification of the unit. The unit may be specified using a controlled vocabulary.

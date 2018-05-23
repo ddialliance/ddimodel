@@ -1,0 +1,3 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+MinimumLanguageAbility,IndividualLanguageType,0,1,"Identifies the language and the individuals ability to read, write, and speak the designated language using a controlled vocabulary.",,,,,,,,,ddi:datacollection:3_3,e,
+PreferredLanguageAbility,IndividualLanguageType,0,1,"Identifies the language and the individuals ability to read, write, and speak the designated language using a controlled vocabulary.",,,,,,,,,ddi:datacollection:3_3,e,

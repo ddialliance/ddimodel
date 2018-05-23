@@ -1,0 +1,1 @@
+Contains a group of PhysicalInstance descriptions, which may be ordered or hierarchical. In addition to the name, label, and description of the group, the structure allows for defining the group by reference to a DefiningConcept.

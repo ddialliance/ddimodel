@@ -1,0 +1,1 @@
+Description and link to the External Information using the DDI Other Material structure.

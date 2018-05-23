@@ -1,4 +1,4 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-TypeOfAudioClip,CodeValueType,0,1,The type of audio clip provided. Supports the use of a controlled vocabulary.,,,,,,,,,ddi:reusable:3_2,e,
-AudioClipBegin,string,0,1,The point to begin the audio clip. If no point is provided the assumption is that the start point is the beginning of the clip provided.,,,,,,,,,ddi:reusable:3_2,e,
-AudioClipEnd,string,0,1,The point to end the audio clip. If no point is provided the assumption is that the end point is the end of the clip provided.,,,,,,,,,ddi:reusable:3_2,e,
+TypeOfAudioClip,CodeValueType,0,1,The type of audio clip provided. Supports the use of a controlled vocabulary.,,,,,,,,,ddi:reusable:3_3,e,
+AudioClipBegin,string,0,1,The point to begin the audio clip. If no point is provided the assumption is that the start point is the beginning of the clip provided.,,,,,,,,,ddi:reusable:3_3,e,
+AudioClipEnd,string,0,1,The point to end the audio clip. If no point is provided the assumption is that the end point is the end of the clip provided.,,,,,,,,,ddi:reusable:3_3,e,

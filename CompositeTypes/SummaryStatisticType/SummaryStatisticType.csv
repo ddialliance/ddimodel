@@ -1,3 +1,4 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-TypeOfSummaryStatistic,CodeValueType,0,1,"Type of summary statistic, such as count, mean, mode, median, etc. Supports the use of an external controlled vocabulary. DDI strongly recommends the use of a controlled vocabulary.",,,,,,,,,ddi:physicalinstance:3_2,e,
-Statistic,StatisticType,0,1,The value of the statistics and whether it is weighted and/or includes missing values.,,,,,,,,,ddi:physicalinstance:3_2,e,
+TypeOfSummaryStatistic,CodeValueType,0,1,"Type of summary statistic, such as count, mean, mode, median, etc. Supports the use of an external controlled vocabulary. DDI strongly recommends the use of a controlled vocabulary.",,,,,,,,,ddi:physicalinstance:3_3,e,
+Statistic,StatisticType,0,1,The value (expressed as a decimal) of the statistics and whether it is weighted and/or includes missing values.,,,,,,,,,ddi:physicalinstance:3_3,e,
+StatisticDouble,StatisticDoubleType,0,1,The value (expressed as a double) of the statistics and whether it is weighted and/or includes missing values.,,,,,,,,,ddi:physicalinstance:3_3,e,

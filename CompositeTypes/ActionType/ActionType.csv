@@ -1,4 +1,4 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-RegionOfAction,SegmentType,0,1,Identifies the region of the object where the action needs to occur based on the object type by specifying a segment of the object.,,,,,,,,,ddi:reusable:3_2,e,
-Description,StructuredStringType,0,1,Describes the specific actions that should take place. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
+RegionOfAction,SegmentType,0,1,Identifies the region of the object where the action needs to occur based on the object type by specifying a segment of the object.,,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,Describes the specific actions that should take place. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
 RegExp,string,0,1,Allows for the provision of a regular expression to describe a mark (such as a specific letter or number).,,,,,,,,,,a,

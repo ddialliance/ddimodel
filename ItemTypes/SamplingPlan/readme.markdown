@@ -1,0 +1,1 @@
+An inline description of a sampling plan (how the sample is drawn). A sampling plan is intended to be versioned over time and can be reused by multiple studies.

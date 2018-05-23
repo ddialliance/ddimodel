@@ -1,0 +1,4 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+CaseLawName,NameType,0,n,Case Law Name,,,,,,,,,ddi:logicalproduct:3_3,e,
+Description,StructuredStringType,0,1,A description of the case law,,,,,,,,,ddi:reusable:3_3,e,
+CaseLawDate,cogsDate,0,1,Date of the case law ruling,,,,,,,,,ddi:logicalproduct:3_3,e,

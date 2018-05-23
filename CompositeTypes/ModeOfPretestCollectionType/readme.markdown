@@ -1,0 +1,1 @@
+Describes available aids for translation typed by a controlled vocabulary and a description.

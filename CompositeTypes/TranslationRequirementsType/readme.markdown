@@ -1,0 +1,1 @@
+Provides a detailed description of the requirements for an acceptable translation and indicate if the translation should be oral and/or written. Supports multiple language versions of the same content as well as optional formatting of the content.

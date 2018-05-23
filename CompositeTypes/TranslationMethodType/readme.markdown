@@ -1,0 +1,1 @@
+Describes both minimum and preferred language abilities sought for the translation work as a set of source and target language requirements.

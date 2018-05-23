@@ -1,2 +1,2 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Value,ValueType,0,n,An individual item value.,,,,,,,,,ddi:reusable:3_2,e,
+Value,ValueType,0,n,An individual item value.,,,,,,,,,ddi:reusable:3_3,e,

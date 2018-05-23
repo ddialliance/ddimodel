@@ -1,2 +1,2 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-CategorySchemeReference,CategoryScheme,0,1,A reference to a CategoryScheme containing the required categories using the SchemeReference structure. Use Exclude in the SchemeReference to designate any categories NOT to include in this representation.,,,,,,,,,ddi:reusable:3_2,e,
+CategorySchemeReference,CategoryScheme,0,1,A reference to a CategoryScheme containing the required categories using the SchemeReference structure. Use Exclude in the SchemeReference to designate any categories NOT to include in this representation.,,,,,,,,,ddi:reusable:3_3,e,

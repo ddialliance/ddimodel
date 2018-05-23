@@ -1,0 +1,1 @@
+Serves as a common extension base for different forms of Questions

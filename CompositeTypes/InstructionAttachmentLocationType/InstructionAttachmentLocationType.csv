@@ -1,5 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-AttachmentLocation,AttachmentLocationType,0,1,"Allows attachment of an instruction to a specific item in a code or category scheme. For example, attach a Definition to a specific Code/Category the value.",,,,,,,,,ddi:datacollection:3_2,e,
-GridAttachment,GridAttachmentType,0,1,Identifies the cell or cells in a grid to which the instruction is attached by a reference to a specific cell coordinate in a grid or by identifying a range of values along a dimension.,,,,,,,,,ddi:datacollection:3_2,e,
+AttachmentLocation,AttachmentLocationType,0,1,"Allows attachment of an instruction to a specific item in a code or category scheme. For example, attach a Definition to a specific Code/Category the value.",,,,,,,,,ddi:datacollection:3_3,e,
+GridAttachment,GridAttachmentType,0,1,Identifies the cell or cells in a grid to which the instruction is attached by a reference to a specific cell coordinate in a grid or by identifying a range of values along a dimension.,,,,,,,,,ddi:datacollection:3_3,e,
 AttachToLabel,boolean,0,1,Attach the instruction to the Question Label.,,,,,,,,,,a,
 AttachToQuestionText,boolean,0,1,Attach the instruction to the QuestionText.,,,,,,,,,,a,

@@ -1,7 +1,7 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-ProcessingEventSchemeName,NameType,0,n,"A name for the ProcessingEventScheme. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:datacollection:3_2,e,
-Label,LabelType,0,n,"A display label for the ProcessingEventScheme. May be expressed in multiple languages. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_2,e,
-Description,StructuredStringType,0,1,A description of the ProcessingEventScheme. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
-ProcessingEventSchemeReference,ProcessingEventScheme,0,n,Reference to an existing ProcessingEventScheme for inclusion.,,,,,,,,,ddi:datacollection:3_2,e,
-ProcessingEventReference,ProcessingEvent,0,n,A ProcessingEvent described in the ProcessingEventScheme.,,,,,,,,,ddi:datacollection:3_2,e,
-ProcessingEventGroupReference,ProcessingEventGroup,0,n,A description of a group of ProcessingEvent for administrative or conceptual purposes.,,,,,,,,,ddi:datacollection:3_2,e,
+ProcessingEventSchemeName,NameType,0,n,"A name for the ProcessingEventScheme. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:datacollection:3_3,e,
+Label,LabelType,0,n,"A display label for the ProcessingEventScheme. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,A description of the ProcessingEventScheme. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
+ProcessingEventSchemeReference,ProcessingEventScheme,0,n,Reference to an existing ProcessingEventScheme for inclusion.,,,,,,,,,ddi:datacollection:3_3,e,
+ProcessingEventReference,ProcessingEvent,0,n,A ProcessingEvent described in the ProcessingEventScheme.,,,,,,,,,ddi:datacollection:3_3,e,
+ProcessingEventGroupReference,ProcessingEventGroup,0,n,A description of a group of ProcessingEvent for administrative or conceptual purposes.,,,,,,,,,ddi:datacollection:3_3,e,

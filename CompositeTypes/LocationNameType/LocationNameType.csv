@@ -1,2 +1,2 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-EffectivePeriod,DateType,0,1,The time period for which this name is accurate and in use.,,,,,,,,,ddi:reusable:3_2,e,
+EffectivePeriod,DateType,0,1,The time period for which this name is accurate and in use.,,,,,,,,,ddi:reusable:3_3,e,

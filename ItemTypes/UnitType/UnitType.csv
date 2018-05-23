@@ -1,0 +1,5 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+UnitTypeName,NameType,0,n,Name of the UnitType using the DDI Name structure.,,,,,,,,,ddi:conceptualcomponent:3_3,e,
+Label,LabelType,0,n,"A display label for the UnitType. May be expressed in multiple languages. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,A description of the UnitType. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_3,e,
+ConceptReference,Concept,0,1,Reference to the Concept that defines the UnitType. TypeOfObject should be set to Concept.,,,,,,,,,ddi:reusable:3_3,e,

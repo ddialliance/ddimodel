@@ -1,0 +1,1 @@
+A formal description of a quality standard, and the quality concepts which it requires.

@@ -1,0 +1,1 @@
+A Statistical Classification has a structure which is composed of one or several Levels. A Level often is associated with a concept, which defines it. In a hierarchical Statistical Classification the Classification Items of each Level but the highest are aggregated to the nearest higher Level. A linear Statistical Classification has only one Level. 

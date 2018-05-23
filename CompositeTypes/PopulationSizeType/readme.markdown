@@ -1,0 +1,1 @@
+The target value of the sample size for the primary and any secondary or sub-population.

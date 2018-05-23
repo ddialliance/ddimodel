@@ -1,0 +1,1 @@
+Note that this is generally usable only with single valid response domain in grid. More complex uses should be carefully documented using details in CommandCode and Input/output Parameters.

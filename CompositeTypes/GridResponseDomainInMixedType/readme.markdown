@@ -1,0 +1,1 @@
+Designates the response domain and the cells using the specified response domain within a QuestionGrid. Supports the use of ResponseAttachmentLocation and attachmentBase for defining specific relationships between response domains in a StructuredMixedGridResponseDomain. Functions similar to a ResponseDomainInMixed within a QuestionItem.

@@ -1,0 +1,1 @@
+The desired sample size for this particular sample plan express in relation to its strata number if relevant. Provides means of expressing the formula used for determining the sample size.

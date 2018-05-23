@@ -1,0 +1,1 @@
+Provides a list of quality concepts in the quality standard.

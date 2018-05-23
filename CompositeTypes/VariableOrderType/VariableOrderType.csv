@@ -1,2 +1,2 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-VariableReference,Variable,0,n,References variables in storage order. One reference per variable.,,,,,,,,,ddi:reusable:3_2,e,
+VariableReference,Variable,0,n,References variables in storage order. One reference per variable.,,,,,,,,,ddi:reusable:3_3,e,

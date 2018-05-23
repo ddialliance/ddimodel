@@ -1,1 +1,1 @@
-The value of the statistics and whether it is weighted and/or includes missing values.
+The value (expressed as a decimal) of the statistics and whether it is weighted and/or includes missing values.

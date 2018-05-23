@@ -1,0 +1,1 @@
+A versionable object that has a Name, Label, and Description.

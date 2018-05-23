@@ -1,7 +1,7 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-UniverseSchemeName,NameType,0,n,"A name for the UniverseScheme. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:conceptualcomponent:3_2,e,
-Label,LabelType,0,n,"A display label for the UniverseScheme. May be expressed in multiple languages. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_2,e,
-Description,StructuredStringType,0,1,A description of the content and purpose of the UniverseScheme. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
-UniverseSchemeReference,UniverseScheme,0,n,Allows the inclusion of a UniverseScheme by reference.,,,,,,,,,ddi:reusable:3_2,e,
-UniverseReference,Universe,0,n,"Describes a universe (population, object). A universe may be organized into hierarchical sub-universe classes.",,,,,,,,,ddi:conceptualcomponent:3_2,e,
-UniverseGroupReference,UniverseGroup,0,n,"Describes a group of universes (populations, objects) for administrative purposes.",,,,,,,,,ddi:conceptualcomponent:3_2,e,
+UniverseSchemeName,NameType,0,n,"A name for the UniverseScheme. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:conceptualcomponent:3_3,e,
+Label,LabelType,0,n,"A display label for the UniverseScheme. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,A description of the content and purpose of the UniverseScheme. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
+UniverseSchemeReference,UniverseScheme,0,n,Allows the inclusion of a UniverseScheme by reference.,,,,,,,,,ddi:reusable:3_3,e,
+UniverseReference,Universe,0,n,"Describes a universe (population, object). A universe may be organized into hierarchical sub-universe classes.",,,,,,,,,ddi:conceptualcomponent:3_3,e,
+UniverseGroupReference,UniverseGroup,0,n,"Describes a group of universes (populations, objects) for administrative purposes.",,,,,,,,,ddi:conceptualcomponent:3_3,e,

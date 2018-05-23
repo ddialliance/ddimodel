@@ -1,0 +1,4 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+TypeOfTranslationAid,CodeValueType,0,1,Specifies the type of translation aid available. Supports the use of a controlled vocabulary.,,,,,,,,,ddi:datacollection:3_3,e,
+Description,StructuredStringType,0,1,Description of the translation aid. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
+TranslationAidResource,TranslationAidResourceType,0,1,Provides a reference to the translation aid resource using the structure of OtherMaterial.,,,,,,,,,ddi:datacollection:3_3,e,

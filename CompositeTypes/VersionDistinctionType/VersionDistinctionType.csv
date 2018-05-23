@@ -1,6 +1,6 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-VersionDistinctionName,NameType,0,n,"A name for the Version Distinction. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:archive:3_2,e,
-Label,LabelType,0,n,"A display label for the Version Distinction. May be expressed in multiple languages. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_2,e,
-Description,StructuredStringType,0,1,A description of the content and purpose of the Version Distinction. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_2,e,
-EffectivePeriod,DateType,0,1,Clarifies when the identification information is accurate.,,,,,,,,,ddi:reusable:3_2,e,
+VersionDistinctionName,NameType,0,n,"A name for the Version Distinction. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:archive:3_3,e,
+Label,LabelType,0,n,"A display label for the Version Distinction. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,A description of the content and purpose of the Version Distinction. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
+EffectivePeriod,DateType,0,1,Clarifies when the identification information is accurate.,,,,,,,,,ddi:reusable:3_3,e,
 RegExp,string,0,1,Allows the version structure to be defined by a regular expression.,,,,,,,,,,a,

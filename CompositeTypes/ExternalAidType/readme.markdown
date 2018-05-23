@@ -1,0 +1,1 @@
+Description and link to the External Aid using the DDI Other Material structure.

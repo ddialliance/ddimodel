@@ -1,0 +1,1 @@
+Provides the ability to fix the value of a grid cell and defines the cell or cells. Designates the fixed value to be used and the location of the cell or cells within the grid.

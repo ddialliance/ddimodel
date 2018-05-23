@@ -1,0 +1,1 @@
+Contains a set of MeasurementItems and MeasurementGroups. In addition to the standard name, label, and description of the MeasurementScheme, may contain another MeasurementScheme by reference, a listing of MeasurementItems (in-line or by reference), and a listing of MeasurementGroups (in-line or by reference).

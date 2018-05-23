@@ -1,1 +1,0 @@
-A reference to a control construct of any type with the ability to bind the InParameter or OutParameter of the ControlConstruct to external information as needed.ComputationItem, IfThenElse, Loop, QuestionConstruct, RepeatUntil, RepeatWhile, Sequence, or StatementItem

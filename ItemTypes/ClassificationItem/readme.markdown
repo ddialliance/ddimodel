@@ -1,0 +1,1 @@
+A Classification Item represents a Category at a certain Level within a Statistical Classification. It defines the content and the borders of the category. An object/unit can be classified to one and only one Classification Item at each Level of a Statistical Classification.

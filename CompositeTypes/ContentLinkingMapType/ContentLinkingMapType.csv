@@ -1,2 +1,2 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-LinkingMap,LinkingMapType,0,n,"Provides a link from a local object to a deposited object via reference and designates if the added material should Override, act as AddedContent, or DeleteContent in the original deposited material.",,,,,,,,,ddi:group:3_2,e,
+LinkingMap,LinkingMapType,0,n,"Provides a link from a local object to a deposited object via reference and designates if the added material should Override, act as AddedContent, or DeleteContent in the original deposited material.",,,,,,,,,ddi:group:3_3,e,

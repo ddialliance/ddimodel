@@ -1,6 +1,0 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-CodeListID,string,0,1,The ID of the code list (controlled vocabulary) that the content was taken from.,,,,,,,,,,a,
-CodeListName_string,string,0,1,The name of the code list. Fixed as ISO3166 3-letter,,,,,,,,,,a,
-CodeListAgencyName,string,0,1,The name of the agency maintaining the code list.,,,,,,,,,,a,
-OtherValue,string,0,1,"If the value of the string is ""Other"" or the equivalent from the codelist, this attribute can provide a more specific value not found in the codelist.",,,,,,,,,,a,
-CodeListURN,string,0,1,The URN of the codelist. Fixed value. Note this is fixed as late bound. Codes will not be removed from this list when the country code is no longer in active use.,,,,,,,,,,a,

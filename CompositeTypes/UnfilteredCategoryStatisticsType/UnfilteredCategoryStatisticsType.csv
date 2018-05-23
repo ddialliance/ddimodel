@@ -1,2 +1,2 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-VariableCategory,VariableCategoryType,0,n,A structure that is repeated for each category value for which one or more statistics are recorded. Each VariableCategory has one category value and any number of associated statistics.,,,,,,,,,ddi:physicalinstance:3_2,e,
+VariableCategory,VariableCategoryType,0,n,A structure that is repeated for each category value for which one or more statistics are recorded. Each VariableCategory has one category value and any number of associated statistics.,,,,,,,,,ddi:physicalinstance:3_3,e,

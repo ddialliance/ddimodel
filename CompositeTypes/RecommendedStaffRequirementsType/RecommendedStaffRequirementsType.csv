@@ -1,0 +1,4 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+StaffClass,CodeValueType,0,1,Specify the class of the staff participating in the activity. Supports the use of a controlled vocabulary.,,,,,,,,,ddi:datacollection:3_3,e,
+ParticipantRequirements,StructuredStringType,0,1,Describe any special or specific requirements for participating staff.,,,,,,,,,ddi:datacollection:3_3,e,
+RecruitmentProcess,StructuredStringType,0,1,Describe the process to be used for staff recruitment in this class.,,,,,,,,,ddi:datacollection:3_3,e,

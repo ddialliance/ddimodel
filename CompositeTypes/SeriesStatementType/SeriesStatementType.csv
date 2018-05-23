@@ -1,5 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-SeriesRepositoryLocation,anyURI,0,n,Location of the repository containing the series. This may be repeated for multiple repository locations.,,,,,,,,,ddi:reusable:3_2,e,
-SeriesName,NameType,0,n,"The full name of the series. The structure supports the use of multiple language versions of the content. If the name varies depending upon the context or is known by multiple names, this element may be repeated.",,,,,,,,,ddi:reusable:3_2,e,
-SeriesAbbreviation,CodeValueType,0,n,Abbreviation of the series name. Repeat for multiple abbreviations for the SAME series Name.,,,,,,,,,ddi:reusable:3_2,e,
-SeriesDescription,StructuredStringType,0,1,Describe the purpose of coverage of the series. The structure supports the use of multiple language versions of the content.,,,,,,,,,ddi:reusable:3_2,e,
+SeriesRepositoryLocation,anyURI,0,n,Location of the repository containing the series. This may be repeated for multiple repository locations.,,,,,,,,,ddi:reusable:3_3,e,
+SeriesName,NameType,0,n,"The full name of the series. The structure supports the use of multiple language versions of the content. If the name varies depending upon the context or is known by multiple names, this element may be repeated.",,,,,,,,,ddi:reusable:3_3,e,
+SeriesAbbreviation,CodeValueType,0,n,Abbreviation of the series name. Repeat for multiple abbreviations for the SAME series Name.,,,,,,,,,ddi:reusable:3_3,e,
+SeriesDescription,StructuredStringType,0,1,Describe the purpose of coverage of the series. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,

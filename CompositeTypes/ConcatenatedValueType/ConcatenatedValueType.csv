@@ -1,2 +1,2 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-VariableReference,Variable,2,n,Identifies the variables whose values are concatenated to form the concatenated variable. Note that the order of these variables determines the order of concatenation.,,,,,,,,,ddi:reusable:3_2,e,
+VariableReference,Variable,2,n,Identifies the variables whose values are concatenated to form the concatenated variable. Note that the order of these variables determines the order of concatenation.,,,,,,,,,ddi:reusable:3_3,e,

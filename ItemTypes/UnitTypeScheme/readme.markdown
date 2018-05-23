@@ -1,0 +1,1 @@
+This scheme contains a set of Unit Types referenced by the metadata at different points in the lifecycle. In addition to the name, label, and description of the scheme, the structure supports the inclusion of another UnitTypeScheme by reference and a set of UnitType descriptions either in-line or by reference.

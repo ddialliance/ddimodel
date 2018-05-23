@@ -1,0 +1,7 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+TypeOfPretestCollectionMode,CodeValueType,0,1,"Specifies the type of data collection mode used (i.e. interview, self-completed form, observation). Supports the use of a controlled vocabulary.",,,,,,,,,ddi:datacollection:3_3,e,
+Description,StructuredStringType,0,1,Description of mode of data collection for the pretest. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
+MethodOfDelivery,CodeValueType,0,1,"Method of delivery for the pretest mode (i.e., mail, hand-delivery, etc.). Supports the use of a controlled vocabulary.",,,,,,,,,ddi:datacollection:3_3,e,
+IsPrimary,boolean,0,1,A value of true indicates that this is the primary mode of data collection.,,,,,,,,,,a,
+IsAudioFormatAvailable,boolean,0,1,A value of true indicates that an audio format of the question text is available.,,,,,,,,,,a,
+IsRecordedInterview,boolean,0,1,A value of true indicates that the interview is recorded.,,,,,,,,,,a,

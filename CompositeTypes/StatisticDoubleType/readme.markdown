@@ -1,0 +1,1 @@
+The value (expressed as a double) of the statistics and whether it is weighted and/or includes missing values.

@@ -1,0 +1,1 @@
+Substitution group head for referencing Managed Representations.

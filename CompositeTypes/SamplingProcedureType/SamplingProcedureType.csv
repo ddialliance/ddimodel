@@ -1,3 +1,8 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-TypeOfSamplingProcedure,CodeValueType,0,1,Allows brief identification of sampling procedure used with the option of using a controlled vocabulary.,,,,,,,,,ddi:datacollection:3_2,e,
-Description,StructuredStringType,0,1,"Full description of the sampling procedure. This may include information on the sample frame, sampling methodology, and procedures for identifying and selecting sub-populations. Supports structured content and multiple language content.",,,,,,,,,ddi:reusable:3_2,e,
+TypeOfSamplingProcedure,CodeValueType,0,1,A generic means of classifying a SamplingProcedure. Supports the use of an external controlled vocabulary.,,,,,,,,,ddi:datacollection:3_3,e,
+Description,StructuredStringType,0,1,Full description of the sampling procedure. Supports structured content and multiple language content.,,,,,,,,,ddi:reusable:3_3,e,
+PopulationOfConcern,PopulationType,0,n,Describe the population being sampled through a combination of textual description and reference to a structured Universe.,,,,,,,,,ddi:datacollection:3_3,e,
+SamplingPlanReference,SamplingPlan,0,1,Reference to sample plan which describes a process for achieving the sample.,,,,,,,,,ddi:datacollection:3_3,e,
+OverallTargetSampleSize,PopulationSizeType,0,n,The target value of the sample size for the primary and any secondary or sub-population.,,,,,,,,,ddi:datacollection:3_3,e,
+OverallSampleSize,SizeType,0,1,The size of the overall sample actually used.,,,,,,,,,ddi:datacollection:3_3,e,
+ApplicationDetails,ApplicationDetailsType,0,n,Provides sample stage level details where needed. Repeat for individual stages or sub-stages.,,,,,,,,,ddi:datacollection:3_3,e,

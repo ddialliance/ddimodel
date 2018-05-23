@@ -1,2 +1,2 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Alias,string,0,1,"Allows for assigning an alias used to reference this item in a command. For example if the SourceReference was a question capturing a persons age the command might read ""If AGE LT 5..."". AGE would be the alias.",,,,,,,,,ddi:reusable:3_2,e,
+Alias,string,0,1,"Allows for assigning an alias used to reference this item in a command. For example if the SourceReference was a question capturing a persons age the command might read ""If AGE LT 5..."". AGE would be the alias.",,,,,,,,,ddi:reusable:3_3,e,

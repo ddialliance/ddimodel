@@ -1,0 +1,7 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+UnitTypeSchemeName,NameType,0,n,"A name for the scheme. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:conceptualcomponent:3_3,e,
+Label,LabelType,0,n,"A display label for the scheme. May be expressed in multiple languages. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,A description of the content and purpose of the scheme. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,ddi:reusable:3_3,e,
+UnitTypeSchemeReference,UnitTypeScheme,0,n,Inclusion of an existing UnitTypeScheme by reference.,,,,,,,,,ddi:reusable:3_3,e,
+UnitTypeReference,UnitType,0,n,In-line description of a UnitType. These are used by reference at various points in the lifecycle.,,,,,,,,,ddi:conceptualcomponent:3_3,e,
+UnitTypeGroupReference,UnitTypeGroup,0,n,In-line description of a group of UnitTypes.,,,,,,,,,ddi:conceptualcomponent:3_3,e,

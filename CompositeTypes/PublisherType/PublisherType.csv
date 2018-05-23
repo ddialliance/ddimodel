@@ -1,4 +1,4 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-PublisherName,BibliographicNameType,0,1,Full name of the publisher. Language equivalents should be expressed within the International String structure.,,,,,,,,,ddi:reusable:3_2,e,
-PublisherRole,CodeValueType,0,n,"The role of the publisher as publisher, distributor, etc.",,,,,,,,,ddi:reusable:3_2,e,
-PublisherReference,Organization,0,1,Reference to a publisher as described within a DDI Organization Scheme.,,,,,,,,,ddi:reusable:3_2,e,
+PublisherName,BibliographicNameType,0,1,Full name of the publisher. Language equivalents should be expressed within the International String structure.,,,,,,,,,ddi:reusable:3_3,e,
+PublisherRole,CodeValueType,0,n,"The role of the publisher as publisher, distributor, etc.",,,,,,,,,ddi:reusable:3_3,e,
+PublisherReference,Organization,0,1,Reference to a publisher as described within a DDI Organization Scheme.,,,,,,,,,ddi:reusable:3_3,e,

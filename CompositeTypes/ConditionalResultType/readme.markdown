@@ -1,0 +1,1 @@
+The text resulting from the conditional command. Supports structured content and the insertion of content by a source parameter. For example if a language has gender specific verb structures the result of an IfCondition may result in a text using female verb structures and inserting the female's name at a specific point.

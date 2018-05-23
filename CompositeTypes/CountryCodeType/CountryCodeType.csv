@@ -1,2 +1,2 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-EffectiveDate,dateTime,0,1,"If it is important to specify the date that this code is effective in order to accurately capture a name or similar change, specify that here.",,,,,,,,,,a,
+EffectiveDate,dateTime,0,1,"If it is important to specify the date that this code is effective in order to accurately capture a name or similar change, specify that here. This can effect the actual geographic coverage or related name.",,,,,,,,,,a,

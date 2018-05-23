@@ -1,0 +1,1 @@
+A stack of LocationValueReferences to each of the locations bundled together for a specific purpose Includes a GeographicTime to allow for repetition for change over time.

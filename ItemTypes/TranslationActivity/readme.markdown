@@ -1,0 +1,1 @@
+A substitution for DevelopmentActivity which describes the specifics of translation, looking at source and target languages, aids available for translation, and translator requirements regarding language ability and method of translation.

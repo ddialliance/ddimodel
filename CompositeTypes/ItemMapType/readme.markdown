@@ -1,1 +1,1 @@
-Maps two items of the same type within the Source and Target Schemes identified.
+Maps a Source and one or more Target items of the same type within the Source and Target Schemes identified.

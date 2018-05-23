@@ -1,5 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-DigitalFingerprintValue,string,0,1,Contains the value of the specified digital fingerprint.,,,,,,,,,ddi:physicalinstance:3_2,e,
-AlgorithmSpecification,string,0,1,Specifies the type of the fingerprint (what algorithm or scheme).,,,,,,,,,ddi:physicalinstance:3_2,e,
-AlgorithmVersion,string,0,1,Contains the version of the algorithm.,,,,,,,,,ddi:physicalinstance:3_2,e,
+DigitalFingerprintValue,string,0,1,Contains the value of the specified digital fingerprint.,,,,,,,,,ddi:physicalinstance:3_3,e,
+AlgorithmSpecification,string,0,1,Specifies the type of the fingerprint (what algorithm or scheme).,,,,,,,,,ddi:physicalinstance:3_3,e,
+AlgorithmVersion,string,0,1,Contains the version of the algorithm.,,,,,,,,,ddi:physicalinstance:3_3,e,
 Type,string,1,1,Brief identification of the type of data fingerprint used. The data fingerprint may be for the data file (storage format specific) or data (format neutral).,,,data dataFile,,,,,,,a,

@@ -1,0 +1,7 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+OtherMaterialSchemeName,NameType,0,n,"A name for the OtherMaterialScheme. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:reusable:3_3,e,
+Label,LabelType,0,n,"A display label for the OtherMaterialScheme. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,A description of the content and purpose of the OtherMaterialScheme. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
+OtherMaterialSchemeReference,OtherMaterialScheme,0,n,Inclusion of an existing OtherMaterialScheme by reference.,,,,,,,,,ddi:reusable:3_3,e,
+OtherMaterialReference,OtherMaterial,0,n,In-line description of a OtherMaterial. These are used by reference at various points in the lifecycle.,,,,,,,,,ddi:reusable:3_3,e,
+OtherMaterialGroupReference,OtherMaterialGroup,0,n,In-line description of a group of OtherMaterials.,,,,,,,,,ddi:reusable:3_3,e,

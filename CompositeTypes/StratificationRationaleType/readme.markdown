@@ -1,0 +1,1 @@
+Describe the purpose for stratifying your sample frame prior to sampling.

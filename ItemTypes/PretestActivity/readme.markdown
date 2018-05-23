@@ -1,0 +1,1 @@
+A substitution for DevelopmentActivity which specifies the details for performing a pretest of a set of questions or questionnaire. Includes reference to the Sample Frame and Sample Method for the pretest, and the data collection process in terms of method of administration, mode of collection, delivery method, and identification of any additional data collected.
