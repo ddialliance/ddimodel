@@ -18,6 +18,7 @@ ManagedMissingValuesRepresentation
 ManagedNumericRepresentation
 ManagedScaleRepresentation
 ManagedTextRepresentation
+MeasurementItem
 Methodology
 NCube
 Organization

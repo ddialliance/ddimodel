@@ -5,10 +5,12 @@ Instruction
 Instrument
 Loop
 Methodology
-QuestionBlock
-QuestionConstruct
-QuestionGrid
 QuestionItem
+QuestionBlock
+QuestionGrid
+QuestionConstruct
+MeasurementItem
+MeasurementConstruct
 RepeatUntil
 RepeatWhile
 Sequence

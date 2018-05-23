@@ -1,3 +1,7 @@
-CodeList
-Category
-Concept
+ClassificationFamily
+ClassificationSeries
+StatisticalClassification
+ClassificationLevel
+ClassificationItem
+ClassificationCorrespondenceTable
+ClassificationIndex
