@@ -1,7 +1,8 @@
 Study
+Classification
 Data Capture
 Data Description
 Foundational
 Agent
-Classification
 Non-Packaging Items
+All Content Items

@@ -4,5 +4,5 @@ Label,LabelType,0,n,A label or labels for the embargo element. Repeat for differ
 Description,StructuredStringType,0,1,Describe the content and coverage of the embargo. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
 Date,DateType,0,1,"Provides the end date of the embargo, which may take the form of a date range (complete or open ended). Note SimpleDate should not be used for an Embargo Date as an embargo is for a period of time.",,,,,,,,,ddi:reusable:3_3,e,
 Rationale,StructuredStringType,0,1,Indicates the reason for the embargo. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
-AgencyOrganizationReference,Organization,0,1,"Reference to an organization or individual, defined in the organization scheme, responsible for the embargo.",,,,,,,,,ddi:reusable:3_3,e,
-EnforcementAgencyOrganizationReference,Organization,0,n,"Reference to an organization or individual, defined in the organization scheme, responsible for enforcing the embargo.",,,,,,,,,ddi:reusable:3_3,e,
+AgencyOrganizationReference,Agent,0,1,"Reference to an organization or individual, defined in the organization scheme, responsible for the embargo.",,,,,,,,,ddi:reusable:3_3,e,
+EnforcementAgencyOrganizationReference,Agent,0,n,"Reference to an organization or individual, defined in the organization scheme, responsible for enforcing the embargo.",,,,,,,,,ddi:reusable:3_3,e,
