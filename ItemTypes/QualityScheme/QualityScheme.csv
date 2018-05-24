@@ -6,4 +6,4 @@ QualitySchemeReference,QualityScheme,0,n,Inclusion of an existing QualityScheme 
 QualityStatementReference,QualityStatement,0,n,In-line description of a QualityStatement. These are used by reference at various points in the lifecycle.,,,,,,,,,ddi:reusable:3_3,e,
 QualityStandardReference,QualityStandard,0,n,In-line description of a QualityStandard. These are used by reference at various points in the lifecycle.,,,,,,,,,ddi:reusable:3_3,e,
 QualityStatementGroupReference,QualityStatementGroup,0,n,In-line description of a group of QualityStatements.,,,,,,,,,ddi:reusable:3_3,e,
-QualityStandardGroupReference,QualityStatementGroup,0,n,In-line description of a group of QualityStandards.,,,,,,,,,ddi:reusable:3_3,e,
+QualityStandardGroupReference,QualityStandardGroup,0,n,In-line description of a group of QualityStandards.,,,,,,,,,ddi:reusable:3_3,e,
