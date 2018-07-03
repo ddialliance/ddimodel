@@ -1,10 +1,9 @@
 set cogs=dotnet cogs\Cogs.Console.dll
 mkdir ddi\
 
-REM echo Validate
-REM %cogs% validate .
-REM if %errorlevel% neq 0 exit /b %errorlevel%
-REM Temporary for DDI 3.3 documentation 
+echo Validate
+%cogs% validate .
+if %errorlevel% neq 0 exit /b %errorlevel%
 
 echo JSON
 %cogs% publish-json . ddi\json --overwrite
