@@ -1,3 +1,3 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-LocationValueReference,LocationValueType,0,n,Reference to the LocationValue of an included area.,,,,,,,,,ddi:reusable:3_3,e,
-GeographicTime,DateType,0,1,The time period for which the LocationValues listed are a valid set.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+LocationValueReference,LocationValueType,0,n,Reference to the LocationValue of an included area.,,,,,,,,,,,ddi:reusable:3_3,e,
+GeographicTime,DateType,0,1,The time period for which the LocationValues listed are a valid set.,,,,,,,,,,,ddi:reusable:3_3,e,

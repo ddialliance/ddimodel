@@ -1,2 +1,2 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Label,LabelType,0,1,Label for the summary type used.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Label,LabelType,0,1,Label for the summary type used.,,,,,,,,,,,ddi:reusable:3_3,e,

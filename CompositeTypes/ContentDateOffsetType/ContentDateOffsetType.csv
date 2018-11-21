@@ -1,3 +1,3 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-NumberOfUnits,nonNegativeInteger,0,1,The number of units to off-set the date for this item expressed as a decimal.,,,,,,,,,,a,
-IsNegativeOffset,boolean,0,1,"If set to ""true"" the date is offset the number of units specified PRIOR to the default date of the data. A setting of ""false"" indicates a date the specified number of units in the FUTURE from the default date of the data.",,,,,,,,,,a,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+NumberOfUnits,nonNegativeInteger,0,1,The number of units to off-set the date for this item expressed as a decimal.,,,,,,,,,,,,a,
+IsNegativeOffset,boolean,0,1,"If set to ""true"" the date is offset the number of units specified PRIOR to the default date of the data. A setting of ""false"" indicates a date the specified number of units in the FUTURE from the default date of the data.",,,,,,,,,,,,a,

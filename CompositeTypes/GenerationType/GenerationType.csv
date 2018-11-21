@@ -1,7 +1,7 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-ComponentReference,Category,0,n,Reference to a category used in the generation process.,,,,,,,,,ddi:logicalproduct:3_3,e,
-Description,StructuredStringType,0,1,A description of the generation process. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
-CommandCode,CommandCodeType,0,n,Structured information used by a system to generate the category.,,,,,,,,,ddi:reusable:3_3,e,
-OtherMaterialReference,OtherMaterial,0,n,"External documentation required for creating the generation - for example, a chart or table for defining poverty.",,,,,,,,,ddi:reusable:3_3,e,
-IsDerived,boolean,0,1,"If not a derivation process set this attribute to ""false"".",,,,,,,,,,a,
-Qualification,string,0,1,A qualification for the generation process expressed as a simple string.,,,,,,,,,,a,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+ComponentReference,Category,0,n,Reference to a category used in the generation process.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
+Description,StructuredStringType,0,1,A description of the generation process. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
+CommandCode,CommandCodeType,0,n,Structured information used by a system to generate the category.,,,,,,,,,,,ddi:reusable:3_3,e,
+OtherMaterialReference,OtherMaterial,0,n,"External documentation required for creating the generation - for example, a chart or table for defining poverty.",,,,,,,,,,,ddi:reusable:3_3,e,
+IsDerived,boolean,0,1,"If not a derivation process set this attribute to ""false"".",,,,,,,,,,,,a,
+Qualification,string,0,1,A qualification for the generation process expressed as a simple string.,,,,,,,,,,,,a,

@@ -1,2 +1,2 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-ResourcePackageReference,ResourcePackage,0,n,References a resource package used by the module.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+ResourcePackageReference,ResourcePackage,0,n,References a resource package used by the module.,,,,,,,,,,,ddi:reusable:3_3,e,

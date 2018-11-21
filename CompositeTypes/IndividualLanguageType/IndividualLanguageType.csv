@@ -1,6 +1,6 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Language,CodeValueType,0,1,Specifies the language (and optionally the locale) of the individual. The language identifier is defined by IETF RFC 4646 or its successor. The base sub-tag is the ISO 639 2 or 3 digit language code.,,,,,,,,,ddi:reusable:3_3,e,
-Read,CodeValueType,0,1,Indicates reading knowledge of the language specified. Supports an optional controlled vocabulary.,,,,,,,,,ddi:archive:3_3,e,
-Write,CodeValueType,0,1,Indicates writing knowledge of the language specified. Supports an optional controlled vocabulary.,,,,,,,,,ddi:archive:3_3,e,
-Speak,CodeValueType,0,1,Indicates speaking knowledge of the language specified. Supports an optional controlled vocabulary.,,,,,,,,,ddi:archive:3_3,e,
-EffectivePeriod,DateType,0,1,Clarifies when the identification information is accurate.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Language,CodeValueType,0,1,Specifies the language (and optionally the locale) of the individual. The language identifier is defined by IETF RFC 4646 or its successor. The base sub-tag is the ISO 639 2 or 3 digit language code.,,,,,,,,,,,ddi:reusable:3_3,e,
+Read,CodeValueType,0,1,Indicates reading knowledge of the language specified. Supports an optional controlled vocabulary.,,,,,,,,,,,ddi:archive:3_3,e,
+Write,CodeValueType,0,1,Indicates writing knowledge of the language specified. Supports an optional controlled vocabulary.,,,,,,,,,,,ddi:archive:3_3,e,
+Speak,CodeValueType,0,1,Indicates speaking knowledge of the language specified. Supports an optional controlled vocabulary.,,,,,,,,,,,ddi:archive:3_3,e,
+EffectivePeriod,DateType,0,1,Clarifies when the identification information is accurate.,,,,,,,,,,,ddi:reusable:3_3,e,

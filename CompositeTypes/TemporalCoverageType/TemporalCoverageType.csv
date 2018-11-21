@@ -1,2 +1,2 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-ReferenceDate,ReferenceDateType,0,n,"The time period to which the data refer. This item reflects the time period covered by the data, not dates in the life cycle of a study or collection.",,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+ReferenceDate,ReferenceDateType,0,n,"The time period to which the data refer. This item reflects the time period covered by the data, not dates in the life cycle of a study or collection.",,,,,,,,,,,ddi:reusable:3_3,e,

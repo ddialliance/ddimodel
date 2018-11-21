@@ -1,4 +1,4 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-SampleFrameReference,SampleFrame,0,1,A reference to the Sample Frame used in selecting the the sample from the parent population.,,,,,,,,,ddi:datacollection:3_3,e,
-SamplingPlanReference,SamplingPlan,0,1,Reference to the sampling plan used with the sample frame.,,,,,,,,,ddi:datacollection:3_3,e,
-PretestAdministration,PretestAdministrationType,0,n,Description of the method and mode of data collection in administering the pretest. Notes any additional data collected in the administration of the pretest.,,,,,,,,,ddi:datacollection:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+SampleFrameReference,SampleFrame,0,1,A reference to the Sample Frame used in selecting the the sample from the parent population.,,,,,,,,,,,ddi:datacollection:3_3,e,
+SamplingPlanReference,SamplingPlan,0,1,Reference to the sampling plan used with the sample frame.,,,,,,,,,,,ddi:datacollection:3_3,e,
+PretestAdministration,PretestAdministrationType,0,n,Description of the method and mode of data collection in administering the pretest. Notes any additional data collected in the administration of the pretest.,,,,,,,,,,,ddi:datacollection:3_3,e,

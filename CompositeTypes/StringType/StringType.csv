@@ -1,6 +1,6 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Lang,language,0,1,"Indicates the language of content. Note that xml:lang allows for a simple 2 or 3 character language code or a language code extended by a country code , for example en-au for English as used in Australia.",,,,,,,,,http://www.w3.org/XML/1998/namespace,a,
-IsTranslated,boolean,0,1,Indicates whether content is a translation (true) or an original (false).,,,,,,,,,,a,
-IsTranslatable,boolean,0,1,Indicates whether content is translatable (true) or not (false). An example of something that is not translatable would be a MNEMONIC of an object or a number.,,,,,,,,,,a,
-TranslationSourceLanguage,language,0,n,List the language or language codes in a space delimited array. The language original may or may not be provided in this bundle of language specific strings.,,,,,,,,,,a,
-TranslationDate,date,0,1,The date the content was translated. Provision of translation date allows user to verify if translation was available during data collection or other time linked activity.,,,,,,,,,,a,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Lang,language,0,1,"Indicates the language of content. Note that xml:lang allows for a simple 2 or 3 character language code or a language code extended by a country code , for example en-au for English as used in Australia.",,,,,,,,,,,http://www.w3.org/XML/1998/namespace,a,
+IsTranslated,boolean,0,1,Indicates whether content is a translation (true) or an original (false).,,,,,,,,,,,,a,
+IsTranslatable,boolean,0,1,Indicates whether content is translatable (true) or not (false). An example of something that is not translatable would be a MNEMONIC of an object or a number.,,,,,,,,,,,,a,
+TranslationSourceLanguage,language,0,n,List the language or language codes in a space delimited array. The language original may or may not be provided in this bundle of language specific strings.,,,,,,,,,,,,a,
+TranslationDate,date,0,1,The date the content was translated. Provision of translation date allows user to verify if translation was available during data collection or other time linked activity.,,,,,,,,,,,,a,

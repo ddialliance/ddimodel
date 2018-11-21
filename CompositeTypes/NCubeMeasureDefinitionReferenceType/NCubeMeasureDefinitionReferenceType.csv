@@ -1,2 +1,0 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-OrderValue,nonNegativeInteger,0,1,"The reference has an additional attribute orderValue which defines the position of the referenced MeasureDefinition along the MeasureDimension so that it can be used as part of the cell address. The default value is ""1"". Additional MeasureDefinitions should have incremental values (2,3,4,...)",,,,,,,,,,a,

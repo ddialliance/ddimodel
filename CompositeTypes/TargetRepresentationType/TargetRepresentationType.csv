@@ -1,7 +1,7 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-ManagedRepresentationReference,ManagedRepresentation,0,1,"Substitution group head for referencing Managed Representations. For example, ManagedTextRepresentationReference, ManagedNumericRepresentationReference, etc.",,,,,,,,,ddi:reusable:3_3,e,
-CategorySchemeReference,CategoryScheme,0,1,A reference to a CategoryScheme as the managed component of a representation.,,,,,,,,,ddi:reusable:3_3,e,
-CodeListReference,CodeList,0,1,A reference to a CodeList as the managed component of a representation.,,,,,,,,,ddi:reusable:3_3,e,
-CodeSubsetInformation,CodeSubsetInformationType,0,1,Allows further specification of the codes to use from the CodeList.,,,,,,,,,ddi:reusable:3_3,e,
-IncludedGeographicStructureCodes,IncludedGeographicStructureCodesType,0,1,"Identifies the Geographic Structure codes included by the Authorized source of the code, the geographic location being used and the locations to exclude.",,,,,,,,,ddi:reusable:3_3,e,
-IncludedGeographicLocationCodes,IncludedGeographicLocationCodesType,0,1,"Identifies the Geographic Location codes included by the Authorized source of the code, the geographic location being used and the locations to exclude.",,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+ManagedRepresentationReference,ManagedRepresentation,0,1,"Substitution group head for referencing Managed Representations. For example, ManagedTextRepresentationReference, ManagedNumericRepresentationReference, etc.",,true,,,,,,,,,ddi:reusable:3_3,e,
+CategorySchemeReference,CategoryScheme,0,1,A reference to a CategoryScheme as the managed component of a representation.,,,,,,,,,,,ddi:reusable:3_3,e,
+CodeListReference,CodeList,0,1,A reference to a CodeList as the managed component of a representation.,,,,,,,,,,,ddi:reusable:3_3,e,
+CodeSubsetInformation,CodeSubsetInformationType,0,1,Allows further specification of the codes to use from the CodeList.,,,,,,,,,,,ddi:reusable:3_3,e,
+IncludedGeographicStructureCodes,IncludedGeographicStructureCodesType,0,1,"Identifies the Geographic Structure codes included by the Authorized source of the code, the geographic location being used and the locations to exclude.",,,,,,,,,,,ddi:reusable:3_3,e,
+IncludedGeographicLocationCodes,IncludedGeographicLocationCodesType,0,1,"Identifies the Geographic Location codes included by the Authorized source of the code, the geographic location being used and the locations to exclude.",,,,,,,,,,,ddi:reusable:3_3,e,

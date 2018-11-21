@@ -1,4 +1,4 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-TypeOfArea,CodeValueType,0,1,"Specify the type of area covered i.e. Total, Land, Water, etc. Supports the use of an external controlled vocabulary.",,,,,,,,,ddi:reusable:3_3,e,
-MeasurementUnit,CodeValueType,0,1,"Records the measurement unit, for example, Square Kilometer, Square Mile. Supports the use of an external controlled vocabulary.",,,,,,,,,ddi:reusable:3_3,e,
-AreaMeasure,decimal,0,1,The area measure expressed as a decimal for the measurement unit designated.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+TypeOfArea,CodeValueType,0,1,"Specify the type of area covered i.e. Total, Land, Water, etc. Supports the use of an external controlled vocabulary.",,,,,,,,,,,ddi:reusable:3_3,e,
+MeasurementUnit,CodeValueType,0,1,"Records the measurement unit, for example, Square Kilometer, Square Mile. Supports the use of an external controlled vocabulary.",,,,,,,,,,,ddi:reusable:3_3,e,
+AreaMeasure,decimal,0,1,The area measure expressed as a decimal for the measurement unit designated.,,,,,,,,,,,ddi:reusable:3_3,e,

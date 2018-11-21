@@ -1,1 +1,0 @@
-Reference to a variable or question used in the derivation or coding instruction.  TypeOfObject should be set to Variable, QuestionItem, or QuestionGrid.

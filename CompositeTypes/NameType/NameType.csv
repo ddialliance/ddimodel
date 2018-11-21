@@ -1,3 +1,3 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-IsPreferred,boolean,0,1,"If more than one name for the object is provided, use the isPreferred attribute to indicate which is the preferred name content. All other names should be set to isPreferred=""false"".",,,,,,,,,,a,
-Context,string,0,1,"A name may be specific to a particular context, i.e., a type of software, or a section of a registry. Identify the context related to the specified name.",,,,,,,,,,a,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+IsPreferred,boolean,0,1,"If more than one name for the object is provided, use the isPreferred attribute to indicate which is the preferred name content. All other names should be set to isPreferred=""false"".",,,,,,,,,,,,a,
+Context,string,0,1,"A name may be specific to a particular context, i.e., a type of software, or a section of a registry. Identify the context related to the specified name.",,,,,,,,,,,,a,

@@ -1,2 +1,2 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-MaximumRepetitionOfSingleValue,nonNegativeInteger,0,1,"Allows values to be expressed more than once, for example if respondent can specify a ""tie"" by repeating a single value.",,,,,,,,,,a,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+MaximumRepetitionOfSingleValue,nonNegativeInteger,0,1,"Allows values to be expressed more than once, for example if respondent can specify a ""tie"" by repeating a single value.",,,,,,,,,,,,a,

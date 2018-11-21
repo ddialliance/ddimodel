@@ -1,6 +1,6 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Textual,TextualType,0,n,Defines the segment of textual content used by the parent object. Can identify a set of lines and or characters used to define the segment.,,,,,,,,,ddi:reusable:3_3,e,
-Audio,AudioType,0,n,Describes the type and length of the audio segment.,,,,,,,,,ddi:reusable:3_3,e,
-Video,VideoType,0,n,Describes the type and length of the video segment.,,,,,,,,,ddi:reusable:3_3,e,
-XML,string,0,n,An X-Pointer expression identifying a node in the XML document.,,,,,,,,,ddi:reusable:3_3,e,
-ImageArea,ImageAreaType,0,n,"Defines the shape and area of an image used as part of a location representation. The shape is defined as a Rectangle, Circle, or Polygon and Coordinates provides the information required to define it.",,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Textual,TextualType,0,n,Defines the segment of textual content used by the parent object. Can identify a set of lines and or characters used to define the segment.,,,,,,,,,,,ddi:reusable:3_3,e,
+Audio,AudioType,0,n,Describes the type and length of the audio segment.,,,,,,,,,,,ddi:reusable:3_3,e,
+Video,VideoType,0,n,Describes the type and length of the video segment.,,,,,,,,,,,ddi:reusable:3_3,e,
+XML,string,0,n,An X-Pointer expression identifying a node in the XML document.,,,,,,,,,,,ddi:reusable:3_3,e,
+ImageArea,ImageAreaType,0,n,"Defines the shape and area of an image used as part of a location representation. The shape is defined as a Rectangle, Circle, or Polygon and Coordinates provides the information required to define it.",,,,,,,,,,,ddi:reusable:3_3,e,

@@ -1,6 +1,6 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Label,LabelType,0,n,"A display label for the text range. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_3,e,
-CollationAlgorithm,CodeValueType,0,1,"The algorithm used to determine the sort order of the text content. This includes whether the text is left to right, right to left, handling of spaces an capitalization, and ordering of text characters. Supports the use of a controlled vocabulary.",,,,,,,,,ddi:reusable:3_3,e,
-RangeUnit,string,0,1,Specifies the units in the range.,,,,,,,,,ddi:reusable:3_3,e,
-MinimumValue,RangeValueType,0,1,Minimum value in the range.,,,,,,,,,ddi:reusable:3_3,e,
-MaximumValue,RangeValueType,0,1,Maximum value in the range.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Label,LabelType,0,n,"A display label for the text range. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
+CollationAlgorithm,CodeValueType,0,1,"The algorithm used to determine the sort order of the text content. This includes whether the text is left to right, right to left, handling of spaces an capitalization, and ordering of text characters. Supports the use of a controlled vocabulary.",,,,,,,,,,,ddi:reusable:3_3,e,
+RangeUnit,string,0,1,Specifies the units in the range.,,,,,,,,,,,ddi:reusable:3_3,e,
+MinimumValue,RangeValueType,0,1,Minimum value in the range.,,,,,,,,,,,ddi:reusable:3_3,e,
+MaximumValue,RangeValueType,0,1,Maximum value in the range.,,,,,,,,,,,ddi:reusable:3_3,e,

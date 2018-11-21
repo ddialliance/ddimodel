@@ -1,2 +1,2 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-VariableReference,Variable,0,n,Reference to a variable used as a fixed identifier either singly or in combination with additional reference variables.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+VariableReference,Variable,0,n,Reference to a variable used as a fixed identifier either singly or in combination with additional reference variables.,,,,,,,,,,,ddi:reusable:3_3,e,

@@ -1,1 +1,0 @@
-References a parent geography and describes whether the geographic level completely fills its parent level. TypeOfObject should be set to GeographicLevel.

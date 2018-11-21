@@ -1,3 +1,3 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Shape,string,0,1,"A fixed set of valid responses includes Rectangle, Circle, and Polygon.",,,Rectangle Circle Polygon,,,,,,ddi:reusable:3_3,e,
-Coordinates,string,0,1,"A comma-delimited list of x,y coordinates, listed as a set of adjacent points for rectangles and polygons, and as a center-point and a radius for circles (x,y,r).",,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Shape,string,0,1,"A fixed set of valid responses includes Rectangle, Circle, and Polygon.",,,,,Rectangle Circle Polygon,,,,,,ddi:reusable:3_3,e,
+Coordinates,string,0,1,"A comma-delimited list of x,y coordinates, listed as a set of adjacent points for rectangles and polygons, and as a center-point and a radius for circles (x,y,r).",,,,,,,,,,,ddi:reusable:3_3,e,

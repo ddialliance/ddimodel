@@ -1,3 +1,3 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-TypeOfTranslationMethod,CodeValueType,0,1,Specifies the type of translation method used. Supports the use of a controlled vocabulary.,,,,,,,,,ddi:datacollection:3_3,e,
-Description,StructuredStringType,0,1,Description of the translation method. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+TypeOfTranslationMethod,CodeValueType,0,1,Specifies the type of translation method used. Supports the use of a controlled vocabulary.,,,,,,,,,,,ddi:datacollection:3_3,e,
+Description,StructuredStringType,0,1,Description of the translation method. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,

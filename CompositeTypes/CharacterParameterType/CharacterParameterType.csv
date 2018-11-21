@@ -1,3 +1,3 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-StartCharOffset,nonNegativeInteger,0,1,"Number of characters from beginning of the document, indicating the inclusive start of the text range.",,,,,,,,,ddi:reusable:3_3,e,
-EndCharOffset,nonNegativeInteger,0,1,"Number of characters from the beginning of the document, indicating the inclusive end of the text segment.",,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+StartCharOffset,nonNegativeInteger,0,1,"Number of characters from beginning of the document, indicating the inclusive start of the text range.",,,,,,,,,,,ddi:reusable:3_3,e,
+EndCharOffset,nonNegativeInteger,0,1,"Number of characters from the beginning of the document, indicating the inclusive end of the text segment.",,,,,,,,,,,ddi:reusable:3_3,e,

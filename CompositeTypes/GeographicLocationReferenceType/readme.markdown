@@ -1,1 +1,0 @@
-Reference to an existing GeographicLocation using the Reference structure plus the ability to exclude any number of contained location values as specified by reference. TypeOfObject should be set to GeographicLocation.

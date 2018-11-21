@@ -1,5 +1,5 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-VariablesInRecord,VariablesInRecordType,0,1,Use VariablesInRecord to describe any variables in the record that are external to the NCube such as case identifiers.,,,,,,,,,ddi:logicalproduct:3_3,e,
-NCubeSchemeReference,NCubeScheme,0,n,Reference to an NCubeScheme whose members are included in the logical record. Note that individual items may be excluded from the scheme if not used by the logical record.,,,,,,,,,ddi:reusable:3_3,e,
-NCubeReference,NCube,0,n,Reference to an NCube to include in the logical record. This may be used to supplement the contents of an included NCubeScheme or to list all the variables individually.,,,,,,,,,ddi:reusable:3_3,e,
-AllNCubesInLogicalProduct,boolean,0,1,"When the value is true, then the logical record contains all listed NCubes in the logical product module.",,,,,,,,,,a,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+VariablesInRecord,VariablesInRecordType,0,1,Use VariablesInRecord to describe any variables in the record that are external to the NCube such as case identifiers.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
+NCubeSchemeReference,NCubeScheme,0,n,Reference to an NCubeScheme whose members are included in the logical record. Note that individual items may be excluded from the scheme if not used by the logical record.,,,,,,,,,,,ddi:reusable:3_3,e,
+NCubeReference,NCube,0,n,Reference to an NCube to include in the logical record. This may be used to supplement the contents of an included NCubeScheme or to list all the variables individually.,,,,,,,,,,,ddi:reusable:3_3,e,
+AllNCubesInLogicalProduct,boolean,0,1,"When the value is true, then the logical record contains all listed NCubes in the logical product module.",,,,,,,,,,,,a,

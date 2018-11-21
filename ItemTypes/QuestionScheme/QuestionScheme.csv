@@ -1,9 +1,9 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-QuestionSchemeName,NameType,0,n,"A name for the QuestionScheme. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:datacollection:3_3,e,
-Label,LabelType,0,n,"A display label for the QuestionScheme. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_3,e,
-Description,StructuredStringType,0,1,A description of the content and purpose of the QuestionScheme. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
-QuestionSchemeReference,QuestionScheme,0,n,Allows for the inclusion of another QuestionScheme by reference.,,,,,,,,,ddi:reusable:3_3,e,
-QuestionItemReference,QuestionItem,0,n,Describes a QuestionItem in-line.,,,,,,,,,ddi:datacollection:3_3,e,
-QuestionGridReference,QuestionGrid,0,n,Describes a QuestionGrid in-line.,,,,,,,,,ddi:datacollection:3_3,e,
-QuestionBlockReference,QuestionBlock,0,n,Describes a QuestionBlock in-line.,,,,,,,,,ddi:datacollection:3_3,e,
-QuestionGroupReference,QuestionGroup,0,n,"Contains a group of Questions, which may be ordered or hierarchical.",,,,,,,,,ddi:datacollection:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+QuestionSchemeName,NameType,0,n,"A name for the QuestionScheme. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:datacollection:3_3,e,
+Label,LabelType,0,n,"A display label for the QuestionScheme. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,A description of the content and purpose of the QuestionScheme. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
+QuestionSchemeReference,QuestionScheme,0,n,Allows for the inclusion of another QuestionScheme by reference.,,,,,,,,,,,ddi:reusable:3_3,e,
+QuestionItemReference,QuestionItem,0,n,Describes a QuestionItem in-line.,,,,,,,,,,,ddi:datacollection:3_3,e,
+QuestionGridReference,QuestionGrid,0,n,Describes a QuestionGrid in-line.,,,,,,,,,,,ddi:datacollection:3_3,e,
+QuestionBlockReference,QuestionBlock,0,n,Describes a QuestionBlock in-line.,,,,,,,,,,,ddi:datacollection:3_3,e,
+QuestionGroupReference,QuestionGroup,0,n,"Contains a group of Questions, which may be ordered or hierarchical.",,,,,,,,,,,ddi:datacollection:3_3,e,

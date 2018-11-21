@@ -1,3 +1,3 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-ConditionalVariableReference,Variable,0,1,"References the variable containing the conditional content, provides the value of the condition.",,,,,,,,,ddi:logicalproduct:3_3,e,
-VariableReference,Variable,1,n,The variables required to provide a unique identification when the conditional variable contains the stated value.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+ConditionalVariableReference,Variable,0,1,"References the variable containing the conditional content, provides the value of the condition.",,,,,,,,,,,ddi:logicalproduct:3_3,e,
+VariableReference,Variable,1,n,The variables required to provide a unique identification when the conditional variable contains the stated value.,,,,,,,,,,,ddi:reusable:3_3,e,

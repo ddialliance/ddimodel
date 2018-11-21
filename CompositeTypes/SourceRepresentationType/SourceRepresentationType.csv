@@ -1,7 +1,7 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-ManagedRepresentationReference,ManagedRepresentation,0,1,"Substitution group head for referencing Managed Representations. For example, ManagedTextRepresentationReference, ManagedNumericRepresentationReference, etc.",,,,,,,,,ddi:reusable:3_3,e,
-CategorySchemeReference,CategoryScheme,0,1,A reference to a CategoryScheme as the managed component of a representation.,,,,,,,,,ddi:reusable:3_3,e,
-CodeListReference,CodeList,0,1,A reference to a CodeList as the managed component of a representation.,,,,,,,,,ddi:reusable:3_3,e,
-GeographicStructureReference,GeographicStructure,0,1,A reference to a GeographicStructure as the managed component of a representation.,,,,,,,,,ddi:reusable:3_3,e,
-GeographicLocationReference,GeographicLocation,0,1,A reference to a GeographicLocation as the managed component of a representation.,,,,,,,,,ddi:reusable:3_3,e,
-ConceptReference,Concept,0,1,"Reference to a Concept which provides a context for the representation, e.g. Age for a numeric representation.",,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+ManagedRepresentationReference,ManagedRepresentation,0,1,"Substitution group head for referencing Managed Representations. For example, ManagedTextRepresentationReference, ManagedNumericRepresentationReference, etc.",,true,,,,,,,,,ddi:reusable:3_3,e,
+CategorySchemeReference,CategoryScheme,0,1,A reference to a CategoryScheme as the managed component of a representation.,,,,,,,,,,,ddi:reusable:3_3,e,
+CodeListReference,CodeList,0,1,A reference to a CodeList as the managed component of a representation.,,,,,,,,,,,ddi:reusable:3_3,e,
+GeographicStructureReference,GeographicStructure,0,1,A reference to a GeographicStructure as the managed component of a representation.,,,,,,,,,,,ddi:reusable:3_3,e,
+GeographicLocationReference,GeographicLocation,0,1,A reference to a GeographicLocation as the managed component of a representation.,,,,,,,,,,,ddi:reusable:3_3,e,
+ConceptReference,Concept,0,1,"Reference to a Concept which provides a context for the representation, e.g. Age for a numeric representation.",,,,,,,,,,,ddi:reusable:3_3,e,

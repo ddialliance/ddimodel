@@ -1,1 +1,0 @@
-Value of variable indicating this record type, multiple entries allow for multiple valid values or ranges. Includes a reference to the variable an the specified related value. TypeOfObject should be set to Variabele.

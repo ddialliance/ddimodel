@@ -1,5 +1,5 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-WestLongitude,decimal,0,1,West longitude of the bounding box. (xmin),,,,,-180,,180,,ddi:reusable:3_3,e,
-EastLongitude,decimal,0,1,East longitude of the bounding box. (xmax),,,,,-180,,180,,ddi:reusable:3_3,e,
-SouthLatitude,decimal,0,1,South latitude of the bounding box. (ymin),,,,,-90,,90,,ddi:reusable:3_3,e,
-NorthLatitude,decimal,0,1,North latitude of the bounding box. (ymax),,,,,-90,,90,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+WestLongitude,decimal,0,1,West longitude of the bounding box. (xmin),,,,,,,-180,,180,,ddi:reusable:3_3,e,
+EastLongitude,decimal,0,1,East longitude of the bounding box. (xmax),,,,,,,-180,,180,,ddi:reusable:3_3,e,
+SouthLatitude,decimal,0,1,South latitude of the bounding box. (ymin),,,,,,,-90,,90,,ddi:reusable:3_3,e,
+NorthLatitude,decimal,0,1,North latitude of the bounding box. (ymax),,,,,,,-90,,90,,ddi:reusable:3_3,e,

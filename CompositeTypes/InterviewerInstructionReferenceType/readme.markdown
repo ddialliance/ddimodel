@@ -1,1 +1,0 @@
-Reference to an interviewer instruction expressed as DDI XML plus a flag to designate whether the instruction should always be displayed. TypeOfObject should be set to InterviewerInstruction.

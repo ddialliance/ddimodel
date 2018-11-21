@@ -1,7 +1,7 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Label,LabelType,0,1,"A display label for the Roster. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_3,e,
-ConditionForContinuation,CommandCodeType,0,1,Provides the condition for continuing to add another iteration to the Roster. This may be a human readable condition and/or a machine-actionable command.,,,,,,,,,ddi:datacollection:3_3,e,
-BaseCodeValue,int,1,1,A base value for the first item on the Roster (normally 0 or 1 but can be set to any value especially when the use of a roster extends an enumerated list expressed as an integer.,,,,,,,,,,a,
-CodeIterationValue,int,1,1,The value added to the last used value to create the iteration value for the current row or column expressed as an integer.,,,,,,,,,,a,
-MinimumRequired,nonNegativeInteger,0,1,The minimum number of rows or columns required expressed as an integer.,,,,,,,,,,a,
-MaximumAllowed,nonNegativeInteger,0,1,The maximum number of rows or columns allowed expressed as an integer. Leaving this attribute with no value implies that the maximum allowed is unbounded.,,,,,,,,,,a,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Label,LabelType,0,1,"A display label for the Roster. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
+ConditionForContinuation,CommandCodeType,0,1,Provides the condition for continuing to add another iteration to the Roster. This may be a human readable condition and/or a machine-actionable command.,,,,,,,,,,,ddi:datacollection:3_3,e,
+BaseCodeValue,int,1,1,A base value for the first item on the Roster (normally 0 or 1 but can be set to any value especially when the use of a roster extends an enumerated list expressed as an integer.,,,,,,,,,,,,a,
+CodeIterationValue,int,1,1,The value added to the last used value to create the iteration value for the current row or column expressed as an integer.,,,,,,,,,,,,a,
+MinimumRequired,nonNegativeInteger,0,1,The minimum number of rows or columns required expressed as an integer.,,,,,,,,,,,,a,
+MaximumAllowed,nonNegativeInteger,0,1,The maximum number of rows or columns allowed expressed as an integer. Leaving this attribute with no value implies that the maximum allowed is unbounded.,,,,,,,,,,,,a,

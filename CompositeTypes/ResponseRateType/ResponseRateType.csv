@@ -1,5 +1,5 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-SampleSize,nonNegativeInteger,0,1,The size of the sample from whom data was requested.,,,,,,,,,ddi:datacollection:3_3,e,
-NumberOfResponses,nonNegativeInteger,0,1,The number of responses within the specified sample.,,,,,,,,,ddi:datacollection:3_3,e,
-SpecificResponseRate,decimal,0,1,The specific rate of response expressed as a percent.,,,,,,,,,ddi:datacollection:3_3,e,
-Description,StructuredStringType,0,1,A description of the rate of response including any information pertinent to understanding the specified rate of response. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+SampleSize,nonNegativeInteger,0,1,The size of the sample from whom data was requested.,,,,,,,,,,,ddi:datacollection:3_3,e,
+NumberOfResponses,nonNegativeInteger,0,1,The number of responses within the specified sample.,,,,,,,,,,,ddi:datacollection:3_3,e,
+SpecificResponseRate,decimal,0,1,The specific rate of response expressed as a percent.,,,,,,,,,,,ddi:datacollection:3_3,e,
+Description,StructuredStringType,0,1,A description of the rate of response including any information pertinent to understanding the specified rate of response. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,

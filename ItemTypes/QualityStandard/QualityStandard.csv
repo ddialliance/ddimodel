@@ -1,6 +1,6 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-QualityStandardName,NameType,0,n,Name of the QualityStandard using the DDI Name structure.,,,,,,,,,ddi:reusable:3_3,e,
-Label,LabelType,0,n,"A display label for the QualityStandard. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_3,e,
-Description,StructuredStringType,0,1,A description of the QualityStandard. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
-StandardUsed,StandardUsedType,0,1,Provide the citation and location of the source published standard using the OtherMaterialType.,,,,,,,,,ddi:reusable:3_3,e,
-ComplianceDefinition,string,0,n,Provides a list of quality concepts in the quality standard.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+QualityStandardName,NameType,0,n,Name of the QualityStandard using the DDI Name structure.,,,,,,,,,,,ddi:reusable:3_3,e,
+Label,LabelType,0,n,"A display label for the QualityStandard. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,A description of the QualityStandard. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
+StandardUsed,StandardUsedType,0,1,Provide the citation and location of the source published standard using the OtherMaterialType.,,,,,,,,,,,ddi:reusable:3_3,e,
+ComplianceDefinition,string,0,n,Provides a list of quality concepts in the quality standard.,,,,,,,,,,,ddi:reusable:3_3,e,

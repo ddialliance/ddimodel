@@ -1,4 +1,4 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-IncludedDimension,int,0,n,List by repetition all dimensions intersecting at this value by Dimension Number.,,,,,,,,,ddi:reusable:3_3,e,
-ForAllDimensions,boolean,0,1,If different dimensions intersect at different values list each set in a separate DimensionIntersect and list each dimension included by an IncludeDimension.,,,,,,,,,,a,
-IntersectValue,string,0,1,The value at which the dimensions intersect.,,,,,,,,,,a,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+IncludedDimension,int,0,n,List by repetition all dimensions intersecting at this value by Dimension Number.,,,,,,,,,,,ddi:reusable:3_3,e,
+ForAllDimensions,boolean,0,1,If different dimensions intersect at different values list each set in a separate DimensionIntersect and list each dimension included by an IncludeDimension.,,,,,,,,,,,,a,
+IntersectValue,string,0,1,The value at which the dimensions intersect.,,,,,,,,,,,,a,

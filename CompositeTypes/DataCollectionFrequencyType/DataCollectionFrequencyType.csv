@@ -1,2 +1,2 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-IntendedFrequency,CodeValueType,0,1,"Documents the intended frequency of data collection, for example monthly, yearly, weekly, etc., preferably using an optional controlled vocabulary.",,,,,,,,,ddi:datacollection:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+IntendedFrequency,CodeValueType,0,1,"Documents the intended frequency of data collection, for example monthly, yearly, weekly, etc., preferably using an optional controlled vocabulary.",,,,,,,,,,,ddi:datacollection:3_3,e,

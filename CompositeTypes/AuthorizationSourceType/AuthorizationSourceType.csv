@@ -1,5 +1,5 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-AuthorizingAgencyReference,Agent,0,n,"References the authorizing agency, organization, or individual.",,,,,,,,,ddi:reusable:3_3,e,
-StatementOfAuthorization,StructuredStringType,0,n,Text of the authorization. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
-LegalMandate,string,0,n,"Provide a legal citation to a law authorizing the study/data collection. For example, a legal citation for a law authorizing a country's census.",,,,,,,,,ddi:reusable:3_3,e,
-AuthorizationDate,cogsDate,0,1,Identifies the date of Authorization.,,,,,,,,,,a,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+AuthorizingAgencyReference,Agent,0,n,"References the authorizing agency, organization, or individual.",,,,,,,,,,,ddi:reusable:3_3,e,
+StatementOfAuthorization,StructuredStringType,0,n,Text of the authorization. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
+LegalMandate,string,0,n,"Provide a legal citation to a law authorizing the study/data collection. For example, a legal citation for a law authorizing a country's census.",,,,,,,,,,,ddi:reusable:3_3,e,
+AuthorizationDate,cogsDate,0,1,Identifies the date of Authorization.,,,,,,,,,,,,a,

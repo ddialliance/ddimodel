@@ -1,5 +1,5 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-CategoryReference,Category,0,n,Reference to the Category represented by the Value of the Code assigned in a CodeList. Repeat for including multiple values.,,,,,,,,,ddi:reusable:3_3,e,
-CodeReference,CodeType,0,n,Reference to the Code within the CodeList used by the variable describing the dimension. Repeat for including multiple values.,,,,,,,,,ddi:reusable:3_3,e,
-Range,RangeType,0,n,Use when multiple values are included. This uses the unique Value provided for the Code as a means of identification. Provides the range of Values for this dimension that are within the area being defined. Repeat for non-contiguous values.,,,,,,,,,ddi:reusable:3_3,e,
-Rank,nonNegativeInteger,1,1,Identify the dimension being described by its rank value within the NCube description.,,,,,,,,,,a,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+CategoryReference,Category,0,n,Reference to the Category represented by the Value of the Code assigned in a CodeList. Repeat for including multiple values.,,,,,,,,,,,ddi:reusable:3_3,e,
+CodeReference,CodeType,0,n,Reference to the Code within the CodeList used by the variable describing the dimension. Repeat for including multiple values.,,,,,,,,,,,ddi:reusable:3_3,e,
+Range,RangeType,0,n,Use when multiple values are included. This uses the unique Value provided for the Code as a means of identification. Provides the range of Values for this dimension that are within the area being defined. Repeat for non-contiguous values.,,,,,,,,,,,ddi:reusable:3_3,e,
+Rank,nonNegativeInteger,1,1,Identify the dimension being described by its rank value within the NCube description.,,,,,,,,,,,,a,

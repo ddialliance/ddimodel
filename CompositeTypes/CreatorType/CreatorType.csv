@@ -1,3 +1,3 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-CreatorName,BibliographicNameType,0,1,Full name of the creator and affiliation. Language equivalents should be expressed within the International String structure.,,,,,,,,,ddi:reusable:3_3,e,
-CreatorReference,Individual,0,1,Reference to a creator as described within a DDI Organization Scheme.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+CreatorName,BibliographicNameType,0,1,Full name of the creator and affiliation. Language equivalents should be expressed within the International String structure.,,,,,,,,,,,ddi:reusable:3_3,e,
+CreatorReference,Individual,0,1,Reference to a creator as described within a DDI Organization Scheme.,,,,,,,,,,,ddi:reusable:3_3,e,

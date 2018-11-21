@@ -1,6 +1,6 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-EntryText,string,0,1,Text describing the type of object/unit or object property.,,,,,,,,,ddi:logicalproduct:3_3,e,
-CodesClassificationItem,ClassificationItem,0,1,the Classification Item with which the Classification Index Entry is associated.,,,,,,,,,ddi:logicalproduct:3_3,e,
-ValidFrom,cogsDate,0,1,Date from which the Classification Index Entry became valid. The date must be defined if the Classification Index Entry belongs to a floating Classification Index.,,,,,,,,,ddi:logicalproduct:3_3,e,
-ValidTo,cogsDate,0,1,Date at which the Classification Index Entry became invalid. The date must be defined if the Classification Index Entry belongs to a floating Classification Index and is no longer valid.,,,,,,,,,ddi:logicalproduct:3_3,e,
-CodingInstructions,StructuredStringType,0,1,Additional information which drives the coding process. Required when coding is dependent upon one or many other factors.,,,,,,,,,ddi:logicalproduct:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+EntryText,string,0,1,Text describing the type of object/unit or object property.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
+CodesClassificationItem,ClassificationItem,0,1,the Classification Item with which the Classification Index Entry is associated.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
+ValidFrom,cogsDate,0,1,Date from which the Classification Index Entry became valid. The date must be defined if the Classification Index Entry belongs to a floating Classification Index.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
+ValidTo,cogsDate,0,1,Date at which the Classification Index Entry became invalid. The date must be defined if the Classification Index Entry belongs to a floating Classification Index and is no longer valid.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
+CodingInstructions,StructuredStringType,0,1,Additional information which drives the coding process. Required when coding is dependent upon one or many other factors.,,,,,,,,,,,ddi:logicalproduct:3_3,e,

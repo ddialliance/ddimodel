@@ -1,1 +1,0 @@
-Reference to one or more categories for which the current category is a broader definition. Allows for a reference to the narrower category and the ability to define the relationship as a specialization or part. TypeOfObject should be set to Category.

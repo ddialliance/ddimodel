@@ -1,3 +1,3 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-CategoryValue,CategoryValueType,0,1,The value of the category.,,,,,,,,,ddi:physicalinstance:3_3,e,
-CategoryStatistic,CategoryStatisticType,0,n,The value of a statistic associated with the category value indicated in the sibling CategoryValue element.,,,,,,,,,ddi:physicalinstance:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+CategoryValue,CategoryValueType,0,1,The value of the category.,,,,,,,,,,,ddi:physicalinstance:3_3,e,
+CategoryStatistic,CategoryStatisticType,0,n,The value of a statistic associated with the category value indicated in the sibling CategoryValue element.,,,,,,,,,,,ddi:physicalinstance:3_3,e,

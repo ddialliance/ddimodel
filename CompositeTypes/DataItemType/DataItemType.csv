@@ -1,3 +1,3 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-VariableReference,Variable,0,1,Reference to the Variable describing this data item.,,,,,,,,,ddi:reusable:3_3,e,
-PhysicalLocation,PhysicalLocationType,0,1,Description of the physical location of the value of the object in the data file.,,,,,,,,,ddi:physicaldataproduct:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+VariableReference,Variable,0,1,Reference to the Variable describing this data item.,,,,,,,,,,,ddi:reusable:3_3,e,
+PhysicalLocation,PhysicalLocationType,0,1,Description of the physical location of the value of the object in the data file.,,,,,,,,,,,ddi:physicaldataproduct:3_3,e,

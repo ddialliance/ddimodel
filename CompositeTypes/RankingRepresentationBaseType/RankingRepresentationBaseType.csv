@@ -1,2 +1,2 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-RankingRange,RankingRangeType,0,1,"The allowed values expressed using Range (allows for non-numeric values). In addition, defines the number of times a value may be used in expressing a ranking.",,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+RankingRange,RankingRangeType,0,1,"The allowed values expressed using Range (allows for non-numeric values). In addition, defines the number of times a value may be used in expressing a ranking.",,,,,,,,,,,ddi:reusable:3_3,e,

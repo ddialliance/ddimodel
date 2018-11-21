@@ -1,1 +1,0 @@
-References a PhysicalStructure description and the ID of the physical record segment from that is described by this record layout. TypeOfObject should be set to PhysicalStructure.

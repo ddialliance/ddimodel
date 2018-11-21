@@ -1,5 +1,5 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-StartLine,nonNegativeInteger,0,1,Number of lines from beginning of the document.,,,,,,,,,ddi:reusable:3_3,e,
-StartOffset,nonNegativeInteger,0,1,Number of characters from start of the line specified in StartLine.,,,,,,,,,ddi:reusable:3_3,e,
-EndLine,nonNegativeInteger,0,1,Number of lines from beginning of the document.,,,,,,,,,ddi:reusable:3_3,e,
-EndOffset,int,0,1,Number of characters from the start of the line specified in EndLine.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+StartLine,nonNegativeInteger,0,1,Number of lines from beginning of the document.,,,,,,,,,,,ddi:reusable:3_3,e,
+StartOffset,nonNegativeInteger,0,1,Number of characters from start of the line specified in StartLine.,,,,,,,,,,,ddi:reusable:3_3,e,
+EndLine,nonNegativeInteger,0,1,Number of lines from beginning of the document.,,,,,,,,,,,ddi:reusable:3_3,e,
+EndOffset,int,0,1,Number of characters from the start of the line specified in EndLine.,,,,,,,,,,,ddi:reusable:3_3,e,

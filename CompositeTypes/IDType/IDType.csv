@@ -1,2 +1,0 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Type,string,0,1,This is a fixed value attribute declaring that the element is Identifiable and follows the rules of an identifiable object within DDI.,,,,,,,,,,a,

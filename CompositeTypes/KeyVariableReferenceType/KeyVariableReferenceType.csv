@@ -1,2 +1,0 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Value,ValueType,0,1,Value of the variable for this segment.,,,,,,,,,ddi:reusable:3_3,e,

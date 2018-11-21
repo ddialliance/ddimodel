@@ -1,3 +1,0 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-InstructionAttachmentLocation,InstructionAttachmentLocationType,0,n,"Allows attachment of an instruction to a specific item in a question structure. For example, to a Label, QuestionText, ResponseDomain, Response domain value, or grid cell.",,,,,,,,,ddi:datacollection:3_3,e,
-IsDisplayed,boolean,0,1,"If set to ""true"" the content of the instruction is intended to be displayed. If set to ""false"" the preference is for the instruction to be displayed upon request if this is supported by the mode of presentation.",,,,,,,,,,a,

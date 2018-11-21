@@ -1,9 +1,9 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-QualitySchemeName,NameType,0,n,"A name for the QualityScheme. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:reusable:3_3,e,
-Label,LabelType,0,n,"A display label for the QualityScheme. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_3,e,
-Description,StructuredStringType,0,1,A description of the content and purpose of the QualityScheme. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
-QualitySchemeReference,QualityScheme,0,n,Inclusion of an existing QualityScheme by reference.,,,,,,,,,ddi:reusable:3_3,e,
-QualityStatementReference,QualityStatement,0,n,In-line description of a QualityStatement. These are used by reference at various points in the lifecycle.,,,,,,,,,ddi:reusable:3_3,e,
-QualityStandardReference,QualityStandard,0,n,In-line description of a QualityStandard. These are used by reference at various points in the lifecycle.,,,,,,,,,ddi:reusable:3_3,e,
-QualityStatementGroupReference,QualityStatementGroup,0,n,In-line description of a group of QualityStatements.,,,,,,,,,ddi:reusable:3_3,e,
-QualityStandardGroupReference,QualityStandardGroup,0,n,In-line description of a group of QualityStandards.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+QualitySchemeName,NameType,0,n,"A name for the QualityScheme. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:reusable:3_3,e,
+Label,LabelType,0,n,"A display label for the QualityScheme. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,A description of the content and purpose of the QualityScheme. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
+QualitySchemeReference,QualityScheme,0,n,Inclusion of an existing QualityScheme by reference.,,,,,,,,,,,ddi:reusable:3_3,e,
+QualityStatementReference,QualityStatement,0,n,In-line description of a QualityStatement. These are used by reference at various points in the lifecycle.,,,,,,,,,,,ddi:reusable:3_3,e,
+QualityStandardReference,QualityStandard,0,n,In-line description of a QualityStandard. These are used by reference at various points in the lifecycle.,,,,,,,,,,,ddi:reusable:3_3,e,
+QualityStatementGroupReference,QualityStatementGroup,0,n,In-line description of a group of QualityStatements.,,,,,,,,,,,ddi:reusable:3_3,e,
+QualityStandardGroupReference,QualityStandardGroup,0,n,In-line description of a group of QualityStandards.,,,,,,,,,,,ddi:reusable:3_3,e,

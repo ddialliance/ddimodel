@@ -1,3 +1,3 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-IfCondition,CommandCodeType,0,1,"The condition which must be met to trigger the Then clause, expressed as a Coding. The condition is an expression in the programming language used in the instrument.",,,,,,,,,ddi:datacollection:3_3,e,
-ThenResult,ConditionalResultType,0,1,The conditional response which should be triggered if the associated condition is met.,,,,,,,,,ddi:datacollection:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+IfCondition,CommandCodeType,0,1,"The condition which must be met to trigger the Then clause, expressed as a Coding. The condition is an expression in the programming language used in the instrument.",,,,,,,,,,,ddi:datacollection:3_3,e,
+ThenResult,ConditionalResultType,0,1,The conditional response which should be triggered if the associated condition is met.,,,,,,,,,,,ddi:datacollection:3_3,e,

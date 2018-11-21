@@ -1,6 +1,6 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-TypeOfID,CodeValueType,0,1,Brief description of the ID type. Supports the use of an external controlled vocabulary.,,,,,,,,,ddi:archive:3_3,e,
-ResearcherIdentification,string,0,1,The value of the researcher ID.,,,,,,,,,ddi:archive:3_3,e,
-URI,anyURI,0,1,The URI (URN or URL) of the of the researcher ID.,,,,,,,,,ddi:reusable:3_3,e,
-Description,StructuredStringType,0,1,A description of the purpose and use of the researcher ID. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
-EffectivePeriod,DateType,0,1,Clarifies when the identification information is accurate.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+TypeOfID,CodeValueType,0,1,Brief description of the ID type. Supports the use of an external controlled vocabulary.,,,,,,,,,,,ddi:archive:3_3,e,
+ResearcherIdentification,string,0,1,The value of the researcher ID.,,,,,,,,,,,ddi:archive:3_3,e,
+URI,anyURI,0,1,The URI (URN or URL) of the of the researcher ID.,,,,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,A description of the purpose and use of the researcher ID. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
+EffectivePeriod,DateType,0,1,Clarifies when the identification information is accurate.,,,,,,,,,,,ddi:reusable:3_3,e,

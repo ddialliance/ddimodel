@@ -1,3 +1,3 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-FilterVariableReference,Variable,0,1,"Reference to the variable used to filter the category level statistics. ",,,,,,,,,ddi:physicalinstance:3_3,e,
-FilterVariableCategory,FilterVariableCategoryType,0,n,Provides filtered category statistics for the specified filter variable category.,,,,,,,,,ddi:physicalinstance:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+FilterVariableReference,Variable,0,1,"Reference to the variable used to filter the category level statistics. ",,,,,,,,,,,ddi:physicalinstance:3_3,e,
+FilterVariableCategory,FilterVariableCategoryType,0,n,Provides filtered category statistics for the specified filter variable category.,,,,,,,,,,,ddi:physicalinstance:3_3,e,

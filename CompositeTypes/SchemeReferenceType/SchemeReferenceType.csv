@@ -1,2 +1,0 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Exclude,ReferenceType,0,n,Identification of an item from the referenced scheme which should be excluded from use for the purposes of the reference.,,,,,,,,,ddi:reusable:3_3,e,

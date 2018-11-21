@@ -1,4 +1,4 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-StratificationRationale,StratificationRationaleType,0,1,Describe the purpose for stratifying your sample frame prior to sampling.,,,,,,,,,ddi:datacollection:3_3,e,
-AllocationMethod,StructuredStringType,0,1,Method to determine how the sample should be allocated/distributed (Source: US Census Metadata Standard document),,,,,,,,,ddi:datacollection:3_3,e,
-StrataNumber,nonNegativeInteger,1,1,Assign a number to the strata being described,,,,,,,,,,a,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+StratificationRationale,StratificationRationaleType,0,1,Describe the purpose for stratifying your sample frame prior to sampling.,,,,,,,,,,,ddi:datacollection:3_3,e,
+AllocationMethod,StructuredStringType,0,1,Method to determine how the sample should be allocated/distributed (Source: US Census Metadata Standard document),,,,,,,,,,,ddi:datacollection:3_3,e,
+StrataNumber,nonNegativeInteger,1,1,Assign a number to the strata being described,,,,,,,,,,,,a,

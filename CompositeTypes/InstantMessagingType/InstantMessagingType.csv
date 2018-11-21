@@ -1,6 +1,6 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-IMIdentification,string,0,1,Indicates Instant messaging account identification,,,,,,,,,ddi:archive:3_3,e,
-TypeOfInstantMessaging,CodeValueType,0,1,Indicates type of Instant messaging account used. Supports the use of a controlled vocabulary.,,,,,,,,,ddi:archive:3_3,e,
-EffectivePeriod,DateType,0,1,Clarifies when the identification information is accurate.,,,,,,,,,ddi:reusable:3_3,e,
-Privacy,string,0,1,A basic set of privacy codes for the parent element. These may be stricter than the general access restrictions for the overall metadata. If available codes are insufficient this may also contain any string.,,,public restricted private,,,,,,,a,
-IsPreferred,boolean,0,1,"Set to ""true"" if this is the preferred address for instant messaging.",,,,,,,,,,a,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+IMIdentification,string,0,1,Indicates Instant messaging account identification,,,,,,,,,,,ddi:archive:3_3,e,
+TypeOfInstantMessaging,CodeValueType,0,1,Indicates type of Instant messaging account used. Supports the use of a controlled vocabulary.,,,,,,,,,,,ddi:archive:3_3,e,
+EffectivePeriod,DateType,0,1,Clarifies when the identification information is accurate.,,,,,,,,,,,ddi:reusable:3_3,e,
+Privacy,string,0,1,A basic set of privacy codes for the parent element. These may be stricter than the general access restrictions for the overall metadata. If available codes are insufficient this may also contain any string.,,,,,public restricted private,,,,,,,a,
+IsPreferred,boolean,0,1,"Set to ""true"" if this is the preferred address for instant messaging.",,,,,,,,,,,,a,

@@ -1,8 +1,8 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-ConceptSchemeName,NameType,0,n,"A name for the ConceptScheme. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:conceptualcomponent:3_3,e,
-Label,LabelType,0,n,"A display label for the ConceptScheme. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_3,e,
-Description,StructuredStringType,0,1,A description of the ConceptScheme. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
-ConceptSchemeReference,ConceptScheme,0,n,Reference to an existing ConceptScheme for inclusion.,,,,,,,,,ddi:reusable:3_3,e,
-Vocabulary,VocabularyType,0,1,Identifies and describes the vocabulary used to create the concept scheme.,,,,,,,,,ddi:conceptualcomponent:3_3,e,
-ConceptReference,Concept,0,n,Describes an individual concept.,,,,,,,,,ddi:conceptualcomponent:3_3,e,
-ConceptGroupReference,ConceptGroup,0,n,Allows for grouping of concepts for administrative or conceptual purposes; groups may have a hierarchical structure.,,,,,,,,,ddi:conceptualcomponent:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+ConceptSchemeName,NameType,0,n,"A name for the ConceptScheme. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
+Label,LabelType,0,n,"A display label for the ConceptScheme. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,A description of the ConceptScheme. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
+ConceptSchemeReference,ConceptScheme,0,n,Reference to an existing ConceptScheme for inclusion.,,,,,,,,,,,ddi:reusable:3_3,e,
+Vocabulary,VocabularyType,0,1,Identifies and describes the vocabulary used to create the concept scheme.,,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
+ConceptReference,Concept,0,n,Describes an individual concept.,,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
+ConceptGroupReference,ConceptGroup,0,n,Allows for grouping of concepts for administrative or conceptual purposes; groups may have a hierarchical structure.,,,,,,,,,,,ddi:conceptualcomponent:3_3,e,

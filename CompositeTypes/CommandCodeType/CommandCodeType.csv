@@ -1,5 +1,5 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Description,StructuredStringType,0,1,A description of the purpose and use of the command code provided. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
-Command,CommandType,0,n,This is an in-line provision of the command itself.,,,,,,,,,ddi:reusable:3_3,e,
-CommandFile,CommandFileType,0,n,"Identifies and provides a link to an external copy of the command, for example, a SAS Command Code script.",,,,,,,,,ddi:reusable:3_3,e,
-StructuredCommand,StructuredCommandType,0,1,The is an extension stub to allow for the insertion of command code using an external namespace.,,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Description,StructuredStringType,0,1,A description of the purpose and use of the command code provided. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
+Command,CommandType,0,n,This is an in-line provision of the command itself.,,,,,,,,,,,ddi:reusable:3_3,e,
+CommandFile,CommandFileType,0,n,"Identifies and provides a link to an external copy of the command, for example, a SAS Command Code script.",,,,,,,,,,,ddi:reusable:3_3,e,
+StructuredCommand,StructuredCommandType,0,1,The is an extension stub to allow for the insertion of command code using an external namespace.,,,,,,,,,,,ddi:reusable:3_3,e,

@@ -1,9 +1,9 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Label,LabelType,0,n,"A display label for the scale. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_3,e,
-NumberRange,NumberRangeType,0,1,Indicates the high and low values (endpoints) of a numeric scale.,,,,,,,,,ddi:reusable:3_3,e,
-Range,RangeType,0,1,Indicates the high and low values (endpoints) of a non-numeric scale.,,,,,,,,,ddi:reusable:3_3,e,
-Anchor,AnchorType,0,n,Allows for the attachment of a category label at any anchor point.,,,,,,,,,ddi:reusable:3_3,e,
-MarkedIncrement,BasicIncrementType,0,1,Identifies the frequency for increment markers (with or without value attachments).,,,,,,,,,ddi:reusable:3_3,e,
-ValueIncrement,BasicIncrementType,0,1,Identifies the frequency for value labels on marked or unmarked increments.,,,,,,,,,ddi:reusable:3_3,e,
-DimensionNumber,nonNegativeInteger,0,1,"A number used to identify this dimension when describing its intersect point with one or more dimensions in the same scale representation. The dimension is denoted with a 1-based indexing. Dimension in the scale are numbered (1,2,n).",,,,,,,,,,a,
-DegreeSlopeFromHorizontal,int,0,1,"A horizontal line is described as a 0 (zero) slope. Expressed as the number of degrees positive (right end angle above the horizontal line) or degrees positive (right end descending below the horizontal line). ",,,,,,,,,,a,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Label,LabelType,0,n,"A display label for the scale. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
+NumberRange,NumberRangeType,0,1,Indicates the high and low values (endpoints) of a numeric scale.,,,,,,,,,,,ddi:reusable:3_3,e,
+Range,RangeType,0,1,Indicates the high and low values (endpoints) of a non-numeric scale.,,,,,,,,,,,ddi:reusable:3_3,e,
+Anchor,AnchorType,0,n,Allows for the attachment of a category label at any anchor point.,,,,,,,,,,,ddi:reusable:3_3,e,
+MarkedIncrement,BasicIncrementType,0,1,Identifies the frequency for increment markers (with or without value attachments).,,,,,,,,,,,ddi:reusable:3_3,e,
+ValueIncrement,BasicIncrementType,0,1,Identifies the frequency for value labels on marked or unmarked increments.,,,,,,,,,,,ddi:reusable:3_3,e,
+DimensionNumber,nonNegativeInteger,0,1,"A number used to identify this dimension when describing its intersect point with one or more dimensions in the same scale representation. The dimension is denoted with a 1-based indexing. Dimension in the scale are numbered (1,2,n).",,,,,,,,,,,,a,
+DegreeSlopeFromHorizontal,int,0,1,"A horizontal line is described as a 0 (zero) slope. Expressed as the number of degrees positive (right end angle above the horizontal line) or degrees positive (right end descending below the horizontal line). ",,,,,,,,,,,,a,

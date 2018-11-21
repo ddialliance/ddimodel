@@ -1,4 +1,4 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-AuthorizedSourceReference,AuthorizedSourceType,0,1,A reference to the Authorized Source of the value used by this representation. A GeographicStructure may have more than one Authorized Source included in the listing.,,,,,,,,,ddi:reusable:3_3,e,
-GeographicStructureReference,GeographicStructure,0,1,A reference to the GeographicStructure used by this representation.,,,,,,,,,ddi:reusable:3_3,e,
-ExcludedGeographicLevelReference,GeographicLevelType,0,n,"A reference to a Structure Level that is excluded, not used by, this representation. May be repeated to exclude multiple Structure values.",,,,,,,,,ddi:reusable:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+AuthorizedSourceReference,AuthorizedSourceType,0,1,A reference to the Authorized Source of the value used by this representation. A GeographicStructure may have more than one Authorized Source included in the listing.,,,,,,,,,,,ddi:reusable:3_3,e,
+GeographicStructureReference,GeographicStructure,0,1,A reference to the GeographicStructure used by this representation.,,,,,,,,,,,ddi:reusable:3_3,e,
+ExcludedGeographicLevelReference,GeographicLevelType,0,n,"A reference to a Structure Level that is excluded, not used by, this representation. May be repeated to exclude multiple Structure values.",,,,,,,,,,,ddi:reusable:3_3,e,

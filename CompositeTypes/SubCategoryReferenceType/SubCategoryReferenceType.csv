@@ -1,2 +1,0 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-TypeOfSubCategory,string,0,1,"Defines the sub-category in terms being generic or partitive in nature. For example, a radial tire is a type of tire (generic) while a tire is a part of a car (partitive). The value refers to the role of the SubCategory within the broader category .",,,specialization isPartOf,,,,,,,a,

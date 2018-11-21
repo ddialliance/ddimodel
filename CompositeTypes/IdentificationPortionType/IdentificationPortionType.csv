@@ -1,4 +1,4 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-GeographicLevelReference,GeographicLevelType,0,n,Reference to the Geographic Level to which this identification segment refers.,,,,,,,,,ddi:reusable:3_3,e,
-StartPosition,nonNegativeInteger,0,1,The start position of the first character expressed as an integer.,,,,,,,,,,a,
-Length,nonNegativeInteger,0,1,The length of the segment expressed as an integer.,,,,,,,,,,a,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+GeographicLevelReference,GeographicLevelType,0,n,Reference to the Geographic Level to which this identification segment refers.,,,,,,,,,,,ddi:reusable:3_3,e,
+StartPosition,nonNegativeInteger,0,1,The start position of the first character expressed as an integer.,,,,,,,,,,,,a,
+Length,nonNegativeInteger,0,1,The length of the segment expressed as an integer.,,,,,,,,,,,,a,

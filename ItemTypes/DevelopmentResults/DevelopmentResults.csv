@@ -1,8 +1,8 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-DevelopmentResultsName,NameType,0,n,"A name for the DevelopmentResults. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,ddi:datacollection:3_3,e,
-Label,LabelType,0,n,"A display label for the Development Results. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,ddi:reusable:3_3,e,
-Description,StructuredStringType,0,1,A description of the overall Development Results. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,ddi:reusable:3_3,e,
-DevelopmentPlanReference,DevelopmentPlan,0,n,References the Development Plan which the results refer to.,,,,,,,,,ddi:datacollection:3_3,e,
-DevelopmentProcessReference,DevelopmentProcess,0,n,References the Development Process which the results refer to.,,,,,,,,,ddi:datacollection:3_3,e,
-ResultsDate,DateType,0,1,The date or date range of obtaining results from the development work.,,,,,,,,,ddi:datacollection:3_3,e,
-ResultDetail,ResultDetailType,0,n,Details of specific results of the development plan and process. May refer to specific development activities or DevelopmentSteps within a DevelopmentProcess.,,,,,,,,,ddi:datacollection:3_3,e,
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+DevelopmentResultsName,NameType,0,n,"A name for the DevelopmentResults. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:datacollection:3_3,e,
+Label,LabelType,0,n,"A display label for the Development Results. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,A description of the overall Development Results. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
+DevelopmentPlanReference,DevelopmentPlan,0,n,References the Development Plan which the results refer to.,,,,,,,,,,,ddi:datacollection:3_3,e,
+DevelopmentProcessReference,DevelopmentProcess,0,n,References the Development Process which the results refer to.,,,,,,,,,,,ddi:datacollection:3_3,e,
+ResultsDate,DateType,0,1,The date or date range of obtaining results from the development work.,,,,,,,,,,,ddi:datacollection:3_3,e,
+ResultDetail,ResultDetailType,0,n,Details of specific results of the development plan and process. May refer to specific development activities or DevelopmentSteps within a DevelopmentProcess.,,,,,,,,,,,ddi:datacollection:3_3,e,
