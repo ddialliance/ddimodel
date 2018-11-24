@@ -16,8 +16,9 @@ git config --global credential.helper store
 Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
 git config --global user.name "ddibot"
 git config --global user.email "ddibot@colectica.com"
+git config --global core.autocrlf true
 
-git clone https://github.com/ddialliance/ddimodel-web.git
+git clone --depth 1 https://github.com/ddialliance/ddimodel-web.git
 
 Write-Output "Copying new html docs"
 
