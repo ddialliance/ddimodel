@@ -18,7 +18,7 @@ git config --global user.name "ddibot"
 git config --global user.email "ddibot@colectica.com"
 git config --global core.autocrlf true
 
-git clone --depth 1 https://github.com/ddialliance/ddimodel-web.git
+git clone -q --depth 1 https://github.com/ddialliance/ddimodel-web.git
 
 Write-Output "Copying new html docs"
 
@@ -69,9 +69,9 @@ else
 
 $buildsjson | ConvertTo-Json -Depth 10 | set-content 'builds.json'
 
-git add .
-git commit -m 'docs'
-git push -u origin master
+git add --renormalize .
+git commit --porcelain -m 'docs'
+git push --porcelain -u origin master
 
 POPD
 POPD
