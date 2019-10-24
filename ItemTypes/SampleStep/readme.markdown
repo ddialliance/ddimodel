@@ -1,0 +1,1 @@
+A ControlConstruct that provides a specialized act for generating a sample.

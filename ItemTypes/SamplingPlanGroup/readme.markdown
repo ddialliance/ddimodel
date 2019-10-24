@@ -1,1 +1,0 @@
-Contains a group of sampling plans, which may be hierarchical.

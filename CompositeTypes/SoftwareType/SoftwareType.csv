@@ -1,6 +1,6 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
 SoftwareName,NameType,0,n,"The name of the software package, including its producer.",,,,,,,,,,,ddi:reusable:3_3,e,
-SoftwarePackage,CodeValueType,0,1,"A coded value from a controlled vocabulary, describing the software package.",,,,,,,,,,,ddi:reusable:3_3,e,
+SoftwarePackage,CodeValueType,0,1,"A coded value from a controlled vocabulary, describing the software package. The DDI Alliance has provided a controlled vocabulary (SoftwarePackage) to support this element at http://www.ddialliance.org/controlled-vocabularies.",,,,,,,,,,,ddi:reusable:3_3,e,
 SoftwareVersion,string,0,1,The version of the software package. Defaults to '1.0'.,,,,,,,,,,,ddi:reusable:3_3,e,
 Description,StructuredStringType,0,1,A description of the content and purpose of the software. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
 Date,DateType,0,1,"Supported date of the software package with, at minimum, a release date if known.",,,,,,,,,,,ddi:reusable:3_3,e,

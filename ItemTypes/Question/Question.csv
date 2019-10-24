@@ -1,1 +1,2 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+DevelopmentResultsReference,DevelopmentResults,0,n,Reference to the development implementation results which gave rise to this version of the object. TypeOfObject should be DevelopmentResults.,,,,,,,,,,,ddi:datacollection:3_3,e,

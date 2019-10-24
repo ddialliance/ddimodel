@@ -2,6 +2,6 @@
 ConceptualVariableName,NameType,0,n,"A name for the ConceptualVariable. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
 Label,LabelType,0,n,"A display label for the ConceptualVariable. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
 Description,StructuredStringType,0,1,A description of the content and purpose of the ConceptualVariable. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
-ConceptReference,Concept,0,1,Reference to a Concept that is being linked to a Universe identified by the UniverseReference. TypeOfObject should be set to Concept.,,,,,,,,,,,ddi:reusable:3_3,e,
+ConceptReference,Concept,0,1,Reference to a Concept that is being linked to a UnitType identified by the UnitTypeReference. TypeOfObject should be set to Concept.,,,,,,,,,,,ddi:reusable:3_3,e,
 UnitTypeReference,UnitType,0,1,Reference to a unit type being associated with this conceptual variable. TypeOfObject should be set to UnitType.,,,,,,,,,,,ddi:reusable:3_3,e,
 CategorySchemeReference,CategoryScheme,0,1,Reference to a previously created category scheme that represents the conceptual variable's enumerated conceptual domain.,,,,,,,,,,,ddi:reusable:3_3,e,

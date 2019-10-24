@@ -1,0 +1,1 @@
+Provides a name, label and description for the Development Implementation and lists the individual development activities which should take place. Note that the structure allows for a simple summary of the implementation work or can provide details using the DevelopmentStep and other control constructs to describe the organization of the implementation.

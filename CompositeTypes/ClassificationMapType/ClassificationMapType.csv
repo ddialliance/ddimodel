@@ -1,6 +1,6 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-SourceClassificationItem,ClassificationItem,0,1,The source item refers to the Classification Item in the source Statistical Classification.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
-TargetClassificationItem,ClassificationItem,0,1,The target item refers to the Classification Item in the target Statistical Classification.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
+SourceClassificationItemReference,ClassificationItem,0,1,The source item refers to the Classification Item in the source Statistical Classification. TypeOfObject should be set to ClassificationItem.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
+TargetClassificationItemReference,ClassificationItem,0,1,The target item refers to the Classification Item in the target Statistical Classification. TypeOfObject should be set to ClassificationItem.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
 IsComplete,boolean,0,1,Specifies whether the relationship between the two Classification Items is partial or complete.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
 ValidFrom,cogsDate,0,1,Date from which the Map became valid. The date must be defined if the Map belongs to a floating Correspondence Table.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
 ValidTo,cogsDate,0,1,Date at which the Map became invalid. The date must be defined if the Map belongs to a floating Correspondence Table and is no longer valid.,,,,,,,,,,,ddi:logicalproduct:3_3,e,

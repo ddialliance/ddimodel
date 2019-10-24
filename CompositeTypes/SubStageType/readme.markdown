@@ -1,1 +1,0 @@
-A substage assumes that its sample frame is the result of its parent stage.

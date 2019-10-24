@@ -1,0 +1,1 @@
+A member of the ControlConstruct substitution group. Describes a Development Step implementing a Development Activity directed at a specific development object. Defines prerequisites, condition for acceptance, and activity date and and agent performing the step. Use ExternalAid to identify external resources used by the DevelopmentStep

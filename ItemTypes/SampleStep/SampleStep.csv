@@ -1,0 +1,4 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+ConditionForAcceptance,StructuredStringType,0,n,,,,,,,,,,,,ddi:datacollection:3_3,e,
+CommandCode,CommandCodeType,0,1,The Code which contains the value of the variable in programming terms.,,,,,,,,,,,ddi:reusable:3_3,e,
+Stratification,StratificationType,0,1,,,,,,,,,,,,ddi:datacollection:3_3,e,

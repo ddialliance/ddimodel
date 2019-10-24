@@ -1,1 +1,1 @@
-Provides a name, label and description for the Development Results and lists the individual development activities which should take place.
+Separates the capture of development implementation results from the process plan and general activities. Allows for capture of the overall results, details of individual steps, or separate iterations of that step.

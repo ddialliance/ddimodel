@@ -1,0 +1,9 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+SamplingInformationSchemeName,NameType,0,n,"A name for the sampling information scheme. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:datacollection:3_3,e,
+Label,LabelType,0,n,"A display label for the sampling information scheme. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
+Description,StructuredStringType,0,1,A description of the use of the sampling information scheme. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
+SamplingInformationSchemeReference,SamplingInformationScheme,0,n,Provides for inclusion by reference of external sampling information schemes.,,,,,,,,,,,ddi:reusable:3_3,e,
+SampleFrameReference,SampleFrame,0,n,"An item (that is, a sample frame) belonging to the sampling information Scheme.",,,,,,,,,,,ddi:datacollection:3_3,e,
+SamplingPlanReference,SamplingPlan,0,n,"An item (that is, a sampling plan) belonging to the sampling information Scheme.",,,,,,,,,,,ddi:datacollection:3_3,e,
+SampleReference,Sample,0,n,"An item (that is, a sample) belonging to the sampling information Scheme.",,,,,,,,,,,ddi:datacollection:3_3,e,
+SamplingInformationGroupReference,SamplingInformationGroup,0,n,"An item (that is, a sampling information group) belonging to the sampling information Scheme.",,,,,,,,,,,ddi:datacollection:3_3,e,

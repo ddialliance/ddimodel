@@ -1,0 +1,1 @@
+Describes a sample created by the implementation of a sample plan.

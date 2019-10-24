@@ -1,1 +1,1 @@
-Describe the debriefing process. Specifies if debriefing is required. Supports multiple language versions of the same content as well as optional formatting of the content.
+Describe the debriefing process. Specifies if debriefing is required.

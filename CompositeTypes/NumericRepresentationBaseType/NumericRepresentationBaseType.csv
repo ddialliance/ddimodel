@@ -1,6 +1,6 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
 NumberRange,NumberRangeType,0,n,Defines the valid number range or number values for the representation.,,,,,,,,,,,ddi:reusable:3_3,e,
-NumericTypeCode,CodeValueType,0,1,"Identification of the numeric type such as integer, decimal, etc. supports the use of an external controlled vocabulary.",,,,,,,,,,,ddi:reusable:3_3,e,
+NumericTypeCode,CodeValueType,0,1,"Identification of the numeric type such as integer, decimal, etc. supports the use of an external controlled vocabulary. The DDI Alliance has provided a controlled vocabulary (NumericType) to support this element at http://www.ddialliance.org/controlled-vocabularies.",,,,,,,,,,,ddi:reusable:3_3,e,
 Format,string,0,1,A format for number expressed as a string.,,,,,,,,,,,,a,
 Scale,int,0,1,"The scale of the number expressed as an integer (for example a number expressed in 100's, 5 = 500 would have a scale of 100).",,,,,,,,,,,,a,
 DecimalPositions,int,0,1,The number of decimal positions expressed as an integer (precision of the number).,,,,,,,,,,,,a,

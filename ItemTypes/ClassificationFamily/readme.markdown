@@ -1,2 +1,1 @@
-A Classification Family is a group of Classification Series related from a particular point of view.
-The Classification Family is related by being based on a common concept (e.g. economic activity).
+A Classification Family is a group of Classification Series related from a particular point of view. The Classification Family is related by being based on a common concept (e.g. economic activity).

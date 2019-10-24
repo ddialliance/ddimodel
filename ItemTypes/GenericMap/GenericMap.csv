@@ -1,4 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+TypeOfMappedItem,CodeValueType,0,1,"The type of item being mapped. The use of a controlled vocabulary is strongly recommended. ",,,,,,,,,,,ddi:comparative:3_3,e,
 MapName,NameType,0,n,"A name for the Map. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:comparative:3_3,e,
 Label,LabelType,0,n,"A display label for the Map. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
 Description,StructuredStringType,0,1,A description of the content and purpose of the Map. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,

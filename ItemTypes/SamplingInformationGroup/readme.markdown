@@ -1,0 +1,1 @@
+A grouping of Sampling Information objects for administrative purposes. Contains a group of sampling information objects and/or sampling information groups, which may be hierarchical.

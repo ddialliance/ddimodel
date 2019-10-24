@@ -1,5 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-TypeOfNote,CodeValueType,0,1,Specifies the type of note. Supports the use of a controlled vocabulary.,,,,,,,,,,,ddi:reusable:3_3,e,
+TypeOfNote,CodeValueType,0,1,Specifies the type of note. Supports the use of a controlled vocabulary. The DDI Alliance has provided a controlled vocabulary (TypeOfNote) to support this element at http://www.ddialliance.org/controlled-vocabularies.,,,,,,,,,,,ddi:reusable:3_3,e,
 NoteSubject,CodeValueType,0,1,The subject of the note.,,,,,,,,,,,ddi:reusable:3_3,e,
 Relationship,RelationshipType,0,n,Reference to one or more identifiable objects which the note is related to.,,,,,,,,,,,ddi:reusable:3_3,e,
 Responsibility,string,0,1,The person or agency responsible for adding the note.,,,,,,,,,,,ddi:reusable:3_3,e,

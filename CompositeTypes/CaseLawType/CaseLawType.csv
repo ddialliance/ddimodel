@@ -1,4 +1,4 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-CaseLawName,NameType,0,n,Case Law Name,,,,,,,,,,,ddi:logicalproduct:3_3,e,
-Description,StructuredStringType,0,1,A description of the case law,,,,,,,,,,,ddi:reusable:3_3,e,
-CaseLawDate,cogsDate,0,1,Date of the case law ruling,,,,,,,,,,,ddi:logicalproduct:3_3,e,
+CaseLawName,NameType,0,n,"Case Law Name. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:logicalproduct:3_3,e,
+Description,StructuredStringType,0,1,A description of the case law. Supports the use of multiple languages and structured content.,,,,,,,,,,,ddi:reusable:3_3,e,
+CaseLawDate,cogsDate,0,1,Date of the case law ruling.,,,,,,,,,,,ddi:logicalproduct:3_3,e,

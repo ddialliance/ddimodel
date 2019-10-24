@@ -1,1 +1,0 @@
-A grouping of SampleFrames for administrative purposes. Contains a group of sample frames and/or sample frame groups, which may be hierarchical.

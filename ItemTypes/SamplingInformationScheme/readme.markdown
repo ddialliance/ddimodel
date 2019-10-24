@@ -1,0 +1,1 @@
+A set of sampling information maintained by an agency including sampling plans, sample frames, and samples.

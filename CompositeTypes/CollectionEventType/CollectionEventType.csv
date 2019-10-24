@@ -11,3 +11,4 @@ InstrumentReference,Instrument,0,n,References the instrument or instruments used
 CollectionSituation,CollectionSituationType,0,n,Describes the situation in which the data collection event takes place. If a number of collection situation types occurred repeat this element.,,,,,,,,,,,ddi:datacollection:3_3,e,
 ActionToMinimizeLosses,ActionToMinimizeLossesType,0,n,Describes action taken to minimize loss of data from the collection event.,,,,,,,,,,,ddi:datacollection:3_3,e,
 QualityStatementReference,QualityStatement,0,n,"A reference to a Quality Statement pertaining to the quality of the study methodology, metadata, or data to which it is associated. Quality statements may be related to external quality standards.",,,,,,,,,,,ddi:reusable:3_3,e,
+SampleReference,Sample,0,n,References the Sample used by this CollectionEvent. TypeOfObject should be Sample.,,,,,,,,,,,ddi:datacollection:3_3,e,

@@ -2,4 +2,4 @@
 Name,NameType,0,n,"A name for the Classification Family. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:reusable:3_3,e,
 Label,LabelType,0,n,"A display label for the ClassificationFamily. May be expressed in multiple languages. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
 Description,StructuredStringType,0,1,A description of the content and purpose of the ClassificationFamily. May be expressed in multiple languages and supports the use of structured content.,,,,,,,,,,,ddi:reusable:3_3,e,
-ClassificationSeriesReference,ClassificationSeries,0,n,A Classification Family may refer to a number of Classification Series.,,,,,,,,,,,ddi:reusable:3_3,e,
+ClassificationSeriesReference,ClassificationSeries,0,n,A Classification Family may refer to a number of Classification Series. TypeOfObject should be set to ClassificationSeries.,,,,,,,,,,,ddi:reusable:3_3,e,

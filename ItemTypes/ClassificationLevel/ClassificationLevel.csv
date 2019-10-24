@@ -1,6 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-LevelNumber,nonNegativeInteger,0,1,The number associated with the Level. Levels are numbered consecutively starting with Level 1 at the highest (most aggregated) Level.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
-LevelCodeType,CodeValueType,0,1,"Indicates whether the code at the Level is alphabetical, numerical or alphanumerical.",,,,,,,,,,,ddi:logicalproduct:3_3,e,
-LevelCodeStructure,CodeValueType,0,1,"Indicates how the code at the Level is constructed of numbers, letters and separators.",,,,,,,,,,,ddi:logicalproduct:3_3,e,
-DummyCode,StructuredStringType,0,1,Rule for the construction of dummy codes from the codes of the next higher Level (used when one or several categories are the same in two consecutive Levels).,,,,,,,,,,,ddi:logicalproduct:3_3,e,
-DefiningConceptReference,Concept,0,n,A concept which describes the level.,,,,,,,,,,,ddi:reusable:3_3,e,
+LevelCodeType,CodeValueType,0,1,"Indicates whether the code at the Level is alphabetical, numerical or alphanumerical. Supports the use of an external controlled vocabulary.",,,,,,,,,,,ddi:logicalproduct:3_3,e,
+LevelCodeStructure,CodeValueType,0,1,"Indicates how the code at the Level is constructed of numbers, letters and separators. Supports the use of an external controlled vocabulary.",,,,,,,,,,,ddi:logicalproduct:3_3,e,
+DummyCode,StructuredStringType,0,1,Rule for the construction of dummy codes from the codes of the next higher Level (used when one or several categories are the same in two consecutive Levels). Supports the use of multiple languages and structured content.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
+DefiningConceptReference,Concept,0,n,A concept which describes the level. TypeOfObject should be set to Concept.,,,,,,,,,,,ddi:reusable:3_3,e,

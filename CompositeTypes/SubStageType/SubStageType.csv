@@ -1,5 +1,0 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-Stratification,StratificationType,0,n,Condition for using this stage. Use only when multiple top level stages are used.,,,,,,,,,,,ddi:datacollection:3_3,e,
-SamplingUnit,CodeValueType,0,1,A split results in multiple strata using different sampling plans. For example a study of those who fish which samples those engaged in fishing at particular locations (strata 1) and those who have fishing licenses (strata 2).,,,,,,,,,,,ddi:datacollection:3_3,e,
-TypeOfPlan,CodeValueType,0,1,Identifies a specific sample frame or frames appropriate for this plan.,,,,,,,,,,,ddi:datacollection:3_3,e,
-SubStage,SubStageType,0,n,Allows for recursive nesting.,,,,,,,,,,,ddi:datacollection:3_3,e,

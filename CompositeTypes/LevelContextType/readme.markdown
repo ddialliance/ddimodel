@@ -1,0 +1,1 @@
+Level Context provides the depth of a Level within a Statistical Classification together with its membership. Both depth and membership can be specified per Statistical Classification.

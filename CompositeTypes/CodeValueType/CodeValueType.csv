@@ -2,7 +2,7 @@
 ControlledVocabularyID,string,0,1,The ID of the controlled vocabulary that the content was taken from.,,,,,,,,,,,,a,
 ControlledVocabularyName,string,0,1,The name of the controlled vocabulary.,,,,,,,,,,,,a,
 ControlledVocabularyAgencyName,string,0,1,The name of the agency maintaining the controlled vocabulary.,,,,,,,,,,,,a,
-ControlledVocabularyVersionID,string,0,1,The version number of the controlled vocabulary (default is 1.0).,,,,,,,,,,,,a,
+ControlledVocabularyVersionID,string,0,1,The version number of the controlled vocabulary.,,,,,,,,,,,,a,
 OtherValue,string,0,1,"If the value of the string is ""Other"" or the equivalent from the controlled vocabulary, this attribute can provide a more specific value not found in the controlled vocabulary.",,,,,,,,,,,,a,
 ControlledVocabularyURN,string,0,1,The URN of the controlled vocabulary.,,,,,,,,,,,,a,
 ControlledVocabularySchemeURN,string,0,1,"If maintained within a scheme, the URN of the scheme containing the controlled vocabulary.",,,,,,,,,,,,a,

@@ -1,7 +1,0 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-SamplingPlanSchemeName,NameType,0,n,"A name for a sampling plan scheme which may be repeated to express differing names for different systems. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:datacollection:3_3,e,
-Label,LabelType,0,n,"A display label for the sampling plan scheme. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
-Description,StructuredStringType,0,1,A description of the use of the sampling plan scheme. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
-SamplingPlanSchemeReference,SamplingPlanScheme,0,n,Provides for inclusion by reference of external sampling plan schemes.,,,,,,,,,,,ddi:reusable:3_3,e,
-SamplingPlanReference,SamplingPlan,0,n,"An item (that is, a sampling plan) belonging to the sampling plan scheme.",,,,,,,,,,,ddi:datacollection:3_3,e,
-SamplingPlanGroupReference,SamplingPlanGroup,0,n,"An item (that is, a sampling plan) belonging to the sampling plan Scheme.",,,,,,,,,,,ddi:datacollection:3_3,e,

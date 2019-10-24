@@ -1,1 +1,0 @@
-Designates the response domain and the cells using the specified response domain within a QuestionGrid.

@@ -1,6 +1,6 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
 TelephoneNumber,string,0,1,The telephone number including country code if appropriate.,,,,,,,,,,,ddi:archive:3_3,e,
-TypeOfTelephone,CodeValueType,0,1,"Indicates type of telephone number provided (home, fax, office, cell, etc.). Supports the use of a controlled vocabulary.",,,,,,,,,,,ddi:archive:3_3,e,
+TypeOfTelephone,CodeValueType,0,1,"Indicates type of telephone number provided (home, fax, office, cell, etc.). Supports the use of a controlled vocabulary. The DDI Alliance has provided a controlled vocabulary (TypeOfTelephone) to support this element at http://www.ddialliance.org/controlled-vocabularies.",,,,,,,,,,,ddi:archive:3_3,e,
 EffectivePeriod,DateType,0,1,Clarifies when the identification information is accurate.,,,,,,,,,,,ddi:reusable:3_3,e,
 Privacy,string,0,1,A basic set of privacy codes for the parent element. These may be stricter than the general access restrictions for the overall metadata. If available codes are insufficient this may also contain any string.,,,,,public restricted private,,,,,,,a,
 IsPreferred,boolean,0,1,"Set to ""true"" if this is the preferred telephone number for contact.",,,,,,,,,,,,a,
