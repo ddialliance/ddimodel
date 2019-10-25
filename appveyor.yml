@@ -4,6 +4,8 @@ environment:
   access_token:
     secure: ksGzmam38WzJkzyF/ROJdcnBgD5RLpf2eA+SKKeq9Ow+ZaL+KHk/f8N21Cnu4Eh+
 install:
+- SET PYTHON=C:\Python37
+- SET PATH=%PYTHON%;%PYTHON%\Scripts\;%path%
 - ps: build/appveyor-install-dependencies.ps1
 build_script:
 - cmd: build/build-windows.bat
