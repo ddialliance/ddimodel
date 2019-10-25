@@ -1,7 +1,7 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
 DevelopmentObject,DevelopmentObjectType,0,n,"Describes the object of the development. May reference a specific object instrument, question, measurement, or control construct to.",,,,,,,,,,,ddi:datacollection:3_3,e,
 DevelopmentActivityReference,DevelopmentActivity,0,n,"Reference to one or more Development Activities used by the Development Process Step. DevelopmentActivity is a substitution base for a number of types of activities described with appropriate content. TypeOfObject should be ContentReviewActivity, TranslationActivity, or PretestActivity.",,,,,,,,,,,ddi:datacollection:3_3,e,
-ResponsibleAgencyReference,ReferenceType,0,n,Reference to an Organization or Individual responsible for this step. TypeOfObject should be any sub-type of Agency.,,,,,,,,,,,ddi:datacollection:3_3,e,
+ResponsibleAgencyReference,Agent,0,n,Reference to an Organization or Individual responsible for this step. TypeOfObject should be any sub-type of Agency.,,,,,,,,,,,ddi:datacollection:3_3,e,
 Prerequisite,StructuredStringType,0,n,A description of the overall prerequisites for completing this Development Processing Step. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:datacollection:3_3,e,
 ConditionForAcceptance,StructuredStringType,0,n,The conditions under which the output of the Development Process Step is accepted.,,,,,,,,,,,ddi:datacollection:3_3,e,
 ActivityDate,DateType,0,1,The date or date range of activity in this step.,,,,,,,,,,,ddi:datacollection:3_3,e,

@@ -4,6 +4,6 @@ Label,LabelType,0,n,"A display label for the Concept. Supports multiple language
 Description,StructuredStringType,0,1,A description of the content and purpose of the Concept. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
 SimilarConcept,SimilarConceptType,0,n,A reference to a concept expressing a similar idea plus a description of the differences. Used to assist in disambiguation of concepts.,,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
 SubclassOfReference,Concept,0,n,Reference to a Concept that is used for qualifying this data element concept. The referenced Concept should have its isCharacteristic attribute set to true.,,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
-ExcludesConceptReference,ReferenceType,0,n,Reference to a Concept that is used for qualifying what is excluded from the Concept's definition.,,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
-IncludesConceptReference,ReferenceType,0,n,Reference to a Concept that is used for qualifying this is included in the Concept's definition.,,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
+ExcludesConceptReference,Concept,0,n,Reference to a Concept that is used for qualifying what is excluded from the Concept's definition.,,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
+IncludesConceptReference,Concept,0,n,Reference to a Concept that is used for qualifying this is included in the Concept's definition.,,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
 IsCharacteristic,boolean,0,1,"If set to ""true"" this concept is used to describe a characteristic of another concept.",,,,,,,,,,,,a,
