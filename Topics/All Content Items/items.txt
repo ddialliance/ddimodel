@@ -15,6 +15,7 @@ ManagedDateTimeRepresentation
 ManagedNumericRepresentation
 ManagedScaleRepresentation
 ManagedMissingValuesRepresentation
+ApprovalReview
 DDIInstance
 Archive
 OrganizationScheme

@@ -1,0 +1,1 @@
+Provides information about the Approval Review undertaken in relation to the activity. Identifies the organization processing the review, the role of the approval review organization, case number, description, and related dates. Allows the inclusion of a reference to an external source detailing the approval review.
