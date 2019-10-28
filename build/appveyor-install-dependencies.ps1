@@ -7,6 +7,7 @@ Start-FileDownload 'https://graphviz.gitlab.io/_pages/Download/windows/graphviz-
 
 ls graphviz
 
+python -V
 python -m pip install --upgrade pip
 # Download Sphinx
 pip install sphinx
