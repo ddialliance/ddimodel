@@ -1,2 +1,2 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-ConceptReference,Concept,0,1,Reference to the Concept that defines the UnitType. TypeOfObject should be set to Concept.,,,,,,,,,,,ddi:reusable:3_3,e,
+OtherMaterialReference,OtherMaterial,0,n,Inline description and link to the policy using the DDI Other Material structure.,,,,,,,,,,,ddi:reusable:3_3,e,

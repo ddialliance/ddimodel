@@ -1,1 +1,1 @@
-All sampling plans have at least one Sampling stage.  Sampling Stages are used to reduce the size of the survey population frame from which to identify sampling units.  For instance, the US Current Population Survey samples geographic areas first before identifying households to contact within those areas.  Cost and sampling error considerations weigh heavily in these decisions.
+A ControlConstruct that provides a sequence order within Sampling Stages expressed as control constructs.

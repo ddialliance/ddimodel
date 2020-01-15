@@ -1,6 +1,7 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-SourceQuestion,Question,0,n,Reference to a question used in the instruction.,,,,,,,,,,,ddi:datacollection:3_3,e,
-SourceVariable,Variable,0,n,Reference to a variable used in the coding process,,,,,,,,,,,ddi:datacollection:3_3,e,
+InputQuestionReference,Question,0,n,Reference to a question used in the instruction. Allows the designation of an Alias used by the instruction. TypeOfObject should be set to QuestionItem or QuestionGrid.,,,,,,,,,,,ddi:datacollection:3_3,e,
+InputMeasurementReference,MeasurementItem,0,n,Reference to a Measurement used in the instruction. Allows the designation of an Alias used by the instruction. TypeOfObject should be set to MeasurementItem.,,,,,,,,,,,ddi:datacollection:3_3,e,
+InputVariableReference,Variable,0,n,Reference to a variable used in the coding process. Allows the designation of an Alias used by the instruction. TypeOfObject should be set to Variable.,,,,,,,,,,,ddi:datacollection:3_3,e,
 ExternalInformation,ExternalInformationType,0,n,"Reference to an external source of information used in the coding process, for example a value from a chart, etc.",,,,,,,,,,,ddi:datacollection:3_3,e,
 Description,StructuredStringType,0,1,A description of the generation instruction. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
 CommandCode,CommandCodeType,0,n,Structured information used by a system to process the instruction.,,,,,,,,,,,ddi:reusable:3_3,e,

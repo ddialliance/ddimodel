@@ -1,0 +1,1 @@
+Allows for a quality statement based on frameworks to be described using itemized properties. A reference to a concept, a coded value, or both can be used to specify the property from the standard framework identified in StandardUsed. ComplianceDescription can provide further details or a general description of compliance with a standard.

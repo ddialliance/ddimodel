@@ -16,6 +16,7 @@ ManagedNumericRepresentation
 ManagedScaleRepresentation
 ManagedMissingValuesRepresentation
 ApprovalReview
+InformationClassification
 DDIInstance
 Archive
 OrganizationScheme

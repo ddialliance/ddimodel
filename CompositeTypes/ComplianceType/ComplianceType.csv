@@ -1,0 +1,4 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+ComplianceConceptReference,Concept,0,1,A reference to a concept which relates to an area of coverage of the standard.,,,,,,,,,,,ddi:reusable:3_3,e,
+ExternalComplianceCode,CodeValueType,0,1,Specification of a code which relates to an area of coverage of the standard. Supports the use of an external controlled vocabulary.,,,,,,,,,,,ddi:reusable:3_3,e,
+ComplianceDescription,StructuredStringType,0,1,Describe the measures taken to comply with the standards and/or specific levels of compliance by providing further details or a general description of compliance with the standard.,,,,,,,,,,,ddi:reusable:3_3,e,
