@@ -1,0 +1,1 @@
+References the attribute description in the NCube and provides for a choice between describing an explicit value, or a location in a file where the value can be found.

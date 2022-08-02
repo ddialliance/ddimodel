@@ -1,0 +1,1 @@
+Describes a single data item or cell within an NCube Instance. It defines its location within the NCube by its coordinate (matrix) address which is its intersect point on each dimension. Allows for the specification of data item specific attributes, and identifies the physical location of each measure for the data item. May optionally indicate the language of the data contents.

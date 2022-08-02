@@ -1,0 +1,1 @@
+Provides minimum information on data item address system, such as variable ID or Name, etc.

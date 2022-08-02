@@ -4,6 +4,7 @@ Label,LabelType,0,n,"A display label for the ManagedTextRepresentation. Supports
 Description,StructuredStringType,0,1,A description of the content and purpose of the ManagedTextRepresentation. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
 RecommendedDataType,CodeValueType,0,1,"This field provides the recommended treatment of the data within an application. The value should come from a controlled vocabulary - recommended values include the set found in W3C XML Schema Part 2, but excluding string sub-types, QNAME, and NOTATION. The DDI Alliance has provided a controlled vocabulary (DataType) to support this element at http://www.ddialliance.org/controlled-vocabularies.",,,,,,,,,,,ddi:reusable:3_3,e,
 GenericOutputFormat,CodeValueType,0,1,This field provides a recommended generic treatment of the data for display by an application. The value should come from a controlled vocabulary.,,,,,,,,,,,ddi:reusable:3_3,e,
+MeasurementUnit,CodeValueType,0,1,"Records the measurement unit, for example, 'km', 'miles', etc. Supports the use of a controlled vocabulary.",,,,,,,,,,,ddi:reusable:3_3,e,
 MaxLength,nonNegativeInteger,0,1,The maximum number of characters allowed.,,,,,,,,,,,,a,
 MinLength,nonNegativeInteger,0,1,The minimum number of characters allowed.,,,,,,,,,,,,a,
 RegExp,string,0,1,A regular expression limiting the allowed characters or character order of the content.,,,,,,,,,,,,a,

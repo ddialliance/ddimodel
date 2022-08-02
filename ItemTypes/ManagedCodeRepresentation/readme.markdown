@@ -1,0 +1,1 @@
+Describes the use of all or part of a CodeList as a representation used by a question response domain or variable value representation.

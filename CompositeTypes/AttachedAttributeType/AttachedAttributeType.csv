@@ -1,0 +1,4 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+AttributeReference,AttributeType,0,1,Reference to the attribute described in an NCube.,,,,,,,,,,,ddi:reusable:3_3,e,
+PhysicalLocation,PhysicalLocationType,0,1,Description of the physical location of the attribute value in the data file.,,,,,,,,,,,ddi:physicaldataproduct:3_3,e,
+Value,ValueType,0,1,Contains the value for the attribute.,,,,,,,,,,,ddi:reusable:3_3,e,

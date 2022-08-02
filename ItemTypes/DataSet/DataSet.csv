@@ -1,8 +1,8 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
 ArrayBase,int,0,1,"Sets the array base for any arrays used in the definition (that is, whether the first value is in position 0 or 1, etc.).",,,,,,,,,,,ddi:reusable:3_3,e,
-DataSetName,NameType,0,n,"A name for the data set. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:dataset:3_3,e,
-IdentifyingVariableReference,Variable,0,1,Reference to the variable used to identify a specific record within the data set (unique identifier or key).,,,,,,,,,,,ddi:dataset:3_3,e,
+DataSetName,NameType,0,n,"A name for the data set. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:physicaldataproduct:3_3,e,
+IdentifyingVariableReference,Variable,0,1,Reference to the variable used to identify a specific record within the data set (unique identifier or key).,,,,,,,,,,,ddi:physicaldataproduct:3_3,e,
 DefaultVariableSchemeReference,VariableScheme,0,1,A reference to the Variable Scheme containing all or a majority of the variables in the data set. May be overridden by an individual VariableReference.,,,,,,,,,,,ddi:reusable:3_3,e,
-RecordSet,RecordSetType,0,1,Storage format arranged record by record. A RecordSet requires a list of variables to appear in a specified order.,,,,,,,,,,,ddi:dataset:3_3,e,
-ItemSet,ItemSetType,0,1,"Storage format for random order item variables. Each ItemValue references it's defining variable, it's record identifier, and the it's value.",,,,,,,,,,,ddi:dataset:3_3,e,
-VariableSet,VariableSetType,0,1,Storage format arranged variable by variable. Item values are listed in record order with the assumption that each record will occupy the position in each array.,,,,,,,,,,,ddi:dataset:3_3,e,
+RecordSet,RecordSetType,0,1,Storage format arranged record by record. A RecordSet requires a list of variables to appear in a specified order.,,,,,,,,,,,ddi:physicaldataproduct:3_3,e,
+ItemSet,ItemSetType,0,1,"Storage format for random order item variables. Each ItemValue references it's defining variable, it's record identifier, and the it's value.",,,,,,,,,,,ddi:physicaldataproduct:3_3,e,
+VariableSet,VariableSetType,0,1,Storage format arranged variable by variable. Item values are listed in record order with the assumption that each record will occupy the position in each array.,,,,,,,,,,,ddi:physicaldataproduct:3_3,e,

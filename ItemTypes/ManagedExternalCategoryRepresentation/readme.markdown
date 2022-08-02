@@ -1,0 +1,1 @@
+Structures a response domain based on categorization that is described in an external non-DDI structure. Includes a UsageDescription that should provide information on how the external source is to be used.

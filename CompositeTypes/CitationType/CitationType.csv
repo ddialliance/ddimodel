@@ -9,4 +9,4 @@ PublicationDate,DateType,0,1,The date of publication.,,,,,,,,,,,ddi:reusable:3_3
 Language,CodeValueType,0,n,Language of the intellectual content of the described object. Strongly recommend the use of language codes supported by xs:language which include the 2 and 3 character and extended structures defined by RFC4646 or its successors.,,,,,,,,,,,ddi:reusable:3_3,e,
 InternationalIdentifier,InternationalIdentifierType,0,n,"An identifier whose scope of uniqueness is broader than the local archive. Common forms of an international identifier are ISBN, ISSN, DOI or similar designator.",,,,,,,,,,,ddi:reusable:3_3,e,
 Copyright,InternationalStringType,0,n,The copyright statement.,,,,,,,,,,,ddi:reusable:3_3,e,
-DcTerms,DcTerms,0,n,Element including a sequence of Dublin Core fields that may be used to supplement - but not replace - the DDI citation.,,,,,,,,,,,,e,
+DcTerms,dcTerms,0,n,Element including a sequence of Dublin Core fields that may be used to supplement - but not replace - the DDI citation.,,,,,,,,,,,,e,

@@ -1,0 +1,1 @@
+A container for defining an instance of an NCube, indicating the matrix address of each cell and where the data for each measure within a cell of the NCube is stored. Allows specifying the values of the attributes attached to a NCube.

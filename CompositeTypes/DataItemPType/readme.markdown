@@ -1,0 +1,1 @@
+Describes a single data item within the record, linking it to its description in a variable and providing information on its data type and any item specific proprietary information.

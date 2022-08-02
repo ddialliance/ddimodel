@@ -1,0 +1,1 @@
+Describes a representation based on categorization. The CategorySchemeReference allows for the exclusion of selected items from the use of the CategoryScheme as a representation.

@@ -1,1 +1,4 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Increment,string,0,1,"The size of the increment in units (number of characters, length, number of units).",,,,,,,,,,,,a,
+StartValue,string,0,1,The starting value or beginning point of the increment string.,,,,,,,,,,,,a,
+EndValue,string,0,1,The ending value or end point of the increment string.,,,,,,,,,,,,a,

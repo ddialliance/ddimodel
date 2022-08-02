@@ -1,1 +1,6 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+Rank,nonNegativeInteger,1,1,The rank value of the dimension for which the selection criteria apply.,,,,,,,,,,,,a,
+AllValues,boolean,0,1,"If set to ""true"" applies to the full set of dimension values. If set to ""false"" use specificValue, rangeMinimum and rangeMaximum as appropriate to define the subset of values needed.",,,,,,,,,,,,a,
+SpecificValue,string,0,1,May contain a single value or a delimited array of values.,,,,,,,,,,,,a,
+RangeMinimum,string,0,1,The inclusive minimum value of the range. Use when the values or subset of values are ordered and contiguous and may be expressed as a range.,,,,,,,,,,,,a,
+RangeMaximum,string,0,1,The inclusive maximum value of the range. Use when the values or subset of values are ordered and contiguous and may be expressed as a range.,,,,,,,,,,,,a,

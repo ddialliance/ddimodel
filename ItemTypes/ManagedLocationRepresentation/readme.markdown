@@ -1,0 +1,1 @@
+Means of describing the Location of an action and the action itself within a repesentation so that they can be used by questions as a response domain. In addition to the basic objects of the representation, the structure briefly describes the object type upon which the action is to take place and the action to take (where an how to mark the object).

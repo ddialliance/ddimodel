@@ -1,0 +1,5 @@
+﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+VariableReference,Variable,0,1,Reference to a Variable describing the content of the data item.,,,,,,,,,,,ddi:reusable:3_3,e,
+ProprietaryDataType,CodeValueType,0,1,"Allows an override of the default data type, using the language of the proprietary software. A controlled vocabulary is recommended.",,,,,,,,,,,ddi:physicaldataproduct:3_3,e,
+ProprietaryOutputFormat,CodeValueType,0,1,Indicates the proprietary output format.,,,,,,,,,,,ddi:physicaldataproduct:3_3,e,
+ProprietaryInfo,ProprietaryInfoType,0,1,Contains proprietary information specific to the data item. This is expressed as a set of key (name)-value pairs.,,,,,,,,,,,ddi:reusable:3_3,e,

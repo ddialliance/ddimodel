@@ -1,0 +1,1 @@
+Means of describing Distributions as a representation so that they can be used as a response domain questions. Primarily used as a response domain in a QuestionGrid. In addition to the base of objects of a representation the structure provides the total value to be distributed between the objects and the number of decimal positions allowed within a response.

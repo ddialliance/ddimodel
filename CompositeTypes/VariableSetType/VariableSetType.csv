@@ -1,2 +1,2 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-VariableItem,VariableItemType,0,n,The set of values associated with a single variable (one for each record in storage order of records).,,,,,,,,,,,ddi:dataset:3_3,e,
+VariableItem,VariableItemType,0,n,The set of values associated with a single variable (one for each record in storage order of records).,,,,,,,,,,,ddi:physicaldataproduct:3_3,e,
