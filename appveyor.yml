@@ -2,7 +2,7 @@ version: 1.0.{build}
 image: Visual Studio 2017
 environment:
   access_token:
-    secure: ksGzmam38WzJkzyF/ROJdcnBgD5RLpf2eA+SKKeq9Ow+ZaL+KHk/f8N21Cnu4Eh+
+    secure: gKQfp8mMGo71oZbVQpZAvlVOvG6eyWcGvQL2xQn+nBCPinnOEsI1iKCQz9D60A2F
 install:
 - SET PYTHON=C:\Python37
 - SET PATH=%PYTHON%;%PYTHON%\Scripts\;%path%
