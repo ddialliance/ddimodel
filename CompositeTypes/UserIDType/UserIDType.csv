@@ -1,4 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+StringValue,string,0,1,,,,,,,,,,,,,,
 TypeOfUserID,string,1,1,This is a required attribute containing the local user identification system that maintains and defines the UserID.,,,,,,,,,,,,a,
 UserIDVersion,string,0,1,The UserID may designate the version number of the UserID. This is important in cases where the DDI identification system and the UserID system use different structures to record version numbers or if there is a difference between the DDI version number and the UserID's version number.,,,,,,,,,,,,a,
 TypeOfUserVersion,string,0,1,"This is the name of the versioning scheme as defined by the user's system, in cases where the user's system employs more than one versioning scheme. It is specific to the system identified by the typeOfUserID attribute",,,,,,,,,,,,a,
