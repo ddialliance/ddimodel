@@ -35,7 +35,18 @@ CALL make dirhtml
 POPD
 
 echo Copy outputs
+mkdir ddi-lifecycle
+xcopy ddi-lifecycle-all-outputs\xsd ddi-lifecycle\ /E /I
+xcopy ddi-lifecycle-all-outputs\json ddi-lifecycle\ /E /I
+xcopy ddi-lifecycle-all-outputs\owl ddi-lifecycle\ /E /I
 
+echo Making file suffix. If this commit it tagged, use the tag name. If not, use the date.
+$suffix = if ($env:GITHUB_REF -match 'refs/tags/(.+)') { $Matches[1] } else { (Get-Date -Format "yyyyMMdd") }
 
+echo Zip the artifact directories
 
-echo Rename artifact directories
+ren ddi-lifecycle-all-outputs ddi-lifecycle-all-outputs-$suffix
+ren ddi-lifecycle ddi-lifecycle-$suffix
+
+7z a -tzip ddi-lifecycle-all-outputs-$suffix.zip ddi-lifecycle-all-outputs-$suffix\*
+7z a -tzip ddi-lifecycle-$suffix.zip ddi-lifecycle-$suffix\*
