@@ -21,7 +21,7 @@ jobs:
     - name: Set up python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.13'
+        python-version: '3.12'
         cache: 'pip'
     
     - name: Install python dependencies
@@ -43,15 +43,11 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
           name: ddi-lifecycle-all-outputs
-          path: ddi-lifecycle-all-outputs
+          path: ddi-lifecycle-all-outputs*.zip
 
     - name: Make package artifact
       uses: actions/upload-artifact@v3
       with:
         name: ddi-lifecycle
         path: |
-          ddi-lifecycle-all-outputs
-          !ddi-lifecycle-all-outputs/graphql
-          !ddi-lifecycle-all-outputs/uml
-          !ddi-lifecycle-all-outputs/sphinx
-          !ddi-lifecycle-all-outputs/csharp
+          ddi-lifecycle*.zip
