@@ -1,4 +1,6 @@
-dotnet tool install -g cogs
+REM dotnet tool install -g cogs
+dotnet tool install -g --add-source https://ci.appveyor.com/nuget/cogs/ cogs
+
 
 mkdir ddi\
 
