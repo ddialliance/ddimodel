@@ -25,9 +25,9 @@ jobs:
     
     - name: Install python dependencies
       run: |
-        pip install -r sphinx
-        pip install -r sphinx_rtd_theme
-        pip install -r Pygments
+        pip install sphinx
+        pip install sphinx_rtd_theme
+        pip install Pygments
 
 
     - name: Install other dependencies
