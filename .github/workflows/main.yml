@@ -41,14 +41,27 @@ jobs:
       run: .\build\build-windows.bat
       shell: cmd
 
+    - name: Copy and rename outputs
+      shell: pwsh
+      run: |
+        mkdir ddi-lifecycle
+        xcopy ddi-lifecycle-all-outputs\xsd ddi-lifecycle\xsd /E /I
+        xcopy ddi-lifecycle-all-outputs\json ddi-lifecycle\json /E /I
+        xcopy ddi-lifecycle-all-outputs\owl ddi-lifecycle\owl /E /I
+        $suffix = if ($env:GITHUB_REF -match 'refs/tags/(.+)') { $Matches[1] } else { (Get-Date -Format "yyyyMMdd") }
+        $env:suffix = $suffix
+        ren ddi-lifecycle ddi-lifecycle-${suffix}
+        ren ddi-lifecycle-all-outputs ddi-lifecycle-all-outputs-${suffix}
+        7z a -tzip "ddi-lifecycle-all-outputs.zip" "ddi-lifecycle-all-outputs\*"
+
     - name: Make all outputs artifact
       uses: actions/upload-artifact@v3
       with:
-          name: ddi-lifecycle-all-outputs
-          path: ddi-lifecycle-all-outputs.zip
+          name: ddi-lifecycle-all-outputs-$env.suffix
+          path: ddi-lifecycle-all-outputs-$env.suffix.zip
 
     - name: Make package artifact
       uses: actions/upload-artifact@v3
       with:
-        name: ddi-lifecycle
-        path: ddi-lifecycle.zip
+        name: ddi-lifecycle-$env.suffix
+        path: ddi-lifecycle-$env.suffix

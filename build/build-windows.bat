@@ -33,17 +33,3 @@ REM Generate documentation with Sphinx.
 PUSHD ddi-lifecycle-all-outputs\sphinx
 CALL make dirhtml
 POPD
-
-echo Copy outputs
-mkdir ddi-lifecycle
-xcopy ddi-lifecycle-all-outputs\xsd ddi-lifecycle\xsd /E /I
-xcopy ddi-lifecycle-all-outputs\json ddi-lifecycle\json /E /I
-xcopy ddi-lifecycle-all-outputs\owl ddi-lifecycle\owl /E /I
-
-echo Making file suffix. If this commit it tagged, use the tag name. If not, use the date.
-$suffix = if ($env:GITHUB_REF -match 'refs/tags/(.+)') { $Matches[1] } else { (Get-Date -Format "yyyyMMdd") }
-
-echo Zip the artifact directories
-
-7z a -tzip "ddi-lifecycle-all-outputs.zip" "ddi-lifecycle-all-outputs\*"
-7z a -tzip "ddi-lifecycle.zip" "ddi-lifecycle\*"
