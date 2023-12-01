@@ -8,4 +8,4 @@ MeasurementUnit,CodeValueType,0,1,"Records the measurement unit, for example, 'k
 MaxLength,nonNegativeInteger,0,1,The maximum number of characters allowed.,,,,,,,,,,,,a,
 MinLength,nonNegativeInteger,0,1,The minimum number of characters allowed.,,,,,,,,,,,,a,
 RegExp,string,0,1,A regular expression limiting the allowed characters or character order of the content.,,,,,,,,,,,,a,
-ClassificationLevel,string,0,1,"Indicates the type of relationship, nominal, ordinal, interval, ratio, or continuous. Use where appropriate for the representation type.",,,,,Nominal Ordinal Interval Ratio Continuous,,,,,,,a,
+ClassificationLevelCode,CodeValueType,0,1,"Indicates the type of relationship, nominal, ordinal, interval, ratio, or continuous. Use where appropriate for the representation type.",,,,,Nominal Ordinal Interval Ratio Continuous,,,,,,,a,
