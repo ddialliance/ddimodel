@@ -48,5 +48,5 @@ echo Zip the artifact directories
 ren ddi-lifecycle-all-outputs ddi-lifecycle-all-outputs-${suffix}
 ren ddi-lifecycle ddi-lifecycle-${suffix}
 
-7z a -tzip ddi-lifecycle-all-outputs-${suffix}.zip ddi-lifecycle-all-outputs-${suffix}\*
-7z a -tzip ddi-lifecycle-${suffix}.zip ddi-lifecycle-${suffix}\*
+7z a -tzip "ddi-lifecycle-all-outputs.zip" "ddi-lifecycle-all-outputs\*"
+7z a -tzip "ddi-lifecycle.zip" "ddi-lifecycle\*"

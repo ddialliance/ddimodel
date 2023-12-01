@@ -31,6 +31,11 @@ jobs:
     - name: Install other dependencies
       run: .\build\install-dependencies.ps1
       shell: pwsh
+      
+    - name: Get file suffix
+      id: suffix
+      run: if ($env:GITHUB_REF -match 'refs/tags/(.+)') { $Matches[1] } else { (Get-Date -Format "yyyyMMdd") }
+      shell: pwsh
 
     - name: Run build-windows.bat
       run: .\build\build-windows.bat
@@ -40,11 +45,10 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
           name: ddi-lifecycle-all-outputs
-          path: ddi-lifecycle-all-outputs*.zip
+          path: ddi-lifecycle-all-outputs.zip
 
     - name: Make package artifact
       uses: actions/upload-artifact@v3
       with:
         name: ddi-lifecycle
-        path: |
-          ddi-lifecycle*.zip
+        path: ddi-lifecycle.zip
