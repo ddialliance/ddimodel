@@ -7,6 +7,9 @@ jobs:
     runs-on: windows-latest
 
     steps:
+    - name: Get short SHA
+      run: echo "SHORT_SHA=$("${{ github.sha }}".SubString(0, 8))" >> $env:GITHUB_ENV
+
     - name: Checkout repository
       uses: actions/checkout@v3
 
@@ -43,20 +46,18 @@ jobs:
         xcopy ddi-lifecycle-all-outputs\xsd ddi-lifecycle\xsd /E /I
         xcopy ddi-lifecycle-all-outputs\json ddi-lifecycle\json /E /I
         xcopy ddi-lifecycle-all-outputs\owl ddi-lifecycle\owl /E /I
-        $suffix = if ($env:GITHUB_REF -match 'refs/tags/(.+)') { $Matches[1] } else { (Get-Date -Format "yyyyMMdd") }
-        $env:suffix = $suffix
-        ren ddi-lifecycle ddi-lifecycle-${suffix}
-        ren ddi-lifecycle-all-outputs ddi-lifecycle-all-outputs-${suffix}
-        7z a -tzip "ddi-lifecycle-all-outputs-${suffix}.zip" "ddi-lifecycle-all-outputs-${suffix}\*"
+        ren ddi-lifecycle ddi-lifecycle-${{env.SHORT_SHA}}
+        ren ddi-lifecycle-all-outputs ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}
+        7z a -tzip "ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}.zip" "ddi-lifecycle-all-outputs-${{ENV.SHORT_SHA}}\*"
 
     - name: Make all outputs artifact
       uses: actions/upload-artifact@v3
       with:
-          name: ddi-lifecycle-all-outputs-$env.suffix
-          path: ddi-lifecycle-all-outputs-$env.suffix.zip
+          name: ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}
+          path: ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}.zip
 
     - name: Make package artifact
       uses: actions/upload-artifact@v3
       with:
-        name: ddi-lifecycle-$env.suffix
-        path: ddi-lifecycle-$env.suffix
+        name: ddi-lifecycle-${{env.SHORT_SHA}}
+        path: ddi-lifecycle-${{env.SHORT_SHA}}
