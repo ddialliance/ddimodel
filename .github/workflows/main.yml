@@ -38,6 +38,19 @@ jobs:
       run: .\build\build-windows.bat
       shell: cmd
 
-    - name: Run deploy-github-pages.ps1
-      run: .\build\deploy-github-pages.ps1
-      shell: pwsh
+    - name: Make all outputs artifact
+      uses: actions/upload-artifact@v3
+      with:
+          name: ddi-lifecycle-all-outputs
+          path: ddi-lifecycle-all-outputs
+
+    - name: Make package artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: ddi-lifecycle
+        path: |
+          ddi-lifecycle-all-outputs
+          !ddi-lifecycle-all-outputs/graphql
+          !ddi-lifecycle-all-outputs/uml
+          !ddi-lifecycle-all-outputs/sphinx
+          !ddi-lifecycle-all-outputs/csharp

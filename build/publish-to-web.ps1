@@ -7,7 +7,7 @@ copy ddi.zip ddi\sphinx\build\dirhtml\_static\
 #   We will simply scp the new directory and the updated builds.json
 
 
-# Push the dirhtml subdirectory to Gitlab Pages
+# Push the dirhtml subdirectory to Github Pages
 PUSHD ddi\sphinx\build
 
 Write-Output "Cloning the DDI docs"
