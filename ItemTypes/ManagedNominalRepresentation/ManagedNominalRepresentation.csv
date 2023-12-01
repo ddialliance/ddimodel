@@ -6,4 +6,4 @@ RecommendedDataType,CodeValueType,0,1,"This field provides the recommended treat
 GenericOutputFormat,CodeValueType,0,1,This field provides a recommended generic treatment of the data for display by an application. The value should come from a controlled vocabulary.,,,,,,,,,,,ddi:reusable:3_3,e,
 MeasurementUnit,CodeValueType,0,1,"Records the measurement unit, for example, 'km', 'miles', etc. Supports the use of a controlled vocabulary.",,,,,,,,,,,ddi:reusable:3_3,e,
 RegExp,string,0,1,The regular expression allows for further description of the allowable content of the data.,,,,,,,,,,,,a,
-ClassificationLevel,string,0,1,"Indicates the type of relationship, nominal, ordinal, interval, ratio, or continuous. Use where appropriate for the representation type.",,,,,Nominal Ordinal Interval Ratio Continuous,,,,,,,a,
+ClassificationLevelCode,CodeValueType,0,1,"Indicates the type of relationship, nominal, ordinal, interval, ratio, or continuous. Use where appropriate for the representation type.",,,,,Nominal Ordinal Interval Ratio Continuous,,,,,,,a,

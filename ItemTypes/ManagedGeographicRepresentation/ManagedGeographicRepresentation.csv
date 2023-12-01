@@ -17,6 +17,6 @@ CoordinatePairs,CoordinatePairsType,0,n,Field to capture coordinate pairs as ind
 AlternateOffset,TextDomainType,0,1,"If unable to use the standard offset, allows entry of a non-standard offset figure.",,,,,,,,,,,ddi:reusable:3_3,e,
 AlternateObject,TextDomainType,0,1,"If the default geo-referenced object is unavailable or cannot be measured, allows identification of an alternate object.",,,,,,,,,,,ddi:reusable:3_3,e,
 AlternateCoordinateSystem,TextDomainType,0,1,Specifies the coordinate system used for a response if different from that stated in the response structure.,,,,,,,,,,,ddi:reusable:3_3,e,
-ClassificationLevel,string,0,1,"Indicates the type of relationship, nominal, ordinal, interval, ratio, or continuous. Use where appropriate for the representation type.",,,,,Nominal Ordinal Interval Ratio Continuous,,,,,,,a,
+ClassificationLevelCode,CodeValueType,0,1,"Indicates the type of relationship, nominal, ordinal, interval, ratio, or continuous. Use where appropriate for the representation type.",,,,,Nominal Ordinal Interval Ratio Continuous,,,,,,,a,
 PointFormat,string,1,1,The type attribute is used by the documenter to describe the numeric response domain.,,,,,DecimalDegree DegreesMinutesSeconds DecimalMinutes Meters Feet,,,,,,,a,
 SpatialPrimitive,string,1,1,Indicates the spatial primitive object which the point references.,,,,,Point Polygon Line LinearRing,,,,,,,a,
