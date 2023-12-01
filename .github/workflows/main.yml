@@ -18,6 +18,19 @@ jobs:
     - name: Install cogs dotnet tool
       run: dotnet tool install --global --add-source https://ci.appveyor.com/nuget/cogs/ cogs
 
+    - name: Set up python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        cache: 'pip'
+    
+    - name: Install python dependencies
+      run: |
+        pip install -r sphinx
+        pip install -r sphinx_rtd_theme
+        pip install -r Pygments
+
+
     - name: Install other dependencies
       run: .\build\appveyor-install-dependencies.ps1
       shell: pwsh
