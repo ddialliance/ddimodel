@@ -16,9 +16,9 @@ jobs:
         dotnet-version: '6.0.x'
 
     - name: Install cogs dotnet tool
-      run: dotnet tool install --global cogs
+      run: dotnet tool install --global --add-source https://ci.appveyor.com/nuget/cogs/ cogs
 
-    - name: Run appveyor-install-dependencies.ps1
+    - name: Install other dependencies
       run: .\build\appveyor-install-dependencies.ps1
       shell: pwsh
 

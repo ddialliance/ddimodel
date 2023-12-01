@@ -1,7 +1,3 @@
-REM dotnet tool install -g cogs
-dotnet tool update -g --add-source https://ci.appveyor.com/nuget/cogs/ cogs
-
-
 mkdir ddi\
 
 echo Validate
@@ -34,9 +30,9 @@ cogs publish-cs . ddi\csharp --overwrite
 
 echo Build Sphinx
 REM Generate documentation with Sphinx.
-cd ddi\sphinx
+PUSHD ddi\sphinx
 CALL make dirhtml
-cd \projects\ddimodel
+POPD \projects\ddimodel
 
 echo Zipping artifacts
 7z a -tzip ddi.zip ddi\*
