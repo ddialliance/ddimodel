@@ -23,13 +23,6 @@ jobs:
       with:
         python-version: '3.12'
         cache: 'pip'
-    
-    - name: Install python dependencies
-      run: |
-        pip install sphinx
-        pip install sphinx_rtd_theme
-        pip install Pygments
-
 
     - name: Install other dependencies
       run: .\build\install-dependencies.ps1
