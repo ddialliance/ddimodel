@@ -23,6 +23,10 @@ jobs:
       with:
         python-version: '3.12'
         cache: 'pip'
+    
+    - name: Install python dependencies
+      run: pip install -r build/requirements.txt
+
 
     - name: Install other dependencies
       run: .\build\install-dependencies.ps1
