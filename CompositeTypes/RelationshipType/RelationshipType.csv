@@ -1,5 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
 RelatedToReference_IdentifiableType,IdentifiableType,0,1,Reference to the item within the DDI Instance to which this item is related.,,,,,,,,,,,ddi:reusable:3_3,e,
-RelatedToReference_Versionable,Versionable,0,1,Reference to the item within the DDI Instance to which this item is related.,,,,,,,,,,,ddi:reusable:3_3,e,
+RelatedToReference_Versionable,Versionable,0,1,Reference to the item within the DDI Instance to which this item is related.,,true,,,,,,,,,ddi:reusable:3_3,e,
 RelationshipDescription,StructuredStringType,0,1,A description of the nature of the relationship between the parent element of the relationship item and the DDI object to which it is related. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
 TypeOfRelationship,CodeValueType,0,1,Describes how the resource is related to the item. Supports the use of an external controlled vocabulary.,,,,,,,,,,,ddi:reusable:3_3,e,
