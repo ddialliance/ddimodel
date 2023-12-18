@@ -1,0 +1,1 @@
+A scheme containing information on Organizations, Individuals, and the relationships between them. In addition to the name, label, and description of the scheme, the structure supports the inclusion of another OrganizationScheme by reference, a set of Organization, Individual, and Relation descriptions.
