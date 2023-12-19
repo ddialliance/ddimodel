@@ -11,13 +11,23 @@ echo GraphQL
 cogs publish-graphql . ddi-lifecycle-all-outputs\graphql --overwrite
 
 echo XSD
-cogs publish-xsd . ddi-lifecycle-all-outputs\xsd --overwrite --namespace "http://www.ddialliance.org/ddi" --namespacePrefix ddi
+cogs publish-xsd . ddi-lifecycle-all-outputs\xsd --overwrite --namespace "ddi:instance:4_0" --namespacePrefix ddi
 
 echo UML
 cogs publish-uml . ddi-lifecycle-all-outputs\uml --location graphviz\release\bin\dot.exe --overwrite
 
 echo OWL
 cogs publish-owl . ddi-lifecycle-all-outputs\owl --overwrite
+
+echo LinkML
+cogs publish-linkml . ddi-lifecycle-all-outputs\linkml --namespace "http://rdf-vocabulary.ddialliance.org/lifecycle#" --namespacePrefix "ddi" --overwrite
+
+echo Build LinkML
+PUSHD ddi-lifecycle-all-outputs\linkml
+CALL gen-owl --metadata-profile rdfs -f ttl linkml.yml > ddi4.owl.ttl
+CALL gen-shacl linkml.yml > ddi4.shacl
+CALL gen-shex linkml.yml > ddi4.shex
+POPD
 
 REM cogs publish-dot . --location ddi-lifecycle-all-outputs\dot graphviz\release\bin\dot.exe --overwrite --single
 REM cogs publish-dot . --location ddi-lifecycle-all-outputs\dot graphviz\release\bin\dot.exe --overwrite --all --inheritance
