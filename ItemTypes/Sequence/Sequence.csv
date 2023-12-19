@@ -1,4 +1,4 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
 TypeOfSequence,CodeValueType,0,n,"Provides the ability to ""type"" a sequence for classification or processing purposes. Supports the use of an external controlled vocabulary.",,,,,,,,,,,ddi:datacollection:3_3,e,
-ControlConstructReference,ControlConstruct,0,n,References control constructs in the order that they should appear within the instrument.,,,,,,,,,,,ddi:datacollection:3_3,e,
+ControlConstructReference,ControlConstruct,0,n,References control constructs in the order that they should appear within the instrument.,true,,,,,,,,,,ddi:datacollection:3_3,e,
 ConstructSequence,SpecificSequenceType,0,1,Describes alternate ordering for different cases using the SpecificSequence structure. If you set the sequence to anything other than order of appearance the only allowable children are QuestionConstruct or Sequence. Contents must be randomizable.,,,,,,,,,,,ddi:datacollection:3_3,e,
