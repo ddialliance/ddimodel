@@ -24,9 +24,9 @@ cogs publish-linkml . ddi-lifecycle-all-outputs\linkml --namespace "http://rdf-v
 
 echo Build LinkML
 PUSHD ddi-lifecycle-all-outputs\linkml
-CALL gen-owl --metadata-profile rdfs -f ttl linkml.yml > ddi4.owl.ttl
-CALL gen-shacl linkml.yml > ddi4.shacl
-CALL gen-shex linkml.yml > ddi4.shex
+CALL gen-owl --metadata-profile rdfs -f ttl linkml.yml > ..\owl\ddi4.owl.ttl
+CALL gen-shacl linkml.yml > ..\owl\ddi4.shacl
+CALL gen-shex linkml.yml > ..\owl\ddi4.shex
 POPD
 
 REM cogs publish-dot . --location ddi-lifecycle-all-outputs\dot graphviz\release\bin\dot.exe --overwrite --single
