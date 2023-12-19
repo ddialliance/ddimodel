@@ -14,11 +14,14 @@ The DDI model uses COGS to allow DDI development by domain experts and groups wh
 Published formats are:
 
 * XML Schema
+* JSON Schema
 * OWL 2 (RDF Schema)
+* ShEx
+* SHACL
 * OMG's UML Normative XMI 2.4.2
 * OMG's UML XMI 2.5 with Diagrams and Diagram Exchange
+* LinkML
 * Sphinx HTML documentation and visualizations
-* JSON Schema
 * C# class library with JSON and XML serialization
 * SVG and dot visualizations
 * GraphQL schema language
