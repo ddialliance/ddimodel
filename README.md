@@ -18,8 +18,7 @@ Published formats are:
 * OWL 2 (RDF Schema)
 * ShEx
 * SHACL
-* OMG's UML Normative XMI 2.4.2
-* OMG's UML XMI 2.5 with Diagrams and Diagram Exchange
+* OMG's UML XMI 2.5
 * LinkML
 * Sphinx HTML documentation and visualizations
 * C# class library with JSON and XML serialization
