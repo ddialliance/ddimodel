@@ -46,6 +46,7 @@ jobs:
         xcopy ddi-lifecycle-all-outputs\xsd ddi-lifecycle\xsd /E /I
         xcopy ddi-lifecycle-all-outputs\json ddi-lifecycle\json /E /I
         xcopy ddi-lifecycle-all-outputs\owl ddi-lifecycle\rdf /E /I
+        xcopy ddi-lifecycle-all-outputs\uml ddi-lifecycle\uml /E /I
         ren ddi-lifecycle ddi-lifecycle-${{env.SHORT_SHA}}
         ren ddi-lifecycle-all-outputs ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}
         7z a -tzip "ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}.zip" "ddi-lifecycle-all-outputs-${{ENV.SHORT_SHA}}\*"

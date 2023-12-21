@@ -17,7 +17,7 @@ echo UML
 cogs publish-uml . ddi-lifecycle-all-outputs\uml --location graphviz\release\bin\dot.exe --overwrite
 
 echo OWL
-cogs publish-owl . ddi-lifecycle-all-outputs\owl --overwrite
+cogs publish-owl . ddi-lifecycle-all-outputs\owl --namespace "http://rdf-vocabulary.ddialliance.org/lifecycle#" --namespacePrefix "ddi" --overwrite
 
 echo LinkML
 cogs publish-linkml . ddi-lifecycle-all-outputs\linkml --namespace "http://rdf-vocabulary.ddialliance.org/lifecycle#" --namespacePrefix "ddi" --overwrite
