@@ -1,3 +1,3 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-MeasureDefinitionReference,MeasureDefinitionType,0,n,Reference to the MeasureDefinition in NCube.,,,,,,,,,,,ddi:reusable:3_3,e,
+MeasureDefinitionReference,MeasureDefinitionType,0,n,Reference to the MeasureDefinition in NCube.,true,,,,,,,,,,ddi:reusable:3_3,e,
 PhysicalLocation,PhysicalLocationType,0,1,Description of the physical location of the measure value in the data file.,,,,,,,,,,,ddi:physicaldataproduct:3_3,e,
