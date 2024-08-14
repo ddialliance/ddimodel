@@ -14,5 +14,5 @@ ResponseCardinality,ResponseCardinalityType,0,1,Indicates the minimum and maximu
 ConceptReference,Concept,0,n,A reference to the concept the QuestionBlock is intended to gather data on.,,,,,,,,,,,ddi:reusable:3_3,e,
 ExternalAid,ExternalAidType,0,n,"A pointer to an external aid presented by the instrument such as a text card, image, audio, or audiovisual aid. Typically a URN. Use type attribute to describe the type of external aid provided. Example of terms to use would include: imageOnly audioOnly audioVisual multiMedia.",,,,,,,,,,,ddi:datacollection:3_3,e,
 ExternalInterviewerInstruction,ExternalInterviewerInstructionType,0,1,External reference to an interviewer instruction not expressed as DDI XML using OtherMaterial.,,,,,,,,,,,ddi:datacollection:3_3,e,
-InterviewerInstructionReference,Instruction,0,1,Reference to an interviewer instruction expressed as DDI XML.,,,,,,,,,,,ddi:datacollection:3_3,e,
+InterviewerInstructionAttachment,AttachedInstructionType,0,1,an interviewer instruction expressed as DDI XML.,,,,,,,,,,,ddi:datacollection:3_3,e,
 EstimatedSecondsResponseTime,decimal,0,1,The estimated amount of time required to answer a question expressed in seconds. Decimal values should be used to define fractions of seconds.,,,,,,,,,,,,a,

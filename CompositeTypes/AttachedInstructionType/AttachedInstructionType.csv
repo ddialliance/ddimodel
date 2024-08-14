@@ -1,0 +1,4 @@
+Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+InterviewerInstructionReference,Instruction,0,1,Reference to an interviewer instruction expressed as DDI XML.,,,,,,,,,,,ddi:datacollection:3_3,e,
+InterviewerInstructionAttachmentLocation,InstructionAttachmentLocationType,0,1,"Allows attachment of an instruction to a specific item in a question structure. For example, to a Label, QuestionText, ResponseDomain, Response domain value, or grid cell.",,,,,,,,,,,,,
+IsDisplayed,boolean,0,1,"If set to true the content of the instruction is intended to be displayed. If set to false the preference is for the instruction to be displayed upon request if this is supported by the mode of presentation.",,,,,,,,,,,,,

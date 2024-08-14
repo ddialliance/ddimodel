@@ -2,6 +2,6 @@
 VariableReference,Variable,0,1,A reference to a variable that describes the attribute.,,,,,,,,,,,ddi:reusable:3_3,e,
 AttachmentValue,string,0,1,"The value of the attachment expressed as a string, if not a variable.",,,,,,,,,,,ddi:logicalproduct:3_3,e,
 AttachmentRegionReference,CoordinateRegionType,0,1,Reference to the CoordinateRegion that defines the attachment point for the attribute.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
-MeasureDefinitionReference,MeasureDefinitionType,0,n,Reference to the MeasureDefinition that the attribute is attached to.,,,,,,,,,,,ddi:reusable:3_3,e,
+MeasureDefinitionReference,MeasureDefinitionType,0,n,Reference to the MeasureDefinition that the attribute is attached to.,true,,,,,,,,,,ddi:reusable:3_3,e,
 Value,ValueType,0,n,Reference to the specified Value of the MeasureDefinition that the attribute is attached to.,,,,,,,,,,,ddi:reusable:3_3,e,
 AttachmentLevel,string,0,1,"Describes the attachment level of the attribute as Cube, CoordinateRegion, Dimension, Measurement, or MeasurementValue.",,,,,Cube CoordinateRegion Dimension Measurement MeasurementValue,,,,,,,a,
