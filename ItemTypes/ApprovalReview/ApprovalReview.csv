@@ -1,7 +1,7 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
 TypeOfApprovalReview,CodeValueType,0,n,"A brief identification of the type of approval review such as IRB, ethical, compliance, etc. Supports the use of a controlled vocabulary.",,,,,,,,,,,ddi:reusable:3_3,e,
 ReviewObjectReference,Versionable,0,n,Reference to an existing identifiable object using the Reference structure.  TypeOfObject should be set to any Versionable or Maintainable object.,,true,,,,,,,,,ddi:reusable:3_3,e,
-AgencyOrganizationReference,Agent,0,n,"Reference to an organization or individual, that provided the approval review. TypeOfObject should be set to Organization.",,,,,,,,,,,ddi:reusable:3_3,e,
+AgencyOrganizationReference,Agent,0,n,"Reference to an organization or individual, that provided the approval review. TypeOfObject should be set to Organization.",,true,,,,,,,,,ddi:reusable:3_3,e,
 ReviewerRole,CodeValueType,0,1,Role of the reviewing organization or individual. Supports the use of a controlled vocabulary.,,,,,,,,,,,ddi:reusable:3_3,e,
 ReferenceIdentifier,string,0,n,The reference or case identification of the review. Used to specify or track the case by the review organization,,,,,,,,,,,ddi:reusable:3_3,e,
 Description,StructuredStringType,0,1,"Description of the approval review which can include requirements for the review, contents, or results.",,,,,,,,,,,ddi:reusable:3_3,e,

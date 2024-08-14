@@ -1,5 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-ArchiveOrganizationReference,Agent,0,1,A reference to the organization or an individual acting as the archive.,,,,,,,,,,,ddi:archive:3_3,e,
+ArchiveOrganizationReference,Agent,0,1,A reference to the organization or an individual acting as the archive.,,true,,,,,,,,,ddi:archive:3_3,e,
 Item,ItemType,0,n,"Describes individual items held or distributed by the archive in connection with a study, group of studies, or resource packages. What constitutes an item is determined by the archive.",,,,,,,,,,,ddi:archive:3_3,e,
 Collection,CollectionType,0,n,"Describes a collection of items held or distributed by the archive in connection with a study, group of studies, or resource packages. What constitutes an collection is determined by the archive.",,,,,,,,,,,ddi:archive:3_3,e,
 DefaultAccess,AccessType,0,n,Describes access to the archive in general. The restrictions noted at this level apply to all holdings of the archive unless overridden for specified collections or items.,,,,,,,,,,,ddi:archive:3_3,e,

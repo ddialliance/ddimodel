@@ -4,4 +4,4 @@ SampleFrameReference,SampleFrame,0,1,Reference to sample frame used. Note that t
 FrameLimitations,StructuredStringType,0,1,"Description of limitations of the usage of the frame for the data collection.  Clarify (over/under) coverage issues, lack of needed fields, and needs to support over-sampling or deviation from recommended sample frame found in sample plan stage.",,,,,,,,,,,ddi:datacollection:3_3,e,
 TargetSampleSize,TargetSampleSizeType,0,n,The desired sample size for this particular sample plan express in relation to its strata number if relevant. Provides means of expressing the formula used for determining the sample size.,,,,,,,,,,,ddi:datacollection:3_3,e,
 DateOfSample,DateType,0,1,Date or date range when sample was drawn.,,,,,,,,,,,ddi:datacollection:3_3,e,
-ResponsibleForSamplingReference,Agent,0,n,A reference to an organization or individual responsible for sampling.,,,,,,,,,,,ddi:datacollection:3_3,e,
+ResponsibleForSamplingReference,Agent,0,n,A reference to an organization or individual responsible for sampling.,,true,,,,,,,,,ddi:datacollection:3_3,e,

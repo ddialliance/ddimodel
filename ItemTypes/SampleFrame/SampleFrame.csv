@@ -3,7 +3,7 @@ SampleFrameName,NameType,0,n,"A name for a sample frame which may be repeated to
 Label,LabelType,0,n,"A full display label for the sample frame, repeatable for different context or applications. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
 Description,StructuredStringType,0,1,Full description of the sample frame. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
 ValidPeriod,DateType,0,1,Period for which the current version is valid.,,,,,,,,,,,ddi:datacollection:3_3,e,
-CustodianReference,Agent,0,1,Organization or individual holding the rights to the frame,,,,,,,,,,,ddi:datacollection:3_3,e,
+CustodianReference,Agent,0,1,Organization or individual holding the rights to the frame,,true,,,,,,,,,ddi:datacollection:3_3,e,
 SampleFrameAccess,AccessType,0,1,"Provides full description of access, forms for access, contact, etc.",,,,,,,,,,,ddi:datacollection:3_3,e,
 UniverseReference,Universe,0,n,A reference to the Universe of this sample frame,,,,,,,,,,,ddi:reusable:3_3,e,
 UnitsOfFrame,PopulationSizeType,0,1,A sample frame may identify multiple units. One unit should be identified as the primary unit. Additional units are listed as secondary.,,,,,,,,,,,ddi:datacollection:3_3,e,

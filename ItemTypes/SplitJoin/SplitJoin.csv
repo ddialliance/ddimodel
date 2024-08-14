@@ -1,3 +1,3 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
 TypeOfSequence,CodeValueType,0,n,"Provides the ability to ""type"" a split for classification or processing purposes. Supports the use of an external controlled vocabulary.",,,,,,,,,,,ddi:datacollection:3_3,e,
-ControlConstructReference,ControlConstruct,0,n,References control constructs that can be executed concurrently.,,,,,,,,,,,ddi:datacollection:3_3,e,
+ControlConstructReference,ControlConstruct,0,n,References control constructs that can be executed concurrently.,,true,,,,,,,,,ddi:datacollection:3_3,e,

@@ -2,6 +2,6 @@
 Label,LabelType,0,n,A label for the LifecycleEvent. May be repeated to provide different labels needed due to system or application constraints.,,,,,,,,,,,ddi:reusable:3_3,e,
 EventType,CodeValueType,0,1,"Indicates the type of LifecycleEvent, using a typology meaningful to the documenter. Supports the use of a controlled vocabulary. The DDI Alliance has provided a controlled vocabulary (LifecycleEventType) to support this element at http://www.ddialliance.org/controlled-vocabularies.",,,,,,,,,,,ddi:reusable:3_3,e,
 Date,DateType,0,1,The date or date range of the LifecycleEvent.,,,,,,,,,,,ddi:reusable:3_3,e,
-AgencyOrganizationReference,Agent,0,n,"Reference to an organization or individual, defined in the organization scheme, responsible for the life cycle event.",,,,,,,,,,,ddi:reusable:3_3,e,
+AgencyOrganizationReference,Agent,0,n,"Reference to an organization or individual, defined in the organization scheme, responsible for the life cycle event.",,true,,,,,,,,,ddi:reusable:3_3,e,
 Description,StructuredStringType,0,1,"A description of the event such as what the event included, its importance, or other significant information. Supports multiple language versions of the same content as well as optional formatting of the content.",,,,,,,,,,,ddi:reusable:3_3,e,
 Relationship,RelationshipType,0,n,"Allows linking a lifecycle event to one or more sections of metadata. If no relationship is noted the lifecycle event relates to its full parent StudyUnit, Group, or Resource Package.",,,,,,,,,,,ddi:reusable:3_3,e,
