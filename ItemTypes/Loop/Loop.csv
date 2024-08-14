@@ -3,4 +3,4 @@ LoopVariableReference,ParameterType,0,1,A reference to the variable (as used in 
 InitialValue,CommandCodeType,0,1,Information on the command used to set the initial value for the process. Could be a simple value.,,,,,,,,,,,ddi:datacollection:3_3,e,
 LoopWhile,CommandCodeType,0,1,"Information on the command used to determine whether the ""LoopWhile"" condition is met.",,,,,,,,,,,ddi:datacollection:3_3,e,
 StepValue,CommandCodeType,0,1,Information on the command used to set the incremental or step value for the process. Could be a simple value.,,,,,,,,,,,ddi:datacollection:3_3,e,
-ControlConstructReference,ControlConstruct,0,1,A reference to the ControlConstruct to implement until the LoopWhile condition is met. This could be a single ControlConstruct or a set of ControlConstructs within a Sequence.,,,,,,,,,,,ddi:datacollection:3_3,e,
+ControlConstructReference,ControlConstruct,0,1,A reference to the ControlConstruct to implement until the LoopWhile condition is met. This could be a single ControlConstruct or a set of ControlConstructs within a Sequence.,,true,,,,,,,,,ddi:datacollection:3_3,e,
