@@ -76,4 +76,4 @@ jobs:
 
     - name: Sync S3 dev bucket
       run: |
-        aws s3 sync ddi-lifecycle-all-outputs\sphinx\build\dirhtml s3://docs.ddialliance.org/DDI-Lifecycle/dev/model
+        aws s3 sync ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}\sphinx\build\dirhtml s3://docs.ddialliance.org/DDI-Lifecycle/dev/model
