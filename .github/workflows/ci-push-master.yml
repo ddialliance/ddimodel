@@ -1,6 +1,9 @@
-name: CI
+name: Master commit CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+    - master
 
 jobs:
   build:
@@ -11,10 +14,10 @@ jobs:
       run: echo "SHORT_SHA=$("${{ github.sha }}".SubString(0, 8))" >> $env:GITHUB_ENV
 
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Install .NET 6
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '6.0.x'
 
@@ -22,7 +25,7 @@ jobs:
       run: dotnet tool install --global --add-source https://ci.appveyor.com/nuget/cogs/ cogs
 
     - name: Set up python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.12'
         cache: 'pip'
@@ -52,13 +55,24 @@ jobs:
         7z a -tzip "ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}.zip" "ddi-lifecycle-all-outputs-${{ENV.SHORT_SHA}}\*"
 
     - name: Make all outputs artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
           name: ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}
           path: ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}.zip
 
     - name: Make package artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ddi-lifecycle-${{env.SHORT_SHA}}
         path: ddi-lifecycle-${{env.SHORT_SHA}}
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1 
+
+    - name: Sync S3 dev bucket
+      run: |
+        aws s3 sync ddi-lifecycle-all-outputs\sphinx\build\dirhtml s3://docs.ddialliance.org/DDI-Lifecycle/dev/model
