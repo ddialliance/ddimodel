@@ -2,5 +2,5 @@
 TypeOfIfThenElse,CodeValueType,0,1,A brief textual identification of the IfThenElse. Supports the use of an external controlled vocabulary.,,,,,,,,,,,ddi:datacollection:3_3,e,
 IfCondition,CommandCodeType,0,1,"The condition which must be met to trigger the Then clause, expressed as a CommandCode. The condition is an expression in the programming language used in the instrument.",,,,,,,,,,,ddi:datacollection:3_3,e,
 ThenConstructReference,Sequence,0,1,Reference to the control construct which should be triggered if the associated condition is met.,,,,,,,,,,,ddi:datacollection:3_3,e,
-ElseIf,ElseIfType,0,n,"Use for multiple branching from a single point in the flow logic represented by the flow logic If, Then, ElseIf, Then, etc.",,,,,,,,,,,ddi:datacollection:3_3,e,
+ElseIf,ElseIfType,0,n,"Use for multiple branching from a single point in the flow logic represented by the flow logic If, Then, ElseIf, Then, etc.",true,,,,,,,,,,ddi:datacollection:3_3,e,
 ElseConstructReference,Sequence,0,1,Reference to the control construct which is triggered if the associated condition is not met.,,,,,,,,,,,ddi:datacollection:3_3,e,
