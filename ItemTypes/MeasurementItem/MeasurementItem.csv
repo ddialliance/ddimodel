@@ -3,7 +3,7 @@ MeasurementItemName,NameType,0,n,"A name for the MeasurementItem. Repeat the ele
 Label,LabelType,0,n,"A display label for the MeasurementItem. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
 Description,StructuredStringType,0,1,A description of the MeasurementItem. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
 InParameter,InParameterType,0,n,Provides an identity for input objects required for the MeasurementItem.,,,,,,,,,,,ddi:reusable:3_3,e,
-OutParameter,ParameterType,0,n,Provides an identify for the output objects of the MeasurementItem.,,,,,,,,,,,ddi:reusable:3_3,e,
+OutParameter,ParameterType,0,n,Provides an identify for the output objects of the MeasurementItem.,true,,,,,,,,,,ddi:reusable:3_3,e,
 Binding,BindingType,0,n,A structure used to bind the content of a parameter declared as the source to a parameter declared as the target.,,,,,,,,,,,ddi:reusable:3_3,e,
 TypeOfMeasurementItem,CodeValueType,0,n,A brief term defining the type of MeasurementItem. Supports the use of an external controlled vocabulary.,,,,,,,,,,,ddi:datacollection:3_3,e,
 MeasurementItemIntent,StructuredStringType,0,1,The purpose of the MeasurementItem in terms of what it is designed to measure.,,,,,,,,,,,ddi:datacollection:3_3,e,
