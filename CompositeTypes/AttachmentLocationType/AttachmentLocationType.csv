@@ -1,4 +1,4 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-CodeReference,CodeType,0,1,Identifies the value to which the new response domain is attached by a references a specific Code within the CodeDomain.,,,,,,,,,,,ddi:reusable:3_3,e,
-CategoryReference,Category,0,1,Identifies the value to which the new response domain is attached by a references a specific Category within the CategoryDomain.,,,,,,,,,,,ddi:reusable:3_3,e,
-DomainSpecificValue,DomainSpecificValueType,0,1,Identifies the value to which the new response domain is attached by a reference to a specific value used by the response domain and the specific value.,,,,,,,,,,,ddi:datacollection:3_3,e,
+CodeReference,CodeType,0,n,Identifies the value to which the new response domain is attached by a references a specific Code within the CodeDomain.,,,,,,,,,,,ddi:reusable:3_3,e,
+CategoryReference,Category,0,n,Identifies the value to which the new response domain is attached by a references a specific Category within the CategoryDomain.,,,,,,,,,,,ddi:reusable:3_3,e,
+DomainSpecificValue,DomainSpecificValueType,0,n,Identifies the value to which the new response domain is attached by a reference to a specific value used by the response domain and the specific value.,,,,,,,,,,,ddi:datacollection:3_3,e,
