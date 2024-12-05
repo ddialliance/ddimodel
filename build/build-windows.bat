@@ -13,6 +13,9 @@ cogs publish-graphql . ddi-lifecycle-all-outputs\graphql --overwrite
 echo XSD
 cogs publish-xsd . ddi-lifecycle-all-outputs\xsd --overwrite --namespace "ddi:instance:4_0" --namespacePrefix ddi
 
+echo DCTAP
+cogs publish-dctap . ddi-lifecycle-all-outputs\dctap --overwrite
+
 echo UML
 cogs publish-uml . ddi-lifecycle-all-outputs\uml --location graphviz\release\bin\dot.exe --overwrite
 
