@@ -67,48 +67,6 @@ jobs:
         name: ddi-lifecycle-${{env.SHORT_SHA}}
         path: ddi-lifecycle-${{env.SHORT_SHA}}
 
-    - name: XSD
-      uses: actions/upload-artifact@v4
-      with:
-        name: ddi-lifecycle-${{env.SHORT_SHA}}.xsd
-        path: ddi-lifecycle-${{env.SHORT_SHA}}\xsd\schema.xsd
-
-    - name: UML
-      uses: actions/upload-artifact@v4
-      with:
-        name: ddi-lifecycle-${{env.SHORT_SHA}}.xmi
-        path: ddi-lifecycle-${{env.SHORT_SHA}}\uml\ddi4.xmi
-
-    - name: JSON
-      uses: actions/upload-artifact@v4
-      with:
-        name: ddi-lifecycle-${{env.SHORT_SHA}}.json
-        path: ddi-lifecycle-${{env.SHORT_SHA}}\json\jsonSchema.json
-
-    - name: DCTAP
-      uses: actions/upload-artifact@v4
-      with:
-        name: ddi-lifecycle-${{env.SHORT_SHA}}.dctap.csv
-        path: ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}\dctap\dctap.csv
-
-    - name: OWL
-      uses: actions/upload-artifact@v4
-      with:
-        name: ddi-lifecycle-${{env.SHORT_SHA}}.owl.ttl
-        path: ddi-lifecycle-${{env.SHORT_SHA}}\rdf\ddi4.owl.ttl
-
-    - name: shex
-      uses: actions/upload-artifact@v4
-      with:
-        name: ddi-lifecycle-${{env.SHORT_SHA}}.shex
-        path: ddi-lifecycle-${{env.SHORT_SHA}}\rdf\ddi4.shex
-
-    - name: shacl
-      uses: actions/upload-artifact@v4
-      with:
-        name: ddi-lifecycle-${{env.SHORT_SHA}}.shacl
-        path: ddi-lifecycle-${{env.SHORT_SHA}}\rdf\ddi4.shacl
-
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v4
       with:
@@ -119,4 +77,11 @@ jobs:
     - name: Sync S3 dev bucket
       run: |
         aws s3 sync ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}\sphinx\build\dirhtml s3://docs.ddialliance.org/DDI-Lifecycle/dev/model
+        aws s3 cp ddi-lifecycle-${{env.SHORT_SHA}}\xsd\schema.xsd s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/schema.xsd
+        aws s3 cp ddi-lifecycle-${{env.SHORT_SHA}}\uml\ddi4.xmi s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/ddi4.xmi
+        aws s3 cp ddi-lifecycle-${{env.SHORT_SHA}}\json\jsonSchema.json s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/jsonSchema.json
+        aws s3 cp ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}\dctap\dctap.csv s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/dctap.csv
+        aws s3 cp ddi-lifecycle-${{env.SHORT_SHA}}\rdf\ddi4.owl.ttl s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/ddi4.owl.ttl 
+        aws s3 cp ddi-lifecycle-${{env.SHORT_SHA}}\rdf\ddi4.shex s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/ddi4.shex       
+        aws s3 cp ddi-lifecycle-${{env.SHORT_SHA}}\rdf\ddi4.shacl s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/ddi4.shacl
 
