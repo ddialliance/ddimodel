@@ -1,3 +1,4 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-URN,string,1,1,,,,,,,"[Uu][Rr][Nn]:[Dd][Dd][Ii]:[a-zA-Z0-9\-]{1,63}(\.[a-zA-Z0-9\-]{1,63})*:[A-Za-z0-9\*@$\-_]+(\.[A-Za-z0-9\*@$\-_]+)?:[0-9]+(\.[0-9]+)*",,,,,,,
-
+Agency,string,1,1,,,,1,253,,"[a-zA-Z0-9\-]{1,63}(\.[a-zA-Z0-9\-]{1,63})*",,,,,,,
+ID,string,1,1,,,,,,,[A-Za-z0-9\*@$\-_]+(\.[A-Za-z0-9\*@$\-_]+)?,,,,,,,
+Version,string,1,1,,,,,,,[0-9]+(\.[0-9]+)*,,,,,,,
