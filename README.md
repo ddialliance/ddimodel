@@ -1,7 +1,7 @@
 # DDI Model
 A Model-based approach for DDI Lifecycle
 
-(DDI Model) [![DDI Model Build status](https://github.com/ddialliance/ddimodel/actions/workflows/main.yml/badge.svg)](https://github.com/ddialliance/ddimodel/actions/workflows/main.yml) (COGS) [![Cogs Build status](https://ci.appveyor.com/api/projects/status/5ky4r2jd5un3a0qh/branch/master?svg=true)](https://ci.appveyor.com/project/DanSmith/cogs/branch/master)
+(DDI Model) [![DDI Model Build status](https://github.com/ddialliance/ddimodel/actions/workflows/ci-push-master.yml/badge.svg)](https://github.com/ddialliance/ddimodel/actions/workflows/ci-push-master.yml) (COGS) [![Cogs Build status](https://ci.appveyor.com/api/projects/status/5ky4r2jd5un3a0qh/branch/master?svg=true)](https://ci.appveyor.com/project/DanSmith/cogs/branch/master)
 
 The generated documentation for the DDI model is available at https://ddialliance.github.io/ddimodel-web/.
 
