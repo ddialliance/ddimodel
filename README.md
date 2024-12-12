@@ -19,6 +19,7 @@ Published formats are:
 * ShEx
 * SHACL
 * OMG's UML XMI 2.5
+* Dublin Core Tabular Application Profile
 * LinkML
 * Sphinx HTML documentation and visualizations
 * C# class library with JSON and XML serialization
