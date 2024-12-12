@@ -14,10 +14,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Install .NET 6
+    - name: Install .NET 9
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '6.0.x'
+        dotnet-version: '9.0.x'
 
     - name: Install cogs dotnet tool
       run: dotnet tool install --global --add-source https://ci.appveyor.com/nuget/cogs/ cogs
@@ -48,6 +48,7 @@ jobs:
         xcopy ddi-lifecycle-all-outputs\json ddi-lifecycle\json /E /I
         xcopy ddi-lifecycle-all-outputs\owl ddi-lifecycle\rdf /E /I
         xcopy ddi-lifecycle-all-outputs\uml ddi-lifecycle\uml /E /I
+        xcopy ddi-lifecycle-all-outputs\dctap ddi-lifecycle\dctap /E /I
         ren ddi-lifecycle ddi-lifecycle-${{env.SHORT_SHA}}
         ren ddi-lifecycle-all-outputs ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}
         7z a -tzip "ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}.zip" "ddi-lifecycle-all-outputs-${{ENV.SHORT_SHA}}\*"
