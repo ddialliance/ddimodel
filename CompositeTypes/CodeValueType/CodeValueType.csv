@@ -1,6 +1,6 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
 StringValue,string,0,1,The code term as it appears in the controlled vocabulary,,,,,,,,,,,,,
 OtherValue,string,0,1,"If the value of the string is ""Other"" or the equivalent from the controlled vocabulary, this attribute can provide a more specific value not found in the controlled vocabulary.",,,,,,,,,,,,,
-ControlledVocabularyCodeList,CodeList,0,1,A DDI CodeList representation of the controlled vocabulary that the content was taken from.,,,,,,,,,,,,,
+ControlledVocabularyCodeListReference,CodeList,0,1,A DDI CodeList representation of the controlled vocabulary that the content was taken from.,,,,,,,,,,,,,
 ControlledVocabularyURI,string,0,1,"Specifies the URI location for the full controlled vocabulary, usually represented in an RDF SKOS or XKOS representation.",,,,,,,,,,,,,
 ControlledVocabularyInstanceURI,string,0,1,"Specifies the identification URI of the term/code within the controlled vocabulary if available.",,,,,,,,,,,,,
