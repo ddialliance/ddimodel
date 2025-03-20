@@ -85,4 +85,5 @@ jobs:
         aws s3 cp ddi-lifecycle-${{env.SHORT_SHA}}\rdf\ddi4.owl.ttl s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/ddi4.owl.ttl 
         aws s3 cp ddi-lifecycle-${{env.SHORT_SHA}}\rdf\ddi4.shex s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/ddi4.shex       
         aws s3 cp ddi-lifecycle-${{env.SHORT_SHA}}\rdf\ddi4.shacl s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/ddi4.shacl
+        aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths '/DDI-Lifecycle/dev/*'
 
