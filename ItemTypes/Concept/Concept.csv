@@ -7,3 +7,6 @@ SubclassOfReference,Concept,0,n,Reference to a Concept that is used for qualifyi
 ExcludesConceptReference,Concept,0,n,Reference to a Concept that is used for qualifying what is excluded from the Concept's definition.,,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
 IncludesConceptReference,Concept,0,n,Reference to a Concept that is used for qualifying this is included in the Concept's definition.,,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
 IsCharacteristic,boolean,0,1,"If set to ""true"" this concept is used to describe a characteristic of another concept.",,,,,,,,,,,,a,
+BroaderReference,Concept,0,n,Reference to a Concept that is broader in meaning (i.e. more general) than this Concept.,,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
+NarrowerReference,Concept,0,n,Reference to a Concept that is narrower in meaning (i.e. more specific) than this Concept.,,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
+RelatedReference,Concept,0,n,Reference to a Concept that has a associative relationship this Concept.,,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
