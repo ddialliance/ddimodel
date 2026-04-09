@@ -3,7 +3,7 @@ A Model-based approach for DDI Lifecycle
 
 (DDI Model) [![DDI Model Build status](https://github.com/ddialliance/ddimodel/actions/workflows/ci-push-master.yml/badge.svg)](https://github.com/ddialliance/ddimodel/actions/workflows/ci-push-master.yml) (COGS) [![Cogs Build status](https://github.com/Colectica/cogs/actions/workflows/build.yml/badge.svg)](https://github.com/Colectica/cogs/actions/workflows/build.yml)
 
-The generated documentation for the DDI model is available at https://ddialliance.github.io/ddimodel-web/.
+The current development [generated documentation](https://docs.ddialliance.org/DDI-Lifecycle/dev/model/) and [generated outputs](https://docs.ddialliance.org/DDI-Lifecycle/dev/output/) from the DDI model are available at https://docs.ddialliance.org.
 
 This repository contains the DDI Model managed using the [Convention-based Ontology Generation System](http://cogsdata.org/) (COGS). The DDI COGS model gives you a powerful, patterns-based way to develope the DDI, enables a clean separation of concerns and gives you full control over markup for enjoyable, agile development. DDI's usage of COGS includes many features that enable fast, Test Driven Development for publishing sophisticated models in a variety of formats.
 
