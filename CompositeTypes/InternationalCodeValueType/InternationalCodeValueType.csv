@@ -1,4 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
+MultilingualStringValue,langString,0,1,The language string or code term as it appears in the controlled vocabulary,,,,,,,,,,,,,
 ControlledVocabularyID,string,0,1,The ID of the code controlled vocabulary that the content was taken from.,,,,,,,,,,,,a,
 ControlledVocabularyName,string,0,1,The name of the controlledVocabulary.,,,,,,,,,,,,a,
 ControlledVocabularyAgencyName,string,0,1,The name of the agency maintaining the controlledVocabulary.,,,,,,,,,,,,a,

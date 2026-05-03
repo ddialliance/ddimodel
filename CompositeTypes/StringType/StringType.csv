@@ -1,6 +1,0 @@
-﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-MultilingualStringValue,langString,0,1,,,,,,,,,,,,,,
-IsTranslated,boolean,0,1,Indicates whether content is a translation (true) or an original (false).,,,,,,,,,,,,a,
-IsTranslatable,boolean,0,1,Indicates whether content is translatable (true) or not (false). An example of something that is not translatable would be a MNEMONIC of an object or a number.,,,,,,,,,,,,a,
-TranslationSourceLanguage,language,0,n,List the language or language codes. The language original may or may not be provided in this bundle of language specific strings.,,,,,,,,,,,,a,
-TranslationDate,date,0,1,The date the content was translated. Provision of translation date allows user to verify if translation was available during data collection or other time linked activity.,,,,,,,,,,,,a,

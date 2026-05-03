@@ -4,7 +4,7 @@ ReviewObjectReference,Versionable,0,n,Reference to an existing identifiable obje
 AgencyOrganizationReference,Agent,0,n,"Reference to an organization or individual, that provided the approval review. TypeOfObject should be set to Organization.",,true,,,,,,,,,ddi:reusable:3_3,e,
 ReviewerRole,CodeValueType,0,1,Role of the reviewing organization or individual. Supports the use of a controlled vocabulary.,,,,,,,,,,,ddi:reusable:3_3,e,
 ReferenceIdentifier,string,0,n,The reference or case identification of the review. Used to specify or track the case by the review organization,,,,,,,,,,,ddi:reusable:3_3,e,
-Description,StructuredStringType,0,1,"Description of the approval review which can include requirements for the review, contents, or results.",,,,,,,,,,,ddi:reusable:3_3,e,
+Description,langString,0,n,"Description of the approval review which can include requirements for the review, contents, or results.",,,,,,,,,,,ddi:reusable:3_3,e,
 ApprovalReviewDocumentReference,OtherMaterial,0,1,Link to a document related to the ethical review using the OtherMaterial structure.,,,,,,,,,,,ddi:reusable:3_3,e,
 ApplicationDate,DateType,0,1,Date materials submitted for approval review.,,,,,,,,,,,ddi:reusable:3_3,e,
 ApprovalDate,DateType,0,1,Date approval received from approval review organization.,,,,,,,,,,,ddi:reusable:3_3,e,

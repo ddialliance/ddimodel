@@ -1,5 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
 TypeOfSamplingProcedure,CodeValueType,0,1,A generic means of classifying a SamplingProcedure. Supports the use of an external controlled vocabulary.,,,,,,,,,,,ddi:datacollection:3_3,e,
-Description,StructuredStringType,0,1,Full description of the sampling procedure. Supports structured content and multiple language content.,,,,,,,,,,,ddi:reusable:3_3,e,
+Description,langString,0,n,Full description of the sampling procedure. Supports structured content and multiple language content.,,,,,,,,,,,ddi:reusable:3_3,e,
 SamplingPlanReference,SamplingPlan,0,1,Reference to sample plan which describes a process for achieving the sample. TypeOfObject should be SamplingPlan.,,,,,,,,,,,ddi:datacollection:3_3,e,
 SampleReference,Sample,0,1,Reference to sample created using sampling procedure. TypeOfObject should be Sample.,,,,,,,,,,,ddi:datacollection:3_3,e,

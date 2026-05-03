@@ -1,7 +1,7 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-MethodologyName,NameType,0,n,"A name for the Methodology. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:datacollection:3_3,e,
-Label,LabelType,0,n,"A display label for the Methodology. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
-Description,StructuredStringType,0,1,A description of the Methodology. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
+MethodologyName,langString,0,n,"A name for the Methodology.",,,,,,,,,,,ddi:datacollection:3_3,e,
+Label,langString,0,n,"A display label for the Methodology.",,,,,,,,,,,ddi:reusable:3_3,e,
+Description,langString,0,n,A description of the Methodology.,,,,,,,,,,,ddi:reusable:3_3,e,
 DataCollectionMethodology,DataCollectionMethodologyType,0,n,"Methodologies pertaining to the overall data collection such as primary or secondary data collection, qualitative or quantitative methods, mixed method approaches, GPS capturing methods, methods for collecting data from hard to reach communities, etc. Repeat this element if multiple methodologies are used. Repeat this element if multiple methodologies are used.",,,,,,,,,,,ddi:datacollection:3_3,e,
 TimeMethod,TimeMethodType,0,n,Describes how time fits into the data collection methodology.,,,,,,,,,,,ddi:datacollection:3_3,e,
 WeightingMethodologyReference,WeightingMethodology,0,n,"A basic structure for describing the methodology used for weighting. In addition to a descriptive narrative, the methodology may be classified by a short term or external controlled vocabulary.",,,,,,,,,,,ddi:datacollection:3_3,e,
