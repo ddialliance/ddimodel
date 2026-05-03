@@ -1,8 +1,8 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
 TypeOfCategoryGroup,CodeValueType,0,1,A brief textual identification of the CategoryGroup type. Supports the use of an external controlled vocabulary.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
-CategoryGroupName,NameType,0,n,"A name for the CategoryGroup. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:logicalproduct:3_3,e,
-Label,LabelType,0,n,"A display label for the CategoryGroup. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
-Description,StructuredStringType,0,1,A description of the content and purpose of the CategoryGroup. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
+CategoryGroupName,langString,0,n,"A name for the CategoryGroup.",,,,,,,,,,,ddi:logicalproduct:3_3,e,
+Label,langString,0,n,"A display label for the CategoryGroup.",,,,,,,,,,,ddi:reusable:3_3,e,
+Description,langString,0,n,A description of the content and purpose of the CategoryGroup.,,,,,,,,,,,ddi:reusable:3_3,e,
 DefiningCategoryReference,Category,0,1,"A reference to a category that defines the group, thereby allowing the group to define the contents of that category by explicitly identifying its members.",,,,,,,,,,,ddi:logicalproduct:3_3,e,
 UniverseReference,Universe,0,n,Reference to the universe statement describing the persons or other objects to which the contents of this group pertain.,,,,,,,,,,,ddi:reusable:3_3,e,
 ConceptReference,Concept,0,1,Reference to the concept expressed by the objects in this group.,,,,,,,,,,,ddi:reusable:3_3,e,

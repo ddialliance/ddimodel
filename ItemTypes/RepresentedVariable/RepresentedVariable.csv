@@ -1,7 +1,7 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-RepresentedVariableName,NameType,0,n,"A name for the RepresentedVariable. May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:logicalproduct:3_3,e,
-Label,LabelType,0,n,"A display label for the RepresentedVariable. Supports multiple language versions of the same content as well as optional formatting of the content. Repeat for labels with different content, for example, labels with differing length limitations.",,,,,,,,,,,ddi:reusable:3_3,e,
-Description,StructuredStringType,0,1,A description of the RepresentedVariable. Supports multiple language versions of the same content as well as optional formatting of the content.,,,,,,,,,,,ddi:reusable:3_3,e,
+RepresentedVariableName,langString,0,n,"A name for the RepresentedVariable.",,,,,,,,,,,ddi:logicalproduct:3_3,e,
+Label,langString,0,n,"A display label for the RepresentedVariable.",,,,,,,,,,,ddi:reusable:3_3,e,
+Description,langString,0,n,A description of the RepresentedVariable.,,,,,,,,,,,ddi:reusable:3_3,e,
 ConceptualVariableReference,ConceptualVariable,0,1,A reference to a ConceptualVariable which provides the linkage to the Universe and Concept used by this RepresentedVariable. TypeOfObject should be set to ConceptualVariable.,,,,,,,,,,,ddi:reusable:3_3,e,
 UnitTypeReference,UnitType,0,1,"Reference to the unit type containing a description of the unit type that this RepresentedVariable refers to, and to which any analytic results refer. TypeOfObject should be set to UnitType.",,,,,,,,,,,ddi:reusable:3_3,e,
 ConceptReference,Concept,0,1,Reference to the concept measured by this RepresentedVariable. TypeOfObject should be set to Concept.,,,,,,,,,,,ddi:reusable:3_3,e,

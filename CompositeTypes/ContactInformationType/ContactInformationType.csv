@@ -1,5 +1,5 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
-LocationName,LocationNameType,0,n,". May be expressed in multiple languages. Repeat the element to express names with different content, for example different names for different systems.",,,,,,,,,,,ddi:archive:3_3,e,
+LocationName,langString,0,n,"Location name.",,,,,,,,,,,ddi:archive:3_3,e,
 Address,AddressType,0,n,Location address identifying each part of the address as separate elements.,,,,,,,,,,,ddi:archive:3_3,e,
 Telephone,TelephoneType,0,n,Telephone number for the location,,,,,,,,,,,ddi:archive:3_3,e,
 URL,URLType,0,n,URL for the location's website.,,,,,,,,,,,ddi:archive:3_3,e,

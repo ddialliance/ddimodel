@@ -1,1 +1,0 @@
-Name of the location using the DDI Name structure and the ability to add an effective date.
