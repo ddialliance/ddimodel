@@ -34,7 +34,7 @@ Quick starts, DDI Modelers Guide, and technical documentation is available.
 <p align="center"><img src="http://cogsdata.org/img/cogsoutputs1080.png" alt="cogs output formats"/></p>
 
 ## Legal and Licensing
-The DDI model is licensed under the LGPL.
+The DDI model is licensed under the Creative Commons Attribution 4.0 International.
 
 ## Logo
 <p align="center"><img src="http://www.ddialliance.org/sites/default/files/ddi-logo.png" alt="DDI"/></p>
