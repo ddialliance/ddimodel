@@ -36,7 +36,6 @@ RepresentedVariable
 Sequence
 StatementItem
 StudyUnit
-SubGroup
 Universe
 Variable
 VariableStatistics
