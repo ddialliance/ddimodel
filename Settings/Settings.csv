@@ -1,4 +1,5 @@
-﻿Key,Value
+Key,Value
+CogsVersion,2.0
 Title,DDI Lifecycle Data Documentation 4.0 RC1
 ShortTitle,DDI40RC1
 Slug,ddi4
@@ -6,3 +7,6 @@ Description,"The Data Documentation Initiative (DDI) is an international standar
 NamespaceUrl,https://ddialliance.org/ddi
 NamespacePrefix,ddi
 CSharpNamespace,Ddi.Model.Lifecycle4
+Version,4.0.0
+Author,DDI Alliance
+Copyright,2026 DDI Alliance
