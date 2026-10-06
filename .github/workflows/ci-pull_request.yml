@@ -8,14 +8,20 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: Get short SHA
-      run: echo "SHORT_SHA=$("${{ github.sha }}".SubString(0, 8))" >> $env:GITHUB_ENV
+    - name: Set build paths and short SHA
+      shell: pwsh
+      run: |
+        $shortSha = '${{ github.sha }}'.Substring(0, 8)
+        "SHORT_SHA=$shortSha" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+        "DDI_OUTPUT_ROOT=$(Join-Path $env:RUNNER_TEMP 'ddi-lifecycle-all-outputs')" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+        "DDI_PACKAGE_ROOT=$(Join-Path $env:RUNNER_TEMP "ddi-lifecycle-$shortSha")" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+        "DDI_ARCHIVE_PATH=$(Join-Path $env:RUNNER_TEMP "ddi-lifecycle-all-outputs-$shortSha.zip")" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7.0.1
 
     - name: Install .NET 10
-      uses: actions/setup-dotnet@v4
+      uses: actions/setup-dotnet@v6.0.0
       with:
         dotnet-version: '10.0.x'
 
@@ -23,13 +29,20 @@ jobs:
       run: dotnet tool install --global cogs
 
     - name: Set up python
-      uses: actions/setup-python@v5
+      id: python
+      uses: actions/setup-python@v7.0.0
       with:
         python-version: '3.12'
         cache: 'pip'
     
     - name: Install python dependencies
-      run: pip install -r build/requirements.txt
+      shell: pwsh
+      env:
+        COGS_PYTHON: ${{ steps.python.outputs.python-path }}
+      run: |
+        & $env:COGS_PYTHON -m pip install -r build/requirements.txt
+        if ($LASTEXITCODE -ne 0) { throw "Python dependency installation failed with exit $LASTEXITCODE" }
+        "COGS_PYTHON=$env:COGS_PYTHON" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
 
     - name: Install other dependencies
@@ -40,27 +53,26 @@ jobs:
       run: .\build\build-windows.bat
       shell: cmd
 
-    - name: Copy and rename outputs
+    - name: Package outputs
       shell: pwsh
       run: |
-        mkdir ddi-lifecycle
-        xcopy ddi-lifecycle-all-outputs\xsd ddi-lifecycle\xsd /E /I
-        xcopy ddi-lifecycle-all-outputs\json ddi-lifecycle\json /E /I
-        xcopy ddi-lifecycle-all-outputs\owl ddi-lifecycle\rdf /E /I
-        xcopy ddi-lifecycle-all-outputs\uml ddi-lifecycle\uml /E /I
-        xcopy ddi-lifecycle-all-outputs\dctap ddi-lifecycle\dctap /E /I
-        ren ddi-lifecycle ddi-lifecycle-${{env.SHORT_SHA}}
-        ren ddi-lifecycle-all-outputs ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}
-        7z a -tzip "ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}.zip" "ddi-lifecycle-all-outputs-${{ENV.SHORT_SHA}}\*"
+        New-Item -ItemType Directory -Path $env:DDI_PACKAGE_ROOT | Out-Null
+        foreach ($directory in @('xsd', 'json', 'owl', 'uml', 'dctap')) {
+          $destination = if ($directory -eq 'owl') { 'rdf' } else { $directory }
+          Copy-Item -LiteralPath (Join-Path $env:DDI_OUTPUT_ROOT $directory) `
+            -Destination (Join-Path $env:DDI_PACKAGE_ROOT $destination) -Recurse
+        }
+        7z a -tzip $env:DDI_ARCHIVE_PATH (Join-Path $env:DDI_OUTPUT_ROOT '*')
+        if ($LASTEXITCODE -ne 0) { throw "Output archiving failed with exit $LASTEXITCODE" }
 
     - name: Make all outputs artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7.0.1
       with:
           name: ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}
-          path: ddi-lifecycle-all-outputs-${{env.SHORT_SHA}}.zip
+          path: ${{ env.DDI_ARCHIVE_PATH }}
 
     - name: Make package artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7.0.1
       with:
         name: ddi-lifecycle-${{env.SHORT_SHA}}
-        path: ddi-lifecycle-${{env.SHORT_SHA}}
+        path: ${{ env.DDI_PACKAGE_ROOT }}
