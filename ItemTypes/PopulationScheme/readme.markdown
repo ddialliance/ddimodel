@@ -1,0 +1,1 @@
+Contains a set of Population descriptions, including their time and geography and references to sub-universe structures. Populations may be organized into PopulationGroups for administrative purposes. Other PopulationSchemes may be included by reference.

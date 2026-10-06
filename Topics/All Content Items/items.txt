@@ -122,13 +122,16 @@ StatisticalClassification
 ConceptualComponent
 ConceptScheme
 UniverseScheme
+PopulationScheme
 UniverseGroup
+PopulationGroup
 ConceptGroup
 Concept
 ConceptualVariable
 ConceptualVariableScheme
 ConceptualVariableGroup
 Universe
+Population
 SubUniverseClass
 GeographicStructureScheme
 GeographicStructureGroup

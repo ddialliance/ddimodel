@@ -37,6 +37,7 @@ Sequence
 StatementItem
 StudyUnit
 Universe
+Population
 Variable
 VariableStatistics
 Weighting
