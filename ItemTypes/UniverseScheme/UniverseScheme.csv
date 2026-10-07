@@ -3,5 +3,5 @@ UniverseSchemeName,langString,0,n,"A name for the UniverseScheme.",,,,,,,,,,,ddi
 Label,langString,0,n,"A display label for the UniverseScheme.",,,,,,,,,,,ddi:reusable:3_3,e,
 Description,langString,0,n,A description of the content and purpose of the UniverseScheme.,,,,,,,,,,,ddi:reusable:3_3,e,
 UniverseSchemeReference,UniverseScheme,0,n,Allows the inclusion of a UniverseScheme by reference.,,,,,,,,,,,ddi:reusable:3_3,e,
-UniverseReference,Universe,0,n,"Describes a universe (population, object). A universe may be organized into hierarchical sub-universe classes.",,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
-UniverseGroupReference,UniverseGroup,0,n,"Describes a group of universes (populations, objects) for administrative purposes.",,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
+UniverseReference,Universe,0,n,"Reference to a Universe, such as businesses in the manufacturing industry. A Universe describes units sharing a Unit Type and defining characteristics, independently of geographic area and time period. A Universe may be organized into hierarchical sub-universe classes.",,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
+UniverseGroupReference,UniverseGroup,0,n,"Describes a group of Universes for administrative purposes.",,,,,,,,,,,ddi:conceptualcomponent:3_3,e,
