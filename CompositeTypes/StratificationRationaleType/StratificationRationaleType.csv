@@ -1,4 +1,4 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
 Description,langString,0,n,A full description of the purpose for stratifying your sample frame prior to sampling,,,,,,,,,,,ddi:reusable:3_3,e,
 UniverseReference,Universe,0,n,"Reference each sub universe which defines a strata of the population. For example if you are stratifying on gender there would be 2 Universe references, one to Males and one to Females.",,,,,,,,,,,ddi:reusable:3_3,e,
-PopulationReference,Population,0,n,"Reference to each population that defines a stratum of the population being sampled. For example, when stratifying by gender, separate Population references may identify males and females.",,,,,,,,,,,,,
+PopulationReference,Population,0,n,"Reference to each population that defines a stratum of the population being sampled. For example, when stratifying by gender, separate Population references may identify males and females in the United States in January 2026.",,,,,,,,,,,,,
