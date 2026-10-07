@@ -1,6 +1,6 @@
 ﻿Name,DataType,MinCardinality,MaxCardinality,Description,Ordered,AllowSubtypes,MinLength,MaxLength,Enumeration,Pattern,MinInclusive,MinExclusive,MaxInclusive,MaxExclusive,DeprecatedNamespace,DeprecatedElementOrAttribute,DeprecatedChoiceGroup
 DefiningConceptReference,Concept,0,1,"A concept that defines or aids in understanding the content of the population. For example the Population ""Males"" may link to the concept of ""Male"".",,,,,,,,,,,,,
-UniverseReference,Universe,0,1,"Reference to the Universe that describes the core of this Population.These may be constrained by specifications within the Variable description. TypeOfObject should be set to Universe.",,,,,,,,,,,ddi:reusable:3_3,e,
+UniverseReference,Universe,0,1,"Reference to the Universe that describes the core of this Population. TypeOfObject should be set to Universe.",,,,,,,,,,,ddi:reusable:3_3,e,
 UnitTypeReference,UnitType,0,1,Reference to a unit type being associated with this Population. TypeOfObject should be set to UnitType.,,,,,,,,,,,,,
 TypeOfUnit,CodeValueType,0,1,"The entity type associated with this Population. For example, individuals, families or households, groups, institutions/organizations, administrative units, etc. Supports the use of an external controlled vocabulary.",,,,,,,,,,,,,
 GeographyOfPopulation,GeographicCoverageType,0,1,Description of the geographic coverage of the population.,,,,,,,,,,,,,
