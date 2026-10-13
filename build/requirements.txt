@@ -3,4 +3,3 @@ pydata-sphinx-theme
 myst-parser
 sphinx_rtd_theme
 Pygments
-linkml
