@@ -3,5 +3,5 @@ NCubeSchemeName,langString,0,n,"A name for the NCubeScheme.",,,,,,,,,,,ddi:logic
 Label,langString,0,n,"A display label for the NCubeScheme.",,,,,,,,,,,ddi:reusable:3_3,e,
 Description,langString,0,n,A description of the content and purpose of the NCubeScheme.,,,,,,,,,,,ddi:reusable:3_3,e,
 NCubeReference,NCube,0,n,Describes the logical structure of an NCube which is a 1..n dimension structure which relates a set of individual value to each other by defining them within a matrix.,,,,,,,,,,,ddi:logicalproduct:3_3,e,
-NCubeGroupReference,NCubeGroup,0,n,"Describes a group of NCubes for conceptual or administrative purposes, which may be ordered or hierarchical.",,,,,,,,,,,ddi:logicalproduct:3_3,e,
+NCubeGroupReference,NCubeGroup,0,n,"Describes a group of NCubes for conceptual, organizational and management purposes, which may be ordered or hierarchical.",,,,,,,,,,,ddi:logicalproduct:3_3,e,
 NCubeSchemeReference,NCubeScheme,0,n,Allows for inclusion of other NCube schemes by reference.,,,,,,,,,,,ddi:reusable:3_3,e,

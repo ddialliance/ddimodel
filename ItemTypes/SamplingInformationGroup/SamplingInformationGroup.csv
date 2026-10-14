@@ -4,6 +4,7 @@ SamplingInformationGroupName,langString,0,n,"A name for the sampling information
 Label,langString,0,n,"A display label for the sampling information group.",,,,,,,,,,,ddi:reusable:3_3,e,
 Description,langString,0,n,Additional textual description of the sampling information group.,,,,,,,,,,,ddi:reusable:3_3,e,
 UniverseReference,Universe,0,n,"Reference to the universe statement describing the persons or other elements that the sampling information objects refer to, and to which any analytic results refer.",,,,,,,,,,,ddi:reusable:3_3,e,
+PopulationReference,Population,0,n,"Reference to the population statement describing the persons or other elements that the sampling information objects refer to, and to which any analytic results refer.",,,,,,,,,,,,,
 ConceptReference,Concept,0,1,Reference to the concept measured by the sampling information objects in this group.,,,,,,,,,,,ddi:reusable:3_3,e,
 SampleFrameReference,SampleFrame,0,n,A sample frame item included in the scheme by reference.,true,,,,,,,,,,ddi:datacollection:3_3,e,
 SamplingPlanReference,SamplingPlan,0,n,A sampling plan item included in the scheme by reference.,true,,,,,,,,,,ddi:datacollection:3_3,e,

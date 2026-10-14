@@ -23,6 +23,15 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v7.0.1
 
+    - name: Read model slug
+      shell: pwsh
+      run: |
+        $slugRows = @(Import-Csv -LiteralPath 'Settings/Settings.csv' | Where-Object { $_.Key -ceq 'Slug' })
+        if ($slugRows.Count -ne 1 -or $slugRows[0].Value -cnotmatch '\A[a-z][a-z0-9_]*\z') {
+          throw 'Settings/Settings.csv must contain exactly one valid Slug.'
+        }
+        "DDI_MODEL_SLUG=$($slugRows[0].Value)" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
     - name: Install .NET 10
       uses: actions/setup-dotnet@v6.0.0
       with:
@@ -48,9 +57,12 @@ jobs:
         "COGS_PYTHON=$env:COGS_PYTHON" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
 
-    - name: Install other dependencies
-      run: .\build\install-dependencies.ps1
+    - name: Install Graphviz 16.1 or newer
       shell: pwsh
+      run: |
+        .\build\test-graphviz.ps1
+        $dot = .\build\install-dependencies.ps1
+        "COGS_DOT=$dot" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
     - name: Run build-windows.bat
       run: .\build\build-windows.bat
@@ -59,14 +71,46 @@ jobs:
     - name: Package outputs
       shell: pwsh
       run: |
-        New-Item -ItemType Directory -Path $env:DDI_PACKAGE_ROOT | Out-Null
-        foreach ($directory in @('xsd', 'json', 'owl', 'uml', 'dctap')) {
-          $destination = if ($directory -eq 'owl') { 'rdf' } else { $directory }
-          Copy-Item -LiteralPath (Join-Path $env:DDI_OUTPUT_ROOT $directory) `
-            -Destination (Join-Path $env:DDI_PACKAGE_ROOT $destination) -Recurse
+        $ErrorActionPreference = 'Stop'
+        $artifacts = @(& ./build/get-published-artifacts.ps1 -Slug $env:DDI_MODEL_SLUG)
+        $activeDirectories = @('xsd', 'json', 'rdf', 'uml', 'dctap', 'linkml', 'graphql', 'csharp', 'sphinx')
+        $requiredFiles = @($artifacts | ForEach-Object { Join-Path $_.Directory $_.FileName })
+        $requiredFiles += @(
+          "linkml/$env:DDI_MODEL_SLUG.linkml.yml"
+          "graphql/$env:DDI_MODEL_SLUG.graphqls"
+          'csharp/Types.cs'
+          'sphinx/build/dirhtml/index.html'
+        )
+        foreach ($directory in $activeDirectories) {
+          if (-not (Test-Path -LiteralPath (Join-Path $env:DDI_OUTPUT_ROOT $directory) -PathType Container)) {
+            throw "Missing output directory: $directory"
+          }
         }
-        7z a -tzip $env:DDI_ARCHIVE_PATH (Join-Path $env:DDI_OUTPUT_ROOT '*')
-        if ($LASTEXITCODE -ne 0) { throw "Output archiving failed with exit $LASTEXITCODE" }
+        foreach ($file in $requiredFiles) {
+          if (-not (Test-Path -LiteralPath (Join-Path $env:DDI_OUTPUT_ROOT $file) -PathType Leaf)) {
+            throw "Missing expected output: $file"
+          }
+        }
+        if ((Test-Path -LiteralPath $env:DDI_PACKAGE_ROOT) -or (Test-Path -LiteralPath $env:DDI_ARCHIVE_PATH)) {
+          throw 'Package and archive destinations must be new paths to avoid retaining stale artifacts.'
+        }
+        New-Item -ItemType Directory -Path $env:DDI_PACKAGE_ROOT | Out-Null
+        foreach ($directory in ($artifacts.Directory | Select-Object -Unique)) {
+          New-Item -ItemType Directory -Path (Join-Path $env:DDI_PACKAGE_ROOT $directory) | Out-Null
+        }
+        foreach ($artifact in $artifacts) {
+          $relativePath = Join-Path $artifact.Directory $artifact.FileName
+          Copy-Item -LiteralPath (Join-Path $env:DDI_OUTPUT_ROOT $relativePath) `
+            -Destination (Join-Path $env:DDI_PACKAGE_ROOT $relativePath)
+        }
+        Push-Location $env:DDI_OUTPUT_ROOT
+        try {
+          & 7z a -tzip $env:DDI_ARCHIVE_PATH @activeDirectories
+          if ($LASTEXITCODE -ne 0) { throw "Output archiving failed with exit $LASTEXITCODE" }
+        }
+        finally {
+          Pop-Location
+        }
 
     - name: Make all outputs artifact
       uses: actions/upload-artifact@v7.0.1
@@ -90,17 +134,27 @@ jobs:
     - name: Sync S3 dev bucket
       shell: pwsh
       run: |
+        $ErrorActionPreference = 'Stop'
+        $artifacts = @(& ./build/get-published-artifacts.ps1 -Slug $env:DDI_MODEL_SLUG)
+        foreach ($artifact in $artifacts) {
+          $relativePath = Join-Path $artifact.Directory $artifact.FileName
+          if (-not (Test-Path -LiteralPath (Join-Path $env:DDI_PACKAGE_ROOT $relativePath) -PathType Leaf)) {
+            throw "Missing published artifact: $relativePath"
+          }
+        }
+        $documentation = Join-Path $env:DDI_OUTPUT_ROOT 'sphinx/build/dirhtml'
+        if (-not (Test-Path -LiteralPath (Join-Path $documentation 'index.html') -PathType Leaf)) {
+          throw 'Missing built Sphinx documentation.'
+        }
         function Invoke-Aws {
           & aws @args
           if ($LASTEXITCODE -ne 0) { throw "AWS command failed with exit $LASTEXITCODE" }
         }
-        Invoke-Aws s3 sync (Join-Path $env:DDI_OUTPUT_ROOT 'sphinx/build/dirhtml') s3://docs.ddialliance.org/DDI-Lifecycle/dev/model
-        Invoke-Aws s3 cp (Join-Path $env:DDI_PACKAGE_ROOT 'xsd/schema.xsd') s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/schema.xsd
-        Invoke-Aws s3 cp (Join-Path $env:DDI_PACKAGE_ROOT 'uml/ddi4.xmi') s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/ddi4.xmi
-        Invoke-Aws s3 cp (Join-Path $env:DDI_PACKAGE_ROOT 'json/jsonSchema.json') s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/jsonSchema.json
-        Invoke-Aws s3 cp (Join-Path $env:DDI_OUTPUT_ROOT 'dctap/dctap.csv') s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/dctap.csv
-        Invoke-Aws s3 cp (Join-Path $env:DDI_PACKAGE_ROOT 'rdf/ddi4.owl.ttl') s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/ddi4.owl.ttl
-        Invoke-Aws s3 cp (Join-Path $env:DDI_PACKAGE_ROOT 'rdf/ddi4.shex') s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/ddi4.shex
-        Invoke-Aws s3 cp (Join-Path $env:DDI_PACKAGE_ROOT 'rdf/ddi4.shacl') s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/ddi4.shacl
+        Invoke-Aws s3 sync $documentation s3://docs.ddialliance.org/DDI-Lifecycle/dev/model
+        foreach ($artifact in $artifacts) {
+          $source = Join-Path $env:DDI_PACKAGE_ROOT (Join-Path $artifact.Directory $artifact.FileName)
+          $destination = "s3://docs.ddialliance.org/DDI-Lifecycle/dev/output/$($artifact.FileName)"
+          Invoke-Aws s3 cp $source $destination --content-type $artifact.ContentType
+        }
         Invoke-Aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths '/DDI-Lifecycle/dev/*'
 

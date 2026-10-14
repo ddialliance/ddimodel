@@ -1,5 +1,6 @@
 @echo off
 setlocal EnableExtensions DisableDelayedExpansion
+set "DOT_PATH_FILE="
 
 REM Resolve the model independently of the caller's working directory.
 for %%I in ("%~dp0..") do set "MODEL_ROOT=%%~fI"
@@ -10,12 +11,20 @@ if not defined DDI_OUTPUT_ROOT if defined RUNNER_TEMP set "DDI_OUTPUT_ROOT=%RUNN
 if not defined DDI_OUTPUT_ROOT set "DDI_OUTPUT_ROOT=%TEMP%\ddi-lifecycle-all-outputs"
 for %%I in ("%DDI_OUTPUT_ROOT%") do set "DDI_OUTPUT_ROOT=%%~fI"
 if not defined COGS_PYTHON set "COGS_PYTHON=python"
-if not defined COGS_DOT if exist "%MODEL_ROOT%\graphviz\release\bin\dot.exe" set "COGS_DOT=%MODEL_ROOT%\graphviz\release\bin\dot.exe"
-set "DOT_OPTION="
-if defined COGS_DOT set DOT_OPTION=--dot "%COGS_DOT%"
 
 pushd "%MODEL_ROOT%" || exit /b 1
 echo Build outputs: %DDI_OUTPUT_ROOT%
+
+echo Check COGS RDF support
+call :run cogs publish-rdf --help >nul || goto :cogs_incompatible
+
+echo Check Graphviz dependency
+set "DOT_PATH_FILE=%TEMP%\ddi-graphviz-%RANDOM%-%RANDOM%.txt"
+call :run pwsh -NoProfile -File "%MODEL_ROOT%\build\install-dependencies.ps1" -DotPathFile "%DOT_PATH_FILE%" || goto :fail
+set /p "COGS_DOT=" < "%DOT_PATH_FILE%" || goto :fail
+del /q "%DOT_PATH_FILE%"
+set "DOT_PATH_FILE="
+set DOT_OPTION=--dot "%COGS_DOT%"
 
 echo Validate
 call :run cogs validate "%MODEL_ROOT%" || goto :fail
@@ -35,17 +44,11 @@ call :run cogs publish-dctap "%MODEL_ROOT%" "%DDI_OUTPUT_ROOT%\dctap" --overwrit
 echo UML
 call :run cogs publish-uml "%MODEL_ROOT%" "%DDI_OUTPUT_ROOT%\uml" --mode ea %DOT_OPTION% --overwrite || goto :fail
 
-echo OWL
-call :run cogs publish-owl "%MODEL_ROOT%" "%DDI_OUTPUT_ROOT%\owl" --namespace "http://rdf-vocabulary.ddialliance.org/lifecycle#" --namespacePrefix ddi --overwrite || goto :fail
+echo RDF
+call :run cogs publish-rdf "%MODEL_ROOT%" "%DDI_OUTPUT_ROOT%\rdf" --overwrite || goto :fail
 
 echo LinkML
-call :run cogs publish-linkml "%MODEL_ROOT%" "%DDI_OUTPUT_ROOT%\linkml" --namespace "http://rdf-vocabulary.ddialliance.org/lifecycle#" --namespacePrefix ddi --overwrite || goto :fail
-
-echo Build LinkML
-REM Keep the LinkML-derived ontology separate from COGS's authoritative ddi4.ttl.
-call :run gen-owl --metadata-profile rdfs -f ttl "%DDI_OUTPUT_ROOT%\linkml\linkml.yml" > "%DDI_OUTPUT_ROOT%\owl\ddi4.owl.ttl" || goto :fail
-call :run gen-shacl "%DDI_OUTPUT_ROOT%\linkml\linkml.yml" > "%DDI_OUTPUT_ROOT%\owl\ddi4.shacl" || goto :fail
-call :run gen-shex "%DDI_OUTPUT_ROOT%\linkml\linkml.yml" > "%DDI_OUTPUT_ROOT%\owl\ddi4.shex" || goto :fail
+call :run cogs publish-linkml "%MODEL_ROOT%" "%DDI_OUTPUT_ROOT%\linkml" --overwrite || goto :fail
 
 echo Sphinx
 call :run cogs publish-sphinx "%MODEL_ROOT%" "%DDI_OUTPUT_ROOT%\sphinx" %DOT_OPTION% --overwrite || goto :fail
@@ -64,9 +67,14 @@ endlocal & exit /b 0
 call %*
 exit /b %errorlevel%
 
+:cogs_incompatible
+echo This build requires COGS with publish-rdf support. Update the COGS tool before building.
+goto :fail
+
 :fail
 set "BUILD_EXIT=%errorlevel%"
 if "%BUILD_EXIT%"=="0" set "BUILD_EXIT=1"
+if defined DOT_PATH_FILE if exist "%DOT_PATH_FILE%" del /q "%DOT_PATH_FILE%"
 echo Build failed with exit code %BUILD_EXIT%.
 popd
 endlocal & exit /b %BUILD_EXIT%

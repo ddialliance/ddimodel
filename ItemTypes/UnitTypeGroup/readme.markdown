@@ -1,1 +1,1 @@
-Contains a group of UnitTypes, which may describe an ordered or hierarchical relationship structure. Specifies the purpose of the group, a name, label, and description of the group, its relationship to a specific universe or concept, and lists the members of the group.
+Contains a group of UnitTypes, which may describe an ordered or hierarchical relationship structure. Specifies the purpose of the group, a name, label, and description of the group, its relationship to a specific universe, population, or concept, and lists the members of the group.

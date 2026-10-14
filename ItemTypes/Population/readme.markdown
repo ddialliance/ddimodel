@@ -1,0 +1,5 @@
+A Population refines a Universe by specifying the geographic area and time period to which its units belong. Units may be people, households, organizations, events, or other objects of interest.
+
+This follows the Unit Cascade in [DDI Common Core, version 1](https://doi.org/10.5281/zenodo.17297309) (p. 5): Unit Type identifies a general kind of unit, Universe restricts it by shared characteristics, and Population adds geographic and temporal scope. For example, "persons" is a Unit Type, "women aged 18 or older" is a Universe, and "women aged 18 or older residing in the United States during 2025" is a Population.
+
+Use `UniverseReference` to identify the defining Universe, `GeographyOfPopulation` to describe its geographic scope, and `TimePeriodOfPopulation` to describe its temporal scope. Multiple time periods can describe non-contiguous intervals. These properties are optional in the current model; a description aligned with Common Core should nevertheless establish both the geographic and temporal scope.

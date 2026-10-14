@@ -15,9 +15,9 @@ Published formats are:
 
 * XML Schema
 * JSON Schema
-* OWL 2 (RDF Schema)
-* ShEx
-* SHACL
+* OWL 2 ontology in Turtle and JSON-LD
+* JSON-LD instance context
+* SHACL shapes (production 2017 profile and preview SHACL 1.2 profile)
 * OMG's UML XMI 2.5
 * Dublin Core Tabular Application Profile
 * LinkML
