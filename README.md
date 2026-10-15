@@ -19,10 +19,13 @@ Published formats are:
 * JSON-LD instance context
 * SHACL shapes (production 2017 profile and preview SHACL 1.2 profile)
 * OMG's UML XMI 2.5
-* Dublin Core Tabular Application Profile
-* LinkML
 * Sphinx HTML documentation and visualizations
 * C# class library with JSON and XML serialization
+* Typescript / Javascript library with JSON and XML serialization
+* Python library with JSON and XML serialization
+* Pydantic library with JSON and XML serialization
+* Dublin Core Tabular Application Profile
+* LinkML
 * SVG and dot visualizations
 * GraphQL schema language
 
